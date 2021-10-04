@@ -6,12 +6,12 @@
    1- 0 0 0 1<br>
    2- 0 0 1 0<br>
    3- 0 0 1 1<br>
-   4- 0 1 0 0                 highest power of 2 is 8 which is 2 ^ 3   //x is 3<br>
-   5- 0 1 0 1                 from 0 to 7 no.of set bits is 8/2+8/2+8/2 <br>
-   6- 0 1 1 0                                               4*x= 2^(x-1)*x       //pattern bits counting<br>
-   7- 0 1 1 1
-   8- 1 0 0 0                 from 8 to 11 no.of msb is n-2^x+1                  //msg bits counting<br>
-   9- 1 0 0 1                 for remaining lsb is x so, recursively call countsetbits(n-2^x)    //recursively dng process<br>
+   4- 0 1 0 0<br>                 highest power of 2 is 8 which is 2 ^ 3   //x is 3<br>
+   5- 0 1 0 1<br>                 from 0 to 7 no.of set bits is 8/2+8/2+8/2 <br>
+   6- 0 1 1 0<br>                                               4*x= 2^(x-1)*x       //pattern bits counting<br>
+   7- 0 1 1 1<br>
+   8- 1 0 0 0<br>                 from 8 to 11 no.of msb is n-2^x+1                  //msg bits counting<br>
+   9- 1 0 0 1<br>                 for remaining lsb is x so, recursively call countsetbits(n-2^x)    //recursively dng process<br>
   10- 1 0 1 0<br>
   11- 1 0 1 1<br>
  
