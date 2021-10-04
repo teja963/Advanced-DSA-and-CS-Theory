@@ -15,9 +15,9 @@
    10- 1 0 1 0<br>
    11- 1 0 1 1<br>
               <p>highest power of 2 is 8 which is 2 ^ 3   x is 3
-              <p>from 0 to 7 no.of set bits is 8/2+8/2+8/2
-                                             4*x= 2^(x-1)*x       pattern bits counting
-              from 8 to 11 no.of msb is n-2^x+1                   msg bits counting
+              from 0 to 7 no.of set bits is 8/2+8/2+8/2<br>
+                                             4*x= 2^(x-1)*x       pattern bits counting<br>
+              from 8 to 11 no.of msb is n-2^x+1                   msg bits counting<br>
               for remaining lsb is x so, recursively call countsetbits(n-2^x)    recursively dng process</p>
   </p>
  
