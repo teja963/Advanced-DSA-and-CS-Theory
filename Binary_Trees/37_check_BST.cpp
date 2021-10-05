@@ -1,14 +1,11 @@
-  vector<int>v;
-    bool isBST(Node* root) 
-    {
-        // Your code here
-        if(root)
-        {
-            isBST(root->left);
-            v.push_back(root->data);
-            isBST(root->right);
-        }
-        for(int i=1,j=0;i<v.size();i++){if(v[j]!=v[i]&&v[j]<v[i])j++; else return false;}
+Node* prev=NULL;
+	bool checkBST(Node* root) {
+		if(!root)return true;
+          bool f=checkBST(root->left);
+        if(!f)return false;
+         if(prev!=NULL&&prev->data>=root->data)return false;
+            prev=root;
+            f=checkBST(root->right);
+        if(!f)return false;
         return true;
-    }
-};
+	}
