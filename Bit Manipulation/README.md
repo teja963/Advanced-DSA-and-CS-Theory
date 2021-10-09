@@ -1,5 +1,5 @@
 # Logic problems
-  4. O(log n)
+4. O(log n)
   <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4_count_set_bits_1_to_n.cpp">Count set bits from 1 to n</a>
   <p>
     0- 0 0 0 0<br>
@@ -23,8 +23,8 @@
  
      Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
      
-  5. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5_find_whether_no_is_power_of_2.cpp">Check given number is power of 2 or not</a>
-       <pre>
+5. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5_find_whether_no_is_power_of_2.cpp">Check given number is power of 2 or not</a>
+   <pre>
      Ans: 1. When we write in binary of that number then it contain only one 1<br>
           2. X&(X-1)==0     x is +ve number
         </pre><br>
@@ -37,7 +37,7 @@
       b.to_ulong();             Convert to decimal
      
   * Signed and Unsigned:
-   The rel is signed number -x = Unsigned number 2^n - x
+   The rel between signed and unsigned is signed number -x = Unsigned number 2^n - x
                           ~x=-x-1
                          Min                 Max       
       1.Signed num     -2^(n-1)              2^(n-1)-1
