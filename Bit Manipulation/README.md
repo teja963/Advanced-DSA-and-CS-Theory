@@ -29,19 +29,21 @@
 
 # NOTE POINTS:
   * Built in functions:<br>
+  <pre>
       b._Find_first();          //Returns the position of 1st set bit<br>
       b.__builtin_popcount();   //Returns the number of 1's in that number<br>
       b.to_string();            //Convert to string<br>
       b.to_ulong();             //Convert to decimal<br>
+      </prev>
       
-  * Signed and Unsigned: The rel is signed number -x = Unsigned number 2^n - x<br>
+  * Signed and Unsigned:<br>
+  <pre>
+   The rel is signed number -x = Unsigned number 2^n - x<br>
                           ~x=-x-1<br>
                          Min                 Max<br>       
       1.Signed num     -2^(n-1)              2^(n-1)-1<br>
       2.UnSigned num      0                  2^(n-1)-1<br>
-      
-                                      
-      
+    </pre>
   
 			      
   
