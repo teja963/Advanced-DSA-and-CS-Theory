@@ -24,24 +24,24 @@
      Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
      
   5. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5_find_whether_no_is_power_of_2.cpp">Check given number is power of 2 or not</a>
+       <pre>
        Ans: 1. When we write in binary of that number then it contain only one 1<br>
-            2. X&(X-1)==0     //x is +ve number
-
+            2. X&(X-1)==0     x is +ve number
+        </pre><br>
 # NOTE POINTS:
    <pre>
-  * Built in functions:<br>
-      b._Find_first();          //Returns the position of 1st set bit<br>
-      b.__builtin_popcount();   //Returns the number of 1's in that number<br>
-      b.to_string();            //Convert to string<br>
-      b.to_ulong();             //Convert to decimal<br>
-      </prev>
-      <prev>
-  * Signed and Unsigned:<br>
-   The rel is signed number -x = Unsigned number 2^n - x<br>
-                          ~x=-x-1<br>
-                         Min                 Max<br>       
-      1.Signed num     -2^(n-1)              2^(n-1)-1<br>
-      2.UnSigned num      0                  2^(n-1)-1<br>
+  * Built in functions:
+      b._Find_first();          Returns the position of 1st set bit
+      b.__builtin_popcount();   Returns the number of 1's in that number
+      b.to_string();            Convert to string
+      b.to_ulong();             Convert to decimal
+     
+  * Signed and Unsigned:
+   The rel is signed number -x = Unsigned number 2^n - x
+                          ~x=-x-1
+                         Min                 Max       
+      1.Signed num     -2^(n-1)              2^(n-1)-1
+      2.UnSigned num      0                  2^(n-1)-1
     </pre>
   
 			      
