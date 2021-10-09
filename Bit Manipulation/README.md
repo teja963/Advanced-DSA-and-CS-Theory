@@ -28,16 +28,15 @@
             2. X&(X-1)==0     //x is +ve number
 
 # NOTE POINTS:
+   <pre>
   * Built in functions:<br>
-  <pre>
       b._Find_first();          //Returns the position of 1st set bit<br>
       b.__builtin_popcount();   //Returns the number of 1's in that number<br>
       b.to_string();            //Convert to string<br>
       b.to_ulong();             //Convert to decimal<br>
       </prev>
-      
+      <prev>
   * Signed and Unsigned:<br>
-  <pre>
    The rel is signed number -x = Unsigned number 2^n - x<br>
                           ~x=-x-1<br>
                          Min                 Max<br>       
