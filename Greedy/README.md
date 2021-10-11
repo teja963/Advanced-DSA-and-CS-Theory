@@ -23,4 +23,9 @@
           if we including odd freq then we can add ans+1
               "aaaa b bb"- 7
    </pre> 
+   
+# NOTE:
+  <pre>
+  1. Incase of min no.of platforms or min no.of rooms for meeting or min things sort the required array and make the necessary conditions to make clear
+  </pre> 
           
