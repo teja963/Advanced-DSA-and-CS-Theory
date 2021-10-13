@@ -15,7 +15,7 @@
                      |
                      |
   
-  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/17.%20Points%20in%20st%20line.cpp">Points in a straight line></a>
+  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/17.%20Points%20in%20st%20line.cpp">Points in a straight line</a>
          ans: 
             1. (i) It can have overlap points
                (ii) It can have vertical points( same value of x)
@@ -23,6 +23,9 @@
                         current_points= max ( current_points, m[y/x])
             2. current_points= max ( current_points, vertical_points)
             3. ans = max( ans, 1 + overlap + current_points) then clear the map use again
+            
+  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/20.%20Count%20sum%20of%20consecutives.cpp">Count sum of consecutives</a>
+     
   
   
   </pre>
