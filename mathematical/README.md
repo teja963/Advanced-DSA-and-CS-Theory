@@ -50,9 +50,6 @@
        3. if r1.y >= l2.y or r2.y >= l1.y // if one rect is above other
        
   <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a>
-      
-      ![fib](https://user-images.githubusercontent.com/69209797/137142853-2a4804d6-cee2-416e-8b93-cc65f7d72319.png)
-
      1. Recursively divide the given term and multiply the matrix untill we get 1 for n //n/2
      2. Atlast if we get 1 then need to multiply once again and return the term
          _        _     _     _  n
