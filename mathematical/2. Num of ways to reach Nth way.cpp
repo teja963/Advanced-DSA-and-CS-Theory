@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
     public:
-    //Function to count number of ways to reach the nth stair.
+    //Function to count number of ways to reach the nth stair in which order is imp, otherwise return (1+n/2)
     int countWays(int n)
     {
         // your code here
