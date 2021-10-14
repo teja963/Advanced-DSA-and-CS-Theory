@@ -43,7 +43,7 @@
      
 
   <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/9.%20Overlapping%20rectangles.cpp">Overlapping rectangles</a>
-    <img width="315" alt="rectanglesOverlap" src="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">
+    <img width="315" align="center" alt="rectanglesOverlap" src="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">
 
     Conditions for overlap:
        1. if l1 == r1 or l2 == r2 (any cordinate matches) the line can't have +ve overlap
@@ -52,7 +52,7 @@
        
 
   <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a>
-     <img width="315" src="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/images/fibonacci.png">
+     <img width="315" align="center" src="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/images/fibonacci.png">
      1. Recursively divide the given term and multiply the matrix untill we get 1 for n //n/2
      2. Atlast if we get 1 then need to multiply once again and return the term
          _        _     _     _  n
