@@ -41,15 +41,19 @@
      1   |_ _| _ |_ _|_ _| _ |__ |_ _ |
          l                            h
      
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/9.%20Overlapping%20rectangles.cpp">Overlapping rectangles</a></b>
+
+  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/9.%20Overlapping%20rectangles.cpp">Overlapping rectangles</a>
+    <img width="315" alt="rectanglesOverlap" src="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">
+
     Conditions for overlap:
     <a href="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">Image</a>
        1. if l1 == r1 or l2 == r2 (any cordinate matches) the line can't have +ve overlap
        2. if l1.x >= r2.x or l2.x >= r1.x // if it is on left side
        3. if r1.y >= l2.y or r2.y >= l1.y // if one rect is above other
        
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a></b>
-     
+
+  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a>
+
      1. Recursively divide the given term and multiply the matrix untill we get 1 for n //n/2
      2. Atlast if we get 1 then need to multiply once again and return the term
          _        _     _     _  n
