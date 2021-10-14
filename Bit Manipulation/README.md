@@ -27,7 +27,12 @@
    <pre>
      Ans: 1. When we write in binary of that number then it contain only one 1<br>
           2. X&(X-1)==0     x is +ve number
-        </pre><br>
+          
+9. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/9.%20Swap%20all%20even%20and%20odd%20bits.cpp">Swapping of all odd and even in O(1)</a>
+         get all the even one's by n&0xAAAAAAAA;
+         get all the odd one's by n&0x55555555;
+         shift the positions and add
+        </pre>
 # NOTE POINTS:
    <pre>
   * Built in functions:
