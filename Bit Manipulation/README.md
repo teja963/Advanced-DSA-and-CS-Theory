@@ -1,25 +1,25 @@
 # Logic problems
-4. O(log n)
-  <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n</a>
-  <p>
-    0- 0 0 0 0<br>
-    1- 0 0 0 1<br>
-    2- 0 0 1 0<br>
-    3- 0 0 1 1<br>
-    4- 0 1 0 0<br> 
-    5- 0 1 0 1<br> 
-    6- 0 1 1 0<br> 
-    7- 0 1 1 1<br>
-    8- 1 0 0 0<br> 
-    9- 1 0 0 1<br> 
-   10- 1 0 1 0<br>
-   11- 1 0 1 1<br>
-              <p>highest power of 2 is 8 which is 2 ^ 3   x is 3
-              from 0 to 7 no.of set bits is 8/2+8/2+8/2<br>
-                                             4*x= 2^(x-1)*x       pattern bits counting<br>
-              from 8 to 11 no.of msb is n-2^x+1                   msg bits counting<br>
-              for remaining lsb is x so, recursively call countsetbits(n-2^x)    recursively dng process</p>
-  </p>
+	4. O(log n)
+	  <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n</a>
+	  <p>
+	    0- 0 0 0 0<br>
+	    1- 0 0 0 1<br>
+	    2- 0 0 1 0<br>
+	    3- 0 0 1 1<br>
+	    4- 0 1 0 0<br> 
+	    5- 0 1 0 1<br> 
+	    6- 0 1 1 0<br> 
+	    7- 0 1 1 1<br>
+	    8- 1 0 0 0<br> 
+	    9- 1 0 0 1<br> 
+	   10- 1 0 1 0<br>
+	   11- 1 0 1 1<br>
+		      <p>highest power of 2 is 8 which is 2 ^ 3   x is 3
+		      from 0 to 7 no.of set bits is 8/2+8/2+8/2<br>
+		                                     4*x= 2^(x-1)*x       pattern bits counting<br>
+		      from 8 to 11 no.of msb is n-2^x+1                   msg bits counting<br>
+		      for remaining lsb is x so, recursively call countsetbits(n-2^x)    recursively dng process</p>
+	  </p>
  
      Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
      
@@ -27,8 +27,8 @@
    <pre>
      Ans: 1. When we write in binary of that number then it contain only one 1<br>
           2. X&(X-1)==0     x is +ve number
-          
-9. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/9.%20Swap%20all%20even%20and%20odd%20bits.cpp">Swapping of all odd and even in O(1)</a>
+     </pre>    
+9. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/9.%20Swap%20all%20even%20and%20odd%20bits.cpp">Swapping of all odd and even in O(1)</a><pre>
          get all the even one's by n&0xAAAAAAAA;
          get all the odd one's by n&0x55555555;
          shift the positions and add
