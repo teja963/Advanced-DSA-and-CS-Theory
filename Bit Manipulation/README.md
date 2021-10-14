@@ -20,7 +20,7 @@
 		      for remaining lsb is x so, recursively call countsetbits(n-2^x)    recursively dng process
 	  
  
-     Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
+       Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
      </pre>
      
 5. <a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5.%20find%20whether%20no%20is%20power%20of%202.cpp">Check given number is power of 2 or not</a>
