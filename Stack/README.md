@@ -15,7 +15,7 @@
            
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/12.%20Sort%20stack.cpp">Sort Stack Problem</a></b>
            Using another stack shift all the elements into that in decreasing order in O(n)
-     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/stack/8.%20Next%20greater%20element.cpp">Next greater Element</a></b>
+    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/stack/8.%20Next%20greater%20element.cpp">Next greater Element</a></b>
     Traverse from right to left and keep storing the each and every elements in the stack
     when arriving element is greater than s.top(), then pop all the elements untill that condition
           
@@ -33,5 +33,5 @@
            greater than on that day than the price on the day i. If such a day exists, let’s call it h(i),
             otherwise, we define h(i) = -1. 
           The span is now computed as S[i] = i – h(i). See the following diagram.
-           <img alt="Stock Span" width="300" height="350" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
+           <img alt="Stock Span" width="500" height="350" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
     </pre>
