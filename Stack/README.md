@@ -33,5 +33,6 @@
            greater than on that day than the price on the day i. If such a day exists, let’s call it h(i),
             otherwise, we define h(i) = -1. 
           The span is now computed as S[i] = i – h(i). See the following diagram.
-           <img alt="Stock Span" width="500" height="350" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
+          
+           <img alt="Stock Span" width="500" height="300" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
     </pre>
