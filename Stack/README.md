@@ -31,5 +31,5 @@
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/14.%20Stock%20span.cpp">Stock Span Problem</a>
            We see that S[i] on the day i can be easily computed if we know the closest day preceding i, such that the price is greater than on that day than the price on the day i. If such a day exists, let’s call it h(i), otherwise, we define h(i) = -1. 
 The span is now computed as S[i] = i – h(i). See the following diagram.
-           
+           <img alt="Stock Span" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
     </pre>
