@@ -22,8 +22,8 @@
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/13.%20Max%20rectangle%20in%20histogram.cpp">Max Rectangle area in Histogram</a></b>
                               _ _         _ _
 	     6    _ _        |   |    _ _|   |
-	     5   |   |       |   |   |   |   |         find next greater element in left,rgt with base(s.empty) as corner elements
-	     4   |   |_ _    |   |   |   |   |         and area = max(area, (r[i]-l[i]+1)*arr[i]);
+	     5   |   |       |   |   |   |   |         find next greater element in left,rgt with base(s.empty) as corner elements 
+	     4   |   |_ _    |   |   |   |   |         index and area = max(area, (r[i]-l[i]+1)*arr[i]);
 	     3   |   |   |_ _|   |_ _|   |   |
 	     2   |   |   |   |   |   |   |   | 
 	     1   |_ _| _ |_ _|_ _| _ |__ |_ _|
