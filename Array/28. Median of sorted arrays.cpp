@@ -52,5 +52,3 @@ int main() {
 		// calling the method
 		cout<<"Median = " << Solution(arr3, l);
 }
-
-// This code is contributed by SoumikMondal

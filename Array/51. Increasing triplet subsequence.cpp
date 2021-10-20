@@ -10,4 +10,4 @@ public:
         else if(nums[i]>mid)return true;
     }
         return false;
-    }
+    };
