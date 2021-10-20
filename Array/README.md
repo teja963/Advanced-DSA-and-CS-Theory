@@ -36,14 +36,16 @@
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/37.%20Max%20sum%20path.cpp">Maximum sum path</a></b>
         arr1: i sum1
         arr2: j sum2
-                     if arr1[i]<arr2[j] : s1+=arr1[i++]
-                     if arr2[j]<arr1[i] : s2+=arr2[j++]
-                     if both elements are equal then update or shifting from 1 to another  
+                 if arr1[i]<arr2[j]: s1 += arr1[i++]
+                 if arr2[j]<arr1[i]: s2 += arr2[j++]
+                 if both elements are equal then update or shifting from 1 to another  
       <img alt="max sum path" width="500" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/download.png">
                                              
    
   </pre>
+  
 # NOTE
+
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/10_kadanes_algo.cpp">Kadanes Alogrithm</a></b>
    Make a parallel array as ans array then update as:
