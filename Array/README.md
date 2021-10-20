@@ -1,7 +1,6 @@
 # Efficient Approaches
   <pre>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/4.%20Sort%20012.cpp">Sort 012 in O(1)</a></b>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/24.%203%20way%20partitioning%20around%20given%20value.cpp">3 way partitioning</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/4.%20Sort%20012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/24.%203%20way%20partitioning%20around%20given%20value.cpp">3 way partitioning</a></b>
    Just traverse through the each and every element 
            i                                    
    l_ _ _ _ _ _ _ _ _ h               if current element is 0 swap (l++,i)
@@ -51,9 +50,9 @@
     5: 0 2 1
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/22.%20Trapping%20rainwater.cpp">Trapping rain water</a></b>
-   <img alt="Trapping image" width="550" height="200" src="#">
+   <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/23.%20Chocolate%20distribution.cpp">Chocolate Distribution Problem</a></b>
-    <img alt="fuck" width="600" height="250" src="#">
+    <img alt="chocolate" width="600" height="250" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/Chocolate-Distribution-Problem.png">
    
   </pre>
