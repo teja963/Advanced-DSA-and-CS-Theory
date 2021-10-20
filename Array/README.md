@@ -30,6 +30,17 @@
 	    2        10   /
 		       \ /
 		        8 
+		 
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elemenst together</a></b>
+  
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/37.%20Max%20sum%20path.cpp">Maximum sum path</a></b>
+     <img alt="max sum path" width="500" height="200" src="#">
+        arr1: i sum1
+        arr2: j sum2
+                         if arr1[i]<arr2[j] : s1+=arr1[i++]
+                         if arr2[j]<arr1[i] : s2+=arr2[j++]
+                             if both elements are equal then update or shifting from 1 to another                  
+   
   </pre>
 # NOTE
   <pre>
@@ -50,9 +61,9 @@
     5: 0 2 1
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/22.%20Trapping%20rainwater.cpp">Trapping rain water</a></b>
-   <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">
+   <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">   for filling part we need to know the min between left and right one in O(n) time
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/23.%20Chocolate%20distribution.cpp">Chocolate Distribution Problem</a></b>
-    <img alt="chocolate" width="600" height="250" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/Chocolate-Distribution-Problem.png">
+    <img alt="chocolate" width="600" height="350" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/Chocolate-Distribution-Problem.png">
    
   </pre>
