@@ -67,4 +67,9 @@
   2. For given number see paterns from given input to usage of dp or fibonacci series
   3. Factorial of given values in array, store the fact values by providing size of max limit <pre>O(max(array)+ N)</pre>
      4. Check given num is power of smtg apply log on both sides get condition to check
+     
+# XOR CONCEPTS
+  a ^ b = c
+  b ^ c = a
+  c ^ a = b
   </pre>
