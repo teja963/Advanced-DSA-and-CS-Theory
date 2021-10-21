@@ -1,14 +1,14 @@
 # Implementation
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/1.%20Reverse%20LL.cpp">Reverse SLL</a></b>
-  <img src="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/images/Reverse.gif" alt="reverse_gif" width="550" height="300" >
+                     <img src="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/images/Reverse.gif" alt="reverse_gif" width="550" height="300" >
     For DLL just swap the prev and next and traverse
     swap(curr->pre, curr->next);
     curr=curr->prev;
     
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/2.%20Reverse%20LL%20given%20size.cpp"> Reverse LL in given size</a></b>
       
- fixed:first=curr   head(after changing)
+    fixed:first=curr   head(after changing)
                    /
          1  2  3  4     5  6  7  8
         curr    
