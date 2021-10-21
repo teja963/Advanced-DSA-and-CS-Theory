@@ -43,16 +43,16 @@ class Solution
 {
     public:
     //Function to check if the linked list has a loop.
-    Node* detectLoop(Node* head)
+    bool detectLoop(Node* head)
     {
         // your code here
         unordered_set<Node*>m;
         while(head!=NULL){
-            if(m.find(head)!=m.end())return head;
+            if(m.find(head)!=m.end())return true;
             m.insert(head);
             head=head->next;
         }
-        return NULL;
+        return false; 
         
     }
 };
@@ -86,8 +86,9 @@ int main()
         
         Solution ob;
         if(ob.detectLoop(head) )
-            cout<< head->data<<"\n";
+            cout<< "True\n";
         else
-            cout<<"NULL"<<"\n";
+            cout<< "False\n";
     }
 	return 0;
+}
