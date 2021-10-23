@@ -61,7 +61,7 @@
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/4.%20Same%20tree.cpp">Same Tree</a></b>: p(left,right) = q(left,right)
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/5.%20Symmetric%20tree.cpp">Symmetric tree</a></b>: p(left,right) = q(right,left)
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/14.%20Invert%20BT.cpp">Invert tree</a></b>: LEVEL ORDER = swap(left,right)
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/17.%20Sum%20of%20left%20leaves.cpp">Left leaves</a></b>:                   1
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/17.%20Sum%20of%20left%20leaves.cpp">Left leaves</a></b>:                 1
                            /   \
                         **2     3 
                         
