@@ -58,19 +58,23 @@
   
 # Concepts
   <pre>
-  Same tree     : p(left,right) = q(left,right)
-  Symmetric tree: p(left,right) = q(right,left)
-  Invert tree   : LEVEL ORDER = swap(left,right)
-  Left leaves   :            1
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/4.%20Same%20tree.cpp">Same Tree</a></b>: p(left,right) = q(left,right)
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/5.%20Symmetric%20tree.cpp">Symmetric tree</a></b>: p(left,right) = q(right,left)
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/14.%20Invert%20BT.cpp">Invert tree</a></b>: LEVEL ORDER = swap(left,right)
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/17.%20Sum%20of%20left%20leaves.cpp">Left leaves</a></b>:            1
                            /   \
                         **2     3 
                         
                        f(root.left)
                           f(!root.left.left&&!root.left.right)
                           
-  Diameter tree : while finding height of tree we will update dist
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/15.%20Diameter%20of%20BT.cpp">Diameter tree</a></b>: while finding height of tree we will update dist
   (max dist btw   distance = max (distance, left.ht+right.ht);
   2 nodes)
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/42.%20Check%20given%20tree%20is%20heap.cpp">Heap tree</a></b>: Its should be complete binary tree
+                  BFS:(prefered)
+                 1. Just check heap property and without filling left we can't have right including this property 
+                  
   
   </pre>
                           
