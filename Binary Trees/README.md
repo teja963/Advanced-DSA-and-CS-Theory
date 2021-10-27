@@ -53,7 +53,7 @@
     arr:  1   2   3   4   5   6   7   8   9                  root.right= (m+1, h)
     
 * Properities:
-   1. Inorder traversal of BST gives sorted order 
+   <b>1. Inorder traversal of BST gives sorted order</a> 
   </pre>
   
 # Concepts
