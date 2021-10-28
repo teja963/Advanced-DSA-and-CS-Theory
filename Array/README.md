@@ -41,7 +41,7 @@
                  if both elements are equal then update or shifting from 1 to another  
       <img alt="max sum path" width="500" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/download.png">
                                              
-   
+  <b><a href=""
   </pre>
   
 # NOTE
