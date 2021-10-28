@@ -41,7 +41,10 @@
                  if both elements are equal then update or shifting from 1 to another  
       <img alt="max sum path" width="500" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/download.png">
                                              
-  <b><a href=""
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/55.%20Median%20of%20sorted%20array%20different%20sizes.cpp">Median of 2 sorted Array</a></b>
+       using count method find n/2 element if odd 
+       find n/2- 1 and n/2 if even bcz array sorted
+       need to traverse only (n1+n2)/2 elements 
   </pre>
   
 # NOTE
