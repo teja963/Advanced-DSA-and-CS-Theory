@@ -74,7 +74,19 @@
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/42.%20Check%20given%20tree%20is%20heap.cpp">Heap tree</a></b>: Its should be complete binary tree
                   BFS:(prefered)
                  1. Just check heap property and without filling left we can't have right including this property 
-                  
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/45.%20Expression%20tree.cpp">Expression tree</a></b>
+              +
+           /     \
+          *       -
+        /  \    /   \
+       5    4  100  20           l=fun(root->left); 
+                                 r=fun(root->right);
+          
+              +
+           /     \
+          20      80        // by dfs we need to return l + "root->data"+ r
+          
+            100               
   
   </pre>
                           
