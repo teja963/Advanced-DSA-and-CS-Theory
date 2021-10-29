@@ -24,7 +24,24 @@
    we will check the least possible number with N trailing zeros,
    by count number of zeros of that fact number 
    
-  <b><a 
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Searching%20Sorting/17.%20merging%20overlap%20intervals.cpp">Merging Overlap intervals</a></b>  and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Searching%20Sorting/18.%20Merging%20overlap%20intervals%202.cpp">Merging Overlap intervals 2</a></b>
+     
+      start  end  //initalize   
+     Q1. [[1,2],[1,3],[2,5]]     update end if end >= intervals[i][0]  //merging intervals case
+     Q2. 
+         1. push intervals less than range
+         2. for merging intervals into single interval 
+             within this range compare each element and update(start,end)
+             intervals[i][0] <= newInterval[1]:
+             
+		                         [1,5] - newInterval
+		      
+		      [[1,2],[1,3],[2,5]]
+	       start   1      1     1 
+	       end     2      3     5
+	       
+	 3. push intervals greater than given range
+         
       
   </pre>
 # STL
