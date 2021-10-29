@@ -31,7 +31,7 @@
      Q2. 
          1. push intervals less than range
          2. for merging intervals into single interval 
-             within this range compare each element and update(start,end)
+             within this range compare each element and update( initialzing start,end = newInterval)
              intervals[i][0] <= newInterval[1]:
              
 		                         [1,5] - newInterval
@@ -50,6 +50,6 @@
   in the range [first, last) which has a value not less than val. This means that the function 
   returns the index of the next smallest number just greater than or equal to that number.
   
-  pair< vector <int> ::iterator1, vector <int>::iterator2>p;
+  pair< vector < int > ::iterator1, vector < int >::iterator2>p;
   p = equal_range(v.begin(), v.end(), x);
   </pre>
