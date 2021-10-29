@@ -1,3 +1,4 @@
+//bfs
 vector<int> Kdistance(struct Node *root, int k)
 {
   // Your code here
@@ -20,4 +21,22 @@ vector<int> Kdistance(struct Node *root, int k)
   }
   return v;
   
+}
+
+//dfs
+int distance(vector<int> v,Node* root,int k){
+    if(root==NULL){
+        return 0;
+    }
+    if(k==0){
+       v.push_back(root->data);
+    }
+    distance(v,root->left,k-1);
+    distance(v,root->right,k-1);
+}
+vector<int> Kdistance(struct Node *root, int k)
+{
+    vector<int> v;
+  distance(v,root,k);
+  return v;
 }
