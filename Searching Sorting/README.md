@@ -23,6 +23,8 @@
    log n means binary search with l=0 and h= 5*n
    we will check the least possible number with N trailing zeros,
    by count number of zeros of that fact number 
+   
+  <b><a 
       
   </pre>
 # STL
@@ -31,6 +33,6 @@
   in the range [first, last) which has a value not less than val. This means that the function 
   returns the index of the next smallest number just greater than or equal to that number.
   
-  pair<vector<int>::iterator1,vector<int>::iterator2>p;
+  pair< vector <int> ::iterator1, vector <int>::iterator2>p;
   p = equal_range(v.begin(), v.end(), x);
   </pre>
