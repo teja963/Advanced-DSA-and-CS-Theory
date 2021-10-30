@@ -1,4 +1,4 @@
-//Updated soon
+//Time Complexity : O( N* log(N) * log(N))
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -22,3 +22,5 @@ public:
         return min_element;
     }
 };
+
+
