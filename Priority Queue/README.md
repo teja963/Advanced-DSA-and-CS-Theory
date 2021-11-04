@@ -10,7 +10,7 @@
              
             8 6 4 3 2
             
-            ans+= pq.empty ? tmp.size : n+1;
+            ans += pq.empty ? tmp.size : n+1;
   </pre>
 # Priority queue usage
   <pre>
