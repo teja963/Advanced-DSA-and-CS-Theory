@@ -1,13 +1,11 @@
 # Applications
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Priority%20Queue/8.%20Task%20Scheduler.cpp">Task Scheduler</a></b>
-     <img alt="task" src="https://github.com/teja963/DSA_All_Models/blob/master/Priority%20Queue/images/task.png">
+     <img alt="task" width="600" height="250" src="https://github.com/teja963/DSA_All_Models/blob/master/Priority%20Queue/images/task.png">
       1. Find freq and push into priority queue
       eg: 
             9 7 5 3 2     n=2
-             
             first we will take frst n elements(and store in array)and decrease each freq and push it to priority queue
-             
             8 6 4 3 2
             
             ans += pq.empty ? tmp.size : n+1;
