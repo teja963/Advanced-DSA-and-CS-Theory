@@ -17,6 +17,12 @@
             1 1 1 0 0      
             
             ans += pq.empty ? tmp.size : n+1;
+            
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Priority%20Queue/9.%20Course%20Scheduler%203.cpp">Course Scheduler</a></b>
+       sorting is imp based on end time of course
+       add all the duration
+       while pq.top > course[i][0] // don't add that remove from pq
+       
   </pre>
 # Priority queue usage
   <pre>
