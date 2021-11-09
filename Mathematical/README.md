@@ -57,8 +57,10 @@
      2. Atlast if we get 1 then need to multiply once again and return the term
          _        _     _     _  n
         |Fn+1  Fn  |   |1     1|
-        |          | = |       |
+        |          | = |       |             
         |_Fn  Fn-1_|   |_1   0_|
+        
+        or byusing the formula {(1+sqrt(5)/2)^n}/sqrt(5);
          
   </pre>
 # NOTE:
