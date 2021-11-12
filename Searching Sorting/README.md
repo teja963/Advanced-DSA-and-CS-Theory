@@ -52,4 +52,7 @@
   
   pair< vector < int > ::iterator1, vector < int >::iterator2>p;
   p = equal_range(v.begin(), v.end(), x);
+  
+  if we want to search array in 2nd array
+  find(ans.begin(),ans.end(),v)!=ans.end()
   </pre>
