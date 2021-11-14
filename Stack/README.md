@@ -35,4 +35,10 @@
           The span is now computed as S[i] = i – h(i). See the following diagram.
           
            <img alt="Stock Span" width="500" height="300" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
+    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/16.%20count%20reversals.cpp">Count reversals</a></b>
+         "}{{}}{{{"   3
+         "{{}{{{}{{}}{{"   -1
+
+         1. count the no.of open and close
+         2. if count(open)>0 and s[i]=='}'  open --  (it means balanced for that open)          
     </pre>
