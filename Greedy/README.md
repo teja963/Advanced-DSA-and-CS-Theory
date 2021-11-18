@@ -29,7 +29,11 @@
    </pre> 
    
 # NOTE:
-  <pre>
-  1. Incase of min no.of platforms or min no.of rooms for meeting or min things sort the required array and make the necessary conditions to make clear
+  <pre>                                                                  j      i
+  1. Incase of min no.of platforms/(ending time)         -----
+               min no.of rooms for meeting/(ending time)     |_ _ _    if end[j] > start[i] :  ans++
+               min things/                                   |
+               Activity selection(ending day)            -----
+               sort the required array and make the necessary conditions to make clear
   </pre> 
           
