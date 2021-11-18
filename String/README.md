@@ -22,4 +22,10 @@
   <pre>
   string matching usage
   s.find(tmp)!=string::npos     //string::npos is end of string
+  
+    Integer to roman just make array of 
+    units-------|
+    tens--------|_ _ _  add digits place of all the 4 arrays
+    hundreds----|
+    thousands---|
   </pre>
