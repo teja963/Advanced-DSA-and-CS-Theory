@@ -2,7 +2,7 @@ class Solution{
     public:
     string convert(string s, int n) {
         //code
-        if(n<=1)return s;
+        if(n<=1)return s;      //base condition
         vector<string>v(n);
         string ans,tmp;
         int count=0;
