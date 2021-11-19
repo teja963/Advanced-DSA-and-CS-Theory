@@ -38,9 +38,10 @@
          index:3 2 1 0                                            3*X<= 10 
                                                                   3*2<=10 crct     ans+=2;
           traverse bits of dividend                               6+ 3*1<=10 crct     ans+=1;
-          if tmp+ (divisor<<i) <= dividend:    
-              tmp+=(divisor<<i);
-              ans|=(1LL<<i); 
+          if tmp+(divisor<<i) <= dividend:    
+              tmp += (divisor<<i);
+              ans |= (1LL<<i); 
+   
    </pre> 
     
 # NOTE POINTS:
