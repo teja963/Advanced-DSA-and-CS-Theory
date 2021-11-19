@@ -23,7 +23,8 @@
        Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
      
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5.%20find%20whether%20no%20is%20power%20of%202.cpp">Check given number is power of 2 or not</a></b>
-     Ans: 1. When we write in binary of that number then it contain only one 1
+     Ans: 
+          1. When we write in binary of that number then it contain only one 1
           2. X&(X-1)==0     x is +ve number
   
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/9.%20Swap%20all%20even%20and%20odd%20bits.cpp">Swapping of all odd and even in O(1)</a></b>
@@ -37,10 +38,10 @@
 	       1 0 1 0     tmp=0
          index:3 2 1 0                                            3*X<= 10 
                                                                   3*2<=10 crct     ans+=2;
-          traverse bits of dividend                               6+ 3*1<=10 crct     ans+=1;
-          if tmp+(divisor<<i) <= dividend:    
-              tmp += (divisor<<i);
-              ans |= (1LL<<i); 
+      traverse bits of dividend                                6+ 3*1<=10 crct     ans+=1;
+      if tmp+(divisor<<i) <= dividend:    
+          tmp += (divisor<<i);
+          ans |= (1LL<<i); 
    
    </pre> 
     
