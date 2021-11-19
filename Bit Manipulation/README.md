@@ -1,6 +1,6 @@
 # Logic problems
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n(log n)</a></b>
-	<pre>
+   <pre>
 	    0- 0 0 0 0
 	    1- 0 0 0 1
 	    2- 0 0 1 0
@@ -21,7 +21,7 @@
 	  
  
        Ans: i*2^(i-1) + n-2^i+1 + count(n-2^i); 
-     </pre>
+   </pre>
      
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/5.%20find%20whether%20no%20is%20power%20of%202.cpp">Check given number is power of 2 or not</a></b>
    <pre>
