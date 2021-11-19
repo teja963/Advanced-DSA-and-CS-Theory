@@ -1,5 +1,5 @@
 # Logic problems
-    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n(log n)</a></b>
+   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n O(log n )</a></b>
    <pre>
 	    0- 0 0 0 0
 	    1- 0 0 0 1
