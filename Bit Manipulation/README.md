@@ -35,15 +35,16 @@
         </pre>
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any divisio, multiplication, mod O(log a)</a></b>
     <pre>
-       we can know that every number is can be written as power of 2
-       a = 10    b = 3    ans= 3
-       1 0 1 0     tmp=0
- index:3 2 1 0                                           3*X<= 10 
+	       we can know that every number is can be written as power of 2
+	       a = 10    b = 3    ans= 3
+	       1 0 1 0     tmp=0
+         index:3 2 1 0                                   3*X<= 10 
                                                          3*2<=10 crct     ans+=2;
-       traverse bits of dividend                      6+ 3*1<=10 crct     ans+=1;
+       traverse bits of dividend                        6+ 3*1<=10 crct     ans+=1;
           if tmp+ (divisor<<i) <= dividend:    
               tmp+=(divisor<<i);
               ans|=(1LL<<i);
+              
     </pre>
 # NOTE POINTS:
    <pre>
