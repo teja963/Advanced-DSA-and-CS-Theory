@@ -1,4 +1,5 @@
 # Logic problems
+  <pre>
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n O(log n )</a></b>
 	    0- 0 0 0 0
 	    1- 0 0 0 1
@@ -39,11 +40,11 @@
           traverse bits of dividend                               6+ 3*1<=10 crct     ans+=1;
           if tmp+ (divisor<<i) <= dividend:    
               tmp+=(divisor<<i);
-              ans|=(1LL<<i);      
- 
- <pre>     
+              ans|=(1LL<<i); 
+   </pre>     
+    
 # NOTE POINTS:
-   
+  <pre>  
   * Built in functions:
       b._Find_first();          Returns the position of 1st set bit
       b.__builtin_popcount();   Returns the number of 1's in that number
@@ -57,8 +58,7 @@
       1.Signed num     -2^(n-1)              2^(n-1)-1
       2.UnSigned num      0                  2^(n-1)-1
     
-  
-</pre>			      
+   </pre>
   
   
   
