@@ -1,5 +1,6 @@
 # Logic problems
-  <pre>
+   
+   <pre>
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/4.%20count%20set%20bits%20from%201%20to%20n.cpp">Count set bits from 1 to n O(log n )</a></b>
 	    0- 0 0 0 0
 	    1- 0 0 0 1
@@ -31,22 +32,33 @@
          get all the even one's by n&0xAAAAAAAA;
          get all the odd one's by n&0x55555555;
          shift the positions and add
-        
-   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any divisio, multiplication, mod O(log a)</a></b>
+    
+    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any divisio, multiplication, mod O(log a)</a></b>
 	       we can know that every number is can be written as power of 2
 	       a = 10    b = 3    ans= 3
 	       1 0 1 0     tmp=0
          index:3 2 1 0                                            3*X<= 10 
                                                                   3*2<=10 crct     ans+=2;
-      traverse bits of dividend                                6+ 3*1<=10 crct     ans+=1;
-      if tmp+(divisor<<i) <= dividend:    
-          tmp += (divisor<<i);
-          ans |= (1LL<<i); 
-   
-   </pre> 
+                                                                  6+ 3*1<=10 crct     ans+=1;
+       traverse bits of dividend
+       if tmp+(divisor<<i)<=dividend: 
+                tmp+=(divisor<<i)
+                ans|=1LL<<i                                   
+                          
+   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/11.%20single%20number%202.cpp">Single number 2</a></b>
+      find number which is repeated only once, all the numbers repeated 3
+      one = 0, two =0
+      one=(one^x)&(~two)
+      two=(two^x)&(~one)
+     
+      return one;
+      
+      </pre>
+  
     
 # NOTE POINTS:
-  <pre>  
+  
+  <pre>
   * Built in functions:
       b._Find_first();          Returns the position of 1st set bit
       b.__builtin_popcount();   Returns the number of 1's in that number
