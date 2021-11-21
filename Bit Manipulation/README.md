@@ -41,10 +41,11 @@
                                                                   3*2<=10 crct     ans+=2;
                                                                   6+ 3*1<=10 crct     ans+=1;
        traverse bits of dividend
-       if tmp+(divisor<<i)<=dividend: 
-                tmp+=(divisor<<i)
-                ans|=1LL<<i                                   
-                          
+       if tmp+ (divisor<< i)<= dividend: 
+            *    tmp + =(divisor<< i)
+            *    ans | = 1LL<< i                                   
+                
+                
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/11.%20single%20number%202.cpp">Single number 2</a></b>
       find number which is repeated only once, all the numbers repeated 3
       one = 0, two =0
