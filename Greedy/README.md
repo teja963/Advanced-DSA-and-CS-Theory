@@ -26,6 +26,15 @@
   <b><a href="https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1?utm_source=gfgpractice&utm_medium=banner&utm_campaign=Practice_Explore_POD_Top_Banner#">Question </a></b>  and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Greedy/8.%20Pair%20with%20specific%20difference.cpp">Solution</a></b>
       Imp: After sorting based on que, we need to go l-r or r-l
            If we get the pair skip one iteration otherwise //implementation imp
+           
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Greedy/9.%20Gas%20Station.cpp">Gas Station</a></b>
+        sum+= gas[i]- cost[i] 
+     if sum <0: //then it can't be starting bcz of empty tank
+          ans = i +1 //next one
+          sum =0 //update sum<0 to 0
+          
+     if sum of all the cost> sum of all the gas: then -1
+     else return ans
    </pre> 
    
 # NOTE:
