@@ -42,7 +42,12 @@
 	       
 	 3. push intervals greater than given range
          
-      
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
+   Usage of regular expression for removing leading zeros
+   <pre>
+   const regex pattern( "^0 + (?!$) " );  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
+   ans= regex_replace(ans, pattern ,"");
+   </pre>    
   </pre>
 # STL
   <pre>
