@@ -48,7 +48,15 @@
        h2  n2
   
   
-  
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/33.%20Count%20triplets%20in%20SLL.cpp">Count triplets in SLL in O(N*N) and space O(N)</a></b>
+    Use map for storing each value for each iteration
+    for SLL we can't traverse back of the list untill it was reversed so
+    1 2 3    x=6
+    for i=head to i:
+       for j=i->next to j:
+          if m[max( 0, x- i->data->j->data)] count++;
+       
+       m[i->data]=1;
   
   </pre>
 # Methods
