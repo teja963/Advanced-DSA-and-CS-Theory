@@ -73,7 +73,10 @@
 # ROOTS:
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/1.%20finding%20nth%20root%20of%20M%20in%20nlog%20m.cpp">Finding Nth root of M O(N* log m)</a></b>
-   binary search of m values(mid^n==m) 
+   binary search of m values(mid^n==m)
+   
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/28.Last%20digit%20of%20a%20pow%20b.cpp">Last digit of a^b (for large values)</a></b>
+    find last 2 digits of b%4(and use map) 
   </pre>     
 # XOR CONCEPTS
   a ^ b = c
