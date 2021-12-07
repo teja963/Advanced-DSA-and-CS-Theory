@@ -47,6 +47,13 @@
    <pre>
    const regex pattern( "^0 + (?!$) " );  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
    ans= regex_replace(ans, pattern ,"");
+   
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
+    
+        ------------------------------
+                 a        b                   find no.of triplets less than b and a-1
+       ----------         |
+      ---------------------
    </pre>    
   </pre>
 # STL
