@@ -35,8 +35,11 @@
     <b>ALTER TABLE</b> tb_name          modify cols data_type
     <b>ALTER COLUMN</b> col_name datatype;
     
-    <b>ALTER TABLE</b> tb_name          rename attributes
-    <b>CHANGE</b> old_name new_name data_type;   
+    <b>ALTER TABLE</b> tb_name          rename attributes 
+    <b>CHANGE</b> old_name new_name data_type; 
+    
+    <b>ALTER TABLE</b> tb_name          making constraints not null
+    <b>MODIFY</b>col_name data_type not null;
    </pre>  
 # SQL CONSTRAINTS:
    <pre>
