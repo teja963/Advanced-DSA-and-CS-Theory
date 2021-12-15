@@ -54,11 +54,15 @@
      
       return one;
       
-   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/12.%20Gray%20Code.cpp">Gray Code</a></b>
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/Gray%20Code/12.%20Gray%20Code.cpp">Gray Code</a></b> and 2nd method <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/Gray%20Code/12.%20Gray%20Code.py">Py- Gray Code</a></b>
     observe the pattern and do recursively
     1- 0,1
     2- 00,01  ,11,10
     3- 000,001,011,010  , 110,111,101,100
+    
+    <pre>
+     list=[i^ i>>1 for i in range(1<<n)]
+    </pre> 
       
       </pre>
   
