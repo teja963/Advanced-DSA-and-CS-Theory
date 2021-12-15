@@ -60,9 +60,7 @@
     2- 00,01  ,11,10
     3- 000,001,011,010  , 110,111,101,100
     
-    <pre>
-     list=[i^ i>>1 for i in range(1<<n)]
-    </pre> 
+    list = i ^ i >> 1 for i in range(1<< n)
       
       </pre>
   
