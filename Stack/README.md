@@ -14,7 +14,10 @@
            Use Insertend fun and call the reverse fun recursively
            
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/12.%20Sort%20stack.cpp">Sort Stack Problem</a></b>
-           Using another stack shift all the elements into that in decreasing order in O(n)
+           Using another stack shift all the elements like insertion sort
+           s1: 1 4 5 3 2
+           s2: 5 4 3 2 1
+           s1: 1 2 3 4 5
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/stack/8.%20Next%20greater%20element.cpp">Next greater Element</a></b>
     Traverse from right to left and keep storing the each and every elements in the stack
     when arriving element is greater than s.top(), then pop all the elements untill that condition
