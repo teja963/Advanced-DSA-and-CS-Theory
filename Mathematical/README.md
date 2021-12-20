@@ -42,7 +42,7 @@
          l                            h
      
 
-  <a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/9.%20Overlapping%20rectangles.cpp">Overlapping rectangles</a>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/9.%20Overlapping%20rectangles.cpp">Overlapping rectangles</a></b>
     <img width="315" align="center" alt="rectanglesOverlap" src="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">
 
     Conditions for overlap:
@@ -51,7 +51,7 @@
        3. if r1.y >= l2.y or r2.y >= l1.y // if one rect is above other
        
 
-  <a href="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a></b>
      <img width="315" align="center" src="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/images/fibonacci.png">
      1. Recursively divide the given term and multiply the matrix untill we get 1 for n //n/2
      2. Atlast if we get 1 then need to multiply once again and return the term
@@ -61,6 +61,12 @@
         |_Fn  Fn-1_|   |_1   0_|
         
         or byusing the formula {(1+sqrt(5)/2)^n}/sqrt(5);
+        
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/29.%20Fraction%20to%20recurring%20decimal.cpp">Fraction To Decimal</a></b>
+     use map for storing repeated pattern
+     m( numerator )= ans.size()  //ans is string
+     numerator *= 10
+     numerator %= denominator
          
   </pre>
 # NOTE:
