@@ -7,7 +7,7 @@
    |_ _ _ _
    |
    |
-   <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/matrix/6.%20Search%20in%20a%20row-column%20sorted%20matrix.cpp">6. From high to low</a>
+   <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/6.%20Search%20in%20a%20row-column%20sorted%20matrix.cpp">6. From high to low</a>
              |
    _ _ _ _ _ |
              |
@@ -15,7 +15,7 @@
              |
              
   <b>Median in row and col sorted: O(32*r*log(c))</b>
-   <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/matrix/3.%20median.cpp">Finding median</a> and <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/kth%20smallest%20in%20matrix%20multiplication/11.%20kth%20smallest%20in%20matrix%20multiplication.cpp">Kth smallest in matrix multiplication</a></b>
+   <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/3.%20median.cpp">Finding median</a> and <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/kth%20smallest%20in%20matrix%20multiplication/11.%20kth%20smallest%20in%20matrix%20multiplication.cpp">Kth smallest in matrix multiplication</a></b>
     1. First find the min and max element in single traversal
     2. for r*c matrix order the median is (r*c+1)/2 if it is arranged in sorted order, so the desired place is (r*c+1)/2
     3. while min < max:

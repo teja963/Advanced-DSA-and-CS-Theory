@@ -6,7 +6,7 @@
     swap(curr->pre, curr->next);
     curr=curr->prev;
     
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/2.%20Reverse%20LL%20given%20size.cpp"> Reverse LL in given size</a></b>
+  **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/2.%20Reverse%20LL%20given%20size.cpp"> Reverse LL in given size</a></b>**
       
     fixed:first=curr   head(after changing)
                    /
@@ -48,7 +48,7 @@
        h2  n2
   
   
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/33.%20Count%20triplets%20in%20SLL.cpp">Count triplets in SLL in O(N*N) and space O(N)</a></b>
+  **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/33.%20Count%20triplets%20in%20SLL.cpp">Count triplets in SLL in O(N*N) and space O(N)</a></b>**
     Use map for storing each value for each iteration
     for SLL we can't traverse back of the list untill it was reversed so
     1 2 3    x=6
