@@ -6,7 +6,7 @@
   marked negative then this is the repeating element.
   To find missing, traverse the array again and look for a positive value.
   
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/7.%20Majority%20element.cpp">Majority element in O(N)</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/6.%20Majority%20element.cpp">Majority element in O(N)</a></b>
    It means the element is repeated morethan N/2 times so half of the array is occupied
    by that element only. Anykind of arrangement we will that element in atmost 1 
    
