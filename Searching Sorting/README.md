@@ -24,7 +24,7 @@
    we will check the least possible number with N trailing zeros,
    by count number of zeros of that fact number 
    
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/17.%20merging%20overlap%20intervals.cpp">Merging Overlap intervals</a></b>  and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Searching%20Sorting/18.%20Merging%20overlap%20intervals%202.cpp">Merging Overlap intervals 2</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/17.%20merging%20overlap%20intervals.cpp">Merging Overlap intervals</a></b>  and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/18.%20Merging%20overlap%20intervals%202.cpp">Merging Overlap intervals 2</a></b>
      
       start  end  //initalize   
      Q1. [[1,2],[1,3],[2,5]]     update end if end >= intervals[i][0]  //merging intervals case
@@ -42,7 +42,7 @@
 	       
 	 3. push intervals greater than given range
          
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
    Usage of regular expression for removing leading zeros
    <pre>
    const regex pattern( "^0 + (?!$) " );  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
