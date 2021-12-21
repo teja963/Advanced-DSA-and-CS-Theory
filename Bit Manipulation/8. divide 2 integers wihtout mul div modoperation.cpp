@@ -7,7 +7,7 @@ using namespace std;
 // Function to divide a by b and
 // return floor value it
 int divide(long long dividend, long long divisor) {
-
+if (dividend == INT_MIN && divisor ==-1)return INT_MAX;  //very base case
 // Calculate sign of divisor i.e.,
 // sign will be negative only iff
 // either one of them is negative

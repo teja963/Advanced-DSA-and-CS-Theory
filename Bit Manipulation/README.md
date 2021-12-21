@@ -33,7 +33,7 @@
          get all the odd one's by n&0x55555555;
          shift the positions and add
     
-   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any divisio, multiplication, mod O(log a)</a></b>**
+   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any division, multiplication, mod O(log a)</a></b>**
 	       we can know that every number is can be written as power of 2
 	       a = 10    b = 3    ans= 3
 	       1 0 1 0     tmp=0
