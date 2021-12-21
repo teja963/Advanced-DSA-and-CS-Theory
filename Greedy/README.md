@@ -28,7 +28,7 @@
            If we get the pair skip one iteration otherwise //implementation imp
            
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Greedy/9.%20Gas%20Station.cpp">Gas Station</a></b>
-  <img widht="800" height="400" hsrc="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/images/gas.png">
+  <img widht="800" height="400" src="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/images/gas.png">
         sum+= gas[i]- cost[i] 
      if sum <0: //then it can't be starting bcz of empty tank
           ans = i +1 //next one
