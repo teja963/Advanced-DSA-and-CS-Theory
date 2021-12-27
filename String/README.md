@@ -16,7 +16,11 @@
           b be bea                       to its right it repeat in (n-i) times  
           e ea
           a
-          
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/25.%20Next%20Highest%20Palindrome.cpp">Next Highest Palindrome in O(N Log N)</a></b>
+      i/p: 3 5 4 5 3
+      o/p: 5 3 4 3 5
+        if frst_half part is highest than actual frst_half then it is to get next highest
+        use next_permutation of that actual frst_half   
   </pre>
 # Note
   <pre>
