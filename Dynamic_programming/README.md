@@ -7,4 +7,13 @@
          fun(m,n):
           if(m==1||n==1)return 1;
           return fun(m-1,n) + fun(m,n-1);    //if there is a obstacle fill 0 instead of this 
+          
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/4.%20Perfect%20Squares.cpp">Perfect squares and Min coins</a></b>
+       recursion:
+          fun(n):
+            if (n == 0): return 0;
+            if (n < 0): return;
+            for j = 1 to m:
+              ans = min(ans, fun(n - j*j) + 1);  //perfect squares
+              ans = min(ans, fun(n - v[j]) + 1); //min no of coins
   </pre>
