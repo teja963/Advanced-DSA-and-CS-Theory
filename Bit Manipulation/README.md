@@ -54,6 +54,23 @@
      
       return one;
       
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/12.%20Single%20Number%203.cpp">Single Number 3</a></b>
+      [1, 2, 1, 3, 2, 5]    find xor of all = tmp
+      for geting last set bit of tmp = tmp & -tmp   //for grouping purpose (01)
+                          00        10
+      1:  001          -------------------
+      2:  000             1     |   2
+      3:  011             5     |   3
+      5:  101                   |
+      
+      now traverse again the array based on grouping condition split(tmp & n)
+        for (auto n:nums):
+            if (n & tmp):
+               x ^= n
+            else y ^= n
+            
+        
+      
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/Gray%20Code/12.%20Gray%20Code.cpp">Gray Code</a></b> and 2nd method <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/Gray%20Code/12.%20Gray%20Code.py">Py- Gray Code</a></b>
     observe the pattern and do recursively
     1- 0,1
@@ -80,6 +97,8 @@
                          Min                 Max       
       1.Signed num     -2^(n-1)              2^(n-1)-1
       2.UnSigned num      0                  2^(n-1)-1
+      
+  * To get last set bit for X(number)  ---> X = X & -X;
     
    </pre>
   
