@@ -80,10 +80,10 @@
     list = i ^ i >> 1 for i in range(1<< n)
     
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/13.%20Maximum%20product%20of%20words%20length.cpp">Max product of words length</a></b>
-      <pre>
-     Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
-         //bimap  = [num1,  num2, num3 , num4 , num5 , num6]  -- val |= (1<<(ch-'a'))
-     Output: 16</pre>
+      
+		     Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
+			 //bimap  = [num1,  num2, num3 , num4 , num5 , num6]  -- val |= (1<<(ch-'a'))
+		     Output: 16
      
        Use bitmap for checking common charcters for 
        and check (bitmap[i] & bitmap[j] == 0) ,if common characters present it won't be zero
