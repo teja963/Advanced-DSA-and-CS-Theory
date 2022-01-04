@@ -26,6 +26,8 @@
   </pre>
 # Priority queue usage
   <pre>
+  pq.push() - adds a copy of an element
+  pq.emplace() - adds a new element
   Max:- priority_queue< int >pq;
         priority_queue< pair< int,int >>pq;
         priority_queue< pair< int,pair< int,int >>>pq;
