@@ -20,7 +20,11 @@
       i/p: 3 5 4 5 3
       o/p: 5 3 4 3 5
         if frst_half part is highest than actual frst_half then it is to get next highest
-        use next_permutation of that actual frst_half   
+        use next_permutation of that actual frst_half
+        
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/28.%20Longest%20common%20Prefix%20in%20array.cpp">Longest common prefix</a></b>
+     prefix = a[0];
+     while traversing array of strings update prefix
   </pre>
 # Note
   <pre>
