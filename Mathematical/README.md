@@ -71,6 +71,9 @@
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/30.%20Count%20Number%20with%20Unique%20Digits.cpp">Count Number with Unique digits</a></b>
    for i = 2 to n:
     ans = ans + counterhelp(i) //counter help is no.of unique nums are possible approach with i digits
+    
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/31.%20Water%20and%20Jug%20Problem.cpp">Water and Jug problem(Aptitude)</a></b>
+    j1 + j2 >= capacity and capacity %(j1,j2) == 0
          
   </pre>
 # NOTE:
