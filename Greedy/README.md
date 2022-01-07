@@ -36,6 +36,14 @@
           
      if sum of all the cost> sum of all the gas: then -1
      else return ans
+     
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/11.%20Wiggle%20Subsequence.cpp">Wiggle subsequence</a></b>
+   In this we need to find max length of subsequence of(alternate +ve and -ve nums diff)
+   use 2 pointer approach 
+   pos     neg   //Initially
+   1        1
+   if (positive) pos = neg + 1
+   else if(negative)neg = pos + 1
    </pre> 
    
 # NOTE:
