@@ -24,7 +24,8 @@
 	         pop tmp_ans;         //backtracking
 	        
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/BackTracking/5.%20N%20Digit%20numbers%20with%20digits%20in%20increasing%20order.cpp">N digit numbers with increasing order</a></b>
-  
+  <img src="https://github.com/teja963/DSA-and-MYSQL/blob/master/BackTracking/images/digits.png" alt="source">
+    See the solution for logicc
 		          
     
   </pre>
