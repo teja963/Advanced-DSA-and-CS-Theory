@@ -9,12 +9,12 @@ class Solution
     {
        
         //code here.
-        long long int dp[n+1]={0};
-        dp[0]=1;
+        long long int dp[n+1] = {0};
+        dp[0] = 1;
         int i,j;
-        for(i=0;i<m;i++){
-            for(j=S[i];j<=n;j++){
-                dp[j]+=dp[j-S[i]];
+        for(i = 0;i < m;i ++){
+            for(j = S[i];j <= n; j++){
+                dp[j] += dp[j-S[i]];
             }
         }
         return dp[n];
