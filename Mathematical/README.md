@@ -74,6 +74,14 @@
     
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/31.%20Water%20and%20Jug%20Problem.cpp">Water and Jug problem(Aptitude)</a></b>
     j1 + j2 >= capacity and capacity %(j1,j2) == 0
+    
+  *<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/32.%20Sum%20of%202%20integers%20without%20%2B%20and%20-.cpp">Sum of 2 nums without + and -</a></b>*
+    if no common bits are present it would be a | b,
+    to find common bits do "and"     uint = carry //for neg nums
+		  while(carry):
+		    a ^= b
+		    b = carry << 1
+		    carry = a & b
          
   </pre>
 # NOTE:
