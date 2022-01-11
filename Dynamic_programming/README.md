@@ -16,4 +16,21 @@
             for j = 1 to m:
               ans = min(ans, fun(n - j*j) + 1);  //perfect squares
               ans = min(ans, fun(n - v[j]) + 1); //min no of coins
+              
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/14.%20Edit%20Distance.cpp">Edit distance</a></b>
+       recursion:
+         m = s1.size    ,      n = s2.size
+           fun(s1,s2,m,n):
+              if (m == 0): return n                            eg:   a   b   c
+              if (n == 0): return m                                  b   c   d
+              
+                 if s1[m-1] == s2[n-1]  // from right to left if matcher we will decrement both
+                    fun(s1,s2,m-1,n-1)
+                    
+                 else return min(fun(s1,s2,m,n-1) , fun(s1,s2,m-1,n) ,fun(s1,s2,m-1,n-1)) + 1
+                 
+        for insert f(m,n-1) + 1
+        for remove f(m-1,n) + 1
+        for replace f(m-1,n-1) +1 
+        
   </pre>
