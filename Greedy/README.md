@@ -44,6 +44,10 @@
    1        1
    if (positive) pos = neg + 1
    else if(negative)neg = pos + 1
+   
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/12.%20Queue%20Reconstruction%20by%20Height.cpp">Queue Reconstruction by Height</a></b>
+    Sort according to height(decreasing order, if same order by no.of ppl front(increasing)
+    Now traverse array insert according to position after sorting
    </pre> 
    
 # NOTE:
