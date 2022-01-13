@@ -33,4 +33,10 @@
         for remove f(m-1,n) + 1
         for replace f(m-1,n-1) +1 
         
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/11.%20Gold%20Mine%20Problem.cpp">Gold mine problem</a></b>
+       Instead of gng from start to destination, come from destination to start, for avoid overlap cases
+          right - condition
+          right_up - condition
+          right_down - condition
+        
   </pre>
