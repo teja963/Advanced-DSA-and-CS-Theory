@@ -95,5 +95,23 @@
                              
          1. Limited: within the same network, 1 host want to send many hosts (by using limited if you send 1host it will reach to entire hosts by: [data|source code|255.255.255.255|]
           
-         2. Directed: sending 1 packet to many hosts in diff network([data| source address|NID.255.255.255])
+         2. Directed: sending 1 packet to many hosts in diff network([data|source address|NID.255.255.255])
    </pre>
+   
+# cls 3:
+   <pre>
+   SubNeting: Dividing a big network into small network(4 steps required to reach process but adv is more
+   Subnet Mask: It is a 32bit number
+                No.of 1's represent : what is NID part and SID part
+                No.of 0's represent : what is HID
+                
+          Using subnet mask we can find the where IP address network belongs to(SM & IP = NID)
+          
+          
+        CIDR | subnet masking | wildcard mask | no.of ip address
+    
+    
+    
+    In a network if subnet size is different then it is called Variable Length Subnet Masking(VLSM)
+     Given a subnet mask, no.of zeros represent the size of network 
+   </pre> 
