@@ -1,3 +1,13 @@
+/*
+# Recursive:
+      fun(m,n,s,t):
+         if(m == 0)return n;
+         if(n == 0)return m;
+         if(s[m-1] == t[n-1])return fun(m-1,n-1,s,t);
+         return 1 + min(fun(m-1,n,s,t), fun(m,n-1,s,t), fun(m-1,n-1,s,t));
+*/
+
+
  int m = s.size(), n = t.size();
         vector<vector<int>>dp(m+1,vector<int>(n+1,0));
         /* Base conditions*/
