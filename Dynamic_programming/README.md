@@ -43,5 +43,15 @@
      dp[1] = k
      dp[2] = k * k
      else dp[i] = ((k-1) * (dp[i-1]+dp[i-2]))%(10^9+7)
+     
         
+  </pre>
+  
+# NOTE
+  <pre>
+  When we declare the 2d array, frst assign default values
+  if min assign INT_MAX
+  if max assign INT_MIN
+  else assign zero
+     At last based on question intialize the frst row and frst col base conditions 
   </pre>
