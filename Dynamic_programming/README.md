@@ -33,18 +33,26 @@
         for remove f(m-1,n) + 1
         for replace f(m-1,n-1) +1 
         
-   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/11.%20Gold%20Mine%20Problem.cpp">Gold mine problem</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/11.%20Gold%20Mine%20Problem.cpp">Gold mine problem</a></b>
        Instead of gng from start to destination, come from destination to start, for avoid overlap cases
           right - condition
           right_up - condition
           right_down - condition
           
-   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/15.%20Painting%20the%20fence.cpp">Paintin the fence</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/15.%20Painting%20the%20fence.cpp">Paintin the fence</a></b>
      dp[1] = k
      dp[2] = k * k
      else dp[i] = ((k-1) * (dp[i-1]+dp[i-2]))%(10^9+7)
      
-        
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/18.%20Longest%20Palindromic%20Substring.cpp">Longest Palidromic substring</a></b>
+    Base 1: first fill diagonal single elements 1(len = 1)
+    Base 2: second fill size 2 s[i] == s[i+1] (track starting index i)
+    Loop :  Now check size of 3 and greater(i)
+              starting from j = 0 to n - i + 1 times
+              **Imp_Condition** : if(s[j] == s[end] and dp[j+1][end-1] == 1)  // then it is a palindrome 
+                                                                                 Update starting index and
+                                                                                 max length
+              
   </pre>
   
 # NOTE
