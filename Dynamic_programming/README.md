@@ -53,6 +53,13 @@
                                                                                  Update starting index and
                                                                                  max length
               
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/20.%20Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence</a></b>
+    Imp condition :
+         dp[n] = {1}
+        if( a[j] < a[i] )
+        {
+          dp[i] = max ( dp[i], dp[j] + 1)
+        }
   </pre>
   
 # NOTE
