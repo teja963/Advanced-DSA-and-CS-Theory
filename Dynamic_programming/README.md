@@ -60,6 +60,9 @@
         {
           dp[i] = max ( dp[i], dp[j] + 1)
         }
+        
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/23.%20Decode%20Ways.cpp">Decode ways</a></b>
+    Need to Update it  
   </pre>
   
 # NOTE
