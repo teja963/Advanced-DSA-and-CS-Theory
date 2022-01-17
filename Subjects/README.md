@@ -1,3 +1,5 @@
+# NESO ACADEMY:
+  
 # cls 1:
   <pre>
      _ _ _ _ _ _ _ _ _                                          1. domain req need to reach Destination network
@@ -85,7 +87,7 @@
                       Reserved
                       eg: Military
                       
-  </pre>              
+  </pre>
 # cls 2:
    <pre>
     Sending packets(consists of [data|source address|destination] address) from 1 host to another is called casting. It is 2 types
@@ -115,3 +117,21 @@
     In a network if subnet size is different then it is called Variable Length Subnet Masking(VLSM)
      Given a subnet mask, no.of zeros represent the size of network 
    </pre> 
+
+# cls 4:(Practice of subnets)
+   <pre>
+   0000 0000 - 0
+   1000 0000 - 128
+   1100 0000 - 192
+   1110 0000 - 224
+   1111 0000 - 240
+   1111 1000 - 248
+   1111 1100 - 252
+   1111 1110 - 254
+   1111 1111 - 255
+   </pre>
+   
+   
+   
+# GATE OVERVIE CONCEPTS:
+  
