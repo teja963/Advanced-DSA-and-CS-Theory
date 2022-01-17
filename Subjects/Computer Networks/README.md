@@ -1,5 +1,67 @@
 # NESO ACADEMY:
+**Basic Characteristics of Computer Network**
+  1. Fault Tolerance(It's like returning from clge to home, even though one route is blocked, we will goto another route)
+  2. Scalability(Even though its grows it need to provide good performance, thats what internet) 
+  3. Quality of Service(QoS)(It needs to give priority to what type of data should give frst like phecall or mail :- phecall should give more preference)
+  4. Security
+
+**Network Protocols and Communication**
+  1. Data Communcation: data transfer between 2 nodes(computers) through transmission medium(like cables)
+  2. Data Flow: 
+      (i)Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
+      (ii)Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
+      (iii)Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
+      
+   NOTE:
+     1. Message Delievery Options:
+        (i) Unicast(1 - 1)
+        (ii) Multicast(1 - set of receivers)
+        (iii) Broadcast(1 - all the participants in the network)
   
+     2. **Peer-to-Peer Network**
+         Ports: How many devices it can connect
+         (i) No centralized adminstration
+         (ii)All peers are equal
+         (iii)Not scalable
+         
+     3. **Client(many ppl) Server(1 server) Network (or) Request-Response model**
+         (i) Centralized adminstration
+         (ii)Scalable
+         (iii))Server may be overloaded
+   
+**Various Components of Computer Network**
+  1. Nodes(End and Intermediate)
+  2. Media(Wired(guided) and Wireless(Unguided))
+     (i) Wired Media(Data is converted into signals)
+         1. Ethernet straight-through cable
+         2. Ethernet crossover cable
+         3. Fiber Optic cable(fast transmission)
+         4. Coaxial cable(auido and video communication)
+         5. USB(Universal Serial Bust)
+         
+    (ii) Wireless Media(Data is converted into waves)
+         1. Infrared - short range(TV Remote control)
+         2. Radio - More than Infrared(Wifi, Bluetooth)
+         3. Microwaves - Long dist than above 2(Celluar System)
+         4. Satellite - Ultimate Long range(GPS)
+  3. Services
+    
+**Classifications of Computer Networks**
+  1. Local Area Network(LAN)
+     LAN - Devices
+      (i)Wired ( eg: Ethernet - Hub, Switch(Indermediate things)
+      (ii)Wireless( eg: Wifi)
+  2. Metropolitan Area Network(MAN)
+     More than 2 LAN'S connected in particular area
+     Devices: Switches/Hub
+              Routers/Bridges
+  3. Wide Area Network(WAN) - telecommunications networks(large area)
+     More than 2 MAN'S connected
+     
+     NOTE: NEW TRENDS
+     (i) Bring your Own Device - BYOP
+     (ii)Online collaboration
+     (iii)Cloud computing
 # cls 1:
   <pre>
      _ _ _ _ _ _ _ _ _                                          1. domain req need to reach Destination network
