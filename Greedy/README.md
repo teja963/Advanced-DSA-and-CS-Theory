@@ -48,11 +48,15 @@
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/12.%20Queue%20Reconstruction%20by%20Height.cpp">Queue Reconstruction by Height</a></b>
     Sort according to height(decreasing order, if same order by no.of ppl front(increasing)
     Now traverse array insert according to position after sorting
+    
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/13.%20Maximum%20Length%20Chain.cpp">Max Length Chain</a></b>
+    Sort by increasing order by second one [first, second]
    </pre> 
    
 # NOTE:
   <pre>                                                                  j      i
-  1. Incase of min no.of platforms/(ending time)         -----
+  1. Incase of [frst, second] use greedy by sorting
+               min no.of platforms/(ending time)         -----
                min no.of rooms for meeting/(ending time)     |_ _ _    if end[j] > start[i] :  ans++
                min things/                                   |
                Activity selection(ending day)            -----
