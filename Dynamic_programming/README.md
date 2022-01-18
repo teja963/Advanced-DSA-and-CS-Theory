@@ -39,7 +39,7 @@
           right_up - condition
           right_down - condition
           
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/15.%20Painting%20the%20fence.cpp">Paintin the fence</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/15.%20Painting%20the%20fence.cpp">Painting the fence</a></b>
      dp[1] = k
      dp[2] = k * k
      else dp[i] = ((k-1) * (dp[i-1]+dp[i-2]))%(10^9+7)

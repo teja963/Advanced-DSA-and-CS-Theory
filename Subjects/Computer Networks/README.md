@@ -21,7 +21,7 @@
      2. **Peer-to-Peer Network**
          Ports: How many devices it can connect
          (i) No centralized adminstration
-         (ii)All peers are equal
+         (ii)All peers are equal(No superior and Inferior)
          (iii)Not scalable
          
      3. **Client(many ppl) Server(1 server) Network (or) Request-Response model**
@@ -62,6 +62,90 @@
      (i) Bring your Own Device - BYOP
      (ii)Online collaboration
      (iii)Cloud computing
+     
+**Network Topology(Layout)**
+  1. Physical Topology :- Placement of Various nodes
+  2. Logical Topology :- Deals with the Data flow in the network
+    **Bus**
+       Data is transmitted over common transmission medium
+       No security    
+            A
+            |      |      |
+            |      |      |
+            |      |      |    Terminator
+      ----------------------------
+                |      |
+                |      |
+                |      |
+                       B
+       
+    **Ring**(Unidirectional)
+       It is a BUS Topology in a closed loop, Peer-to-Peer LAN 
+       Sending and receiving data takes place with the help of a Token(Token is circulated through out the network)
+       No Security
+       
+    **Star**
+       Every node is connected to a central node called "hub or switch". It is centralized
+       
+       
+                     \     |      /
+                      \    |     /
+                       \   |    /
+                        \  |   /
+               _ _ _ _ _   Hub  _ _ _ _ _ 
+                         /  |
+                        /   |
+                       /    |
+                            |
+                            
+         Two or more stars can be connected through repeaters
+   
+    **Mesh**
+       Each Node is directly connected to every other nodes in the network(Issues with broadcasting messages)
+    **Hybrid**
+       Combinations of 1 or more topologies
+  
+**Basics of IP addressing**
+  There are 2 ways
+  (i)IPv4(decimal only)   (ii)IPv6
+  IP Address = Location of the person
+  It is 32 bit
+**Basics of Mac addressing** - Physical Address
+  Media Access Control, Every Node in the LAN is identified with the help of MAc address
+  MAC Address = Name of the person
+  It is 48bits(Hexa decimal)
+  
+**Basics of Port Addressing**
+  Port = Communication endpoint
+  Fixed port numbers and dynamic port numbers(0 - 65535)
+  
+**Switching Techniques**
+  Switching helps in deciding the best route for data transmission, if they are multiple paths in a larger network
+   
+                              Switching Techniques
+                                    |
+               _ _ _ _ _ _ _ _ __ _ |_ _ _ _ _ _ _ _ _ _ _ 
+              |                     |                     |
+            Circuit             Message                Packet
+           Switching            Switching              Switching
+                                                          |
+                                                          |__   Datagram Approach(Connectionless switching)
+                                                          |     Datagram Packet swtiching Approach, In this path is not fixed
+                                                          |__   
+                                                          |    Virtual Circuit Approach
+                                                          |
+                
+ 
+**Layering in Networks**
+  1. OSI Reference Model(Not a protocol)
+     Open System Interconnection
+     The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
+     It is never fully Implemented
+  
+  2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
+     
+   
+                                 
 # cls 1:
   <pre>
      _ _ _ _ _ _ _ _ _                                          1. domain req need to reach Destination network
@@ -195,5 +279,5 @@
    
    
    
-# GATE OVERVIE CONCEPTS:
+# GATE OVERVIEW CONCEPTS:
   
