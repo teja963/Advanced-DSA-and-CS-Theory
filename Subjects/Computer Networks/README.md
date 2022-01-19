@@ -141,6 +141,32 @@
      Open System Interconnection
      The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
      It is never fully Implemented
+     
+     7 layers in OSI Reference model(order is imp)
+	     **7. Application** 
+	          Enables the user to access the network resources
+	          Services:
+	          FTAM, Mail Services, Directory
+	     **6. Presentation**
+	          Concered with syntax and semantics(mng) info which is exchanged
+	          Services:
+	          Translation, Encryption, Compression
+	     **5. Session**
+	          Maintains and synchronizes the interaction
+	          Services:
+	          Dialog Control, Synchronization
+	     **4. Transport**(imp)
+	          Process to process delivery of entire message
+	          Services:
+	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
+	     **3. Network**
+	          Deliver the data from original source to destination source
+	          Services:
+	          Logical Addressing, Routing(finding best route)
+	     **2. Data Link**
+	          Moving data/frames from 1 node to another node
+	     **1. Physical**
+	          Transmitting bits
   
   2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
      
