@@ -1,4 +1,4 @@
-# Geeks for Geeks
+#Geeks for Geeks
   **Socket**: Unique combination of IP address and port 
   **DNS**: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
