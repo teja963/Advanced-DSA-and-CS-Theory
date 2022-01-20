@@ -1,4 +1,4 @@
-#Geeks for Geeks
+# Geeks for Geeks
   **Socket**: Unique combination of IP address and port 
   **DNS**: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
@@ -66,8 +66,63 @@ from option 202.15.19.011 11111 , this can be a DBA.
   
   **A host can acts as a Client when he is requesting information.**
   **A host can acts as a Server when he provides information.**
-  **A host can also request and provide information, which is called Peer.** 
+  **A host can also request and provide information, which is called Peer.** Not scalable and No centralization
 
+# Layering in Networks
+  1. OSI Reference Model(Not a protocol)
+     Open System Interconnection - Vertical approach
+     The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
+     It is never fully Implemented
+     
+     7 layers in OSI Reference model(order is imp)
+	     **7. Application** 
+	          Enables the user to access the network resources
+	          Protocols:
+	          1. Telnet : Used for managing files in the internet, Port num is 23
+	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data, 21 for control
+	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
+	          4. NFS    : Port num is 2049
+	          5. SMTP   : Port num is 25
+	             
+	             GET ->----------<-
+	             SMTP            POP/IMAP
+	                             Post Office protocol
+	                             Internet Message Access Protocol
+	                             
+	             SMTP model is 2 types
+	             (i)End-to-End method(Communicate btw 2 different organizations)
+	             (ii)Store and Forward(Communicate within organizations)
+	             
+	          6. DNS    : Port num is 53
+	     **6. Presentation**
+	          Concered with syntax and semantics(mng) info which is exchanged
+	          Services:
+	          Translation, Encryption, Compression
+	     **5. Session**
+	          Maintains and synchronizes the interaction
+	          Services:
+	          Dialog Control, Synchronization
+	     **4. Transport**(imp)
+	          TCP and UDP	
+	          Process to process delivery of entire message
+	          Services:
+	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
+	     **3. Network**
+	          Deliver the data from original source to destination source
+	          Services:
+	          Logical Addressing, Routing(finding best route)
+	     **2. Data Link**
+	          Moving data/frames from 1 node to another node
+	     **1. Physical**
+	          Transmitting bits
+  
+  2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
+     It contains 4 layers - Horizontal approach
+     **1. Application Layer([Presentation  + Session] included**
+     **2. Transport Layer**
+     **3. Internet Layer**(Connection less service)
+     **4. Link Layer**
+   
 # Types of Network Topology (Layout)
    1. Bus
        Data is transmitted over common transmission medium
@@ -106,112 +161,14 @@ from option 202.15.19.011 11111 , this can be a DBA.
    4. Mesh
        Each Node is directly connected to every other nodes in the network(Issues with broadcasting messages)
    5. Hybrid
-       Combinations of 1 or more topologies 
-# NESO ACADEMY: 
-   
-      
-   NOTE:
-     1. Message Delievery Options:
-        
-  
-     2. **Peer-to-Peer Network**
-         Ports: How many devices it can connect
-         (i) No centralized adminstration
-         (ii)All peers are equal(No superior and Inferior)
-         (iii)Not scalable
-         
-     3. **Client(many ppl) Server(1 server) Network (or) Request-Response model**
-         (i) Centralized adminstration
-         (ii)Scalable
-         (iii))Server may be overloaded
-   
-**Various Components of Computer Network**
-  1. Nodes(End and Intermediate)
-  2. Media(Wired(guided) and Wireless(Unguided))
-     (i) Wired Media(Data is converted into signals)
-         1. Ethernet straight-through cable
-         2. Ethernet crossover cable
-         3. Fiber Optic cable(fast transmission)
-         4. Coaxial cable(auido and video communication)
-         5. USB(Universal Serial Bust)
-         
-    (ii) Wireless Media(Data is converted into waves)
-         1. Infrared - short range(TV Remote control)
-         2. Radio - More than Infrared(Wifi, Bluetooth)
-         3. Microwaves - Long dist than above 2(Celluar System)
-         4. Satellite - Ultimate Long range(GPS)
-  3. Services
-    
-     
-
-  
-**Basics of IP addressing**
-  There are 2 ways
-  (i)IPv4(decimal only)   (ii)IPv6
-  IP Address = Location of the person
-  It is 32 bit
-**Basics of Mac addressing** - Physical Address
-  Media Access Control, Every Node in the LAN is identified with the help of MAc address
-  MAC Address = Name of the person
-  It is 48bits(Hexa decimal)
-  
-**Basics of Port Addressing**
-  Port = Communication endpoint
-  Fixed port numbers and dynamic port numbers(0 - 65535)
-  
-**Switching Techniques**
-  Switching helps in deciding the best route for data transmission, if they are multiple paths in a larger network
-   
-                              Switching Techniques
-                                    |
-               _ _ _ _ _ _ _ _ __ _ |_ _ _ _ _ _ _ _ _ _ _ 
-              |                     |                     |
-            Circuit             Message                Packet
-           Switching            Switching              Switching
-                                                          |
-                                                          |__   Datagram Approach(Connectionless switching)
-                                                          |     Datagram Packet swtiching Approach, In this path is not fixed
-                                                          |__   
-                                                          |    Virtual Circuit Approach
-                                                          |
-                
+       Combinations of 1 or more topologies
+       
+# NOTE:
+  Pairty bits/check bits used for error detection
+  1. Tele-communication - Baud rate(speed)
+  2. Loop back IP address btw 127.0.0.1 to 127.255.255.255
+  3. If the system is used seperate protocols gateway is used
  
-**Layering in Networks**
-  1. OSI Reference Model(Not a protocol)
-     Open System Interconnection
-     The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
-     It is never fully Implemented
-     
-     7 layers in OSI Reference model(order is imp)
-	     **7. Application** 
-	          Enables the user to access the network resources
-	          Services:
-	          FTAM, Mail Services, Directory
-	     **6. Presentation**
-	          Concered with syntax and semantics(mng) info which is exchanged
-	          Services:
-	          Translation, Encryption, Compression
-	     **5. Session**
-	          Maintains and synchronizes the interaction
-	          Services:
-	          Dialog Control, Synchronization
-	     **4. Transport**(imp)
-	          TCP and UDP	
-	          Process to process delivery of entire message
-	          Services:
-	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
-	     **3. Network**
-	          Deliver the data from original source to destination source
-	          Services:
-	          Logical Addressing, Routing(finding best route)
-	     **2. Data Link**
-	          Moving data/frames from 1 node to another node
-	     **1. Physical**
-	          Transmitting bits
-  
-  2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
-     
-   
                                  
 # cls 1:
   <pre>
@@ -222,7 +179,7 @@ from option 202.15.19.011 11111 , this can be a DBA.
     |   |     |       |  |_ _ _|(will return IP address to you) initally
     |   |_ _ _|       |
     |                 |
-    |_ _ _ _ _ _ _ _ _|  
+    |_ _ _ _ _ _ _ _ _| 
             |                                                     Google Networks
             |                                                 _ _ _ _ _ _ _ _ _
 	    |				1		    |                 |
@@ -231,7 +188,7 @@ from option 202.15.19.011 11111 , this can be a DBA.
 							    |   |     |       |
 							    |   |_ _ _|       |
 							    |                 |
-							    |_ _ _ _ _ _ _ _ _|  
+							    |_ _ _ _ _ _ _ _ _| 
          (domain name)	
  user-  www.google.com   , a service need to convert domain name into nums(which is IPaddress)
             
@@ -256,7 +213,7 @@ from option 202.15.19.011 11111 , this can be a DBA.
 			  
 			  Remaining 7(8-1) bits(128) in that
 			 0 0 0 0 0 0 0 __  are not possible(bcz it is network ip address)
-			 1 1 1 1 1 1 1 __ not possible bcz it is Limited board cast address     
+			 1 1 1 1 1 1 1 __ not possible bcz it is Limited board cast address 
 			 so 128-2 = 126
 			 Range:- [1,126]
 			 
