@@ -1,22 +1,118 @@
-# NESO ACADEMY:
-**Basic Characteristics of Computer Network**
-  1. Fault Tolerance(It's like returning from clge to home, even though one route is blocked, we will goto another route)
-  2. Scalability(Even though its grows it need to provide good performance, thats what internet) 
-  3. Quality of Service(QoS)(It needs to give priority to what type of data should give frst like phecall or mail :- phecall should give more preference)
-  4. Security
+# Geeks for Geeks
+  **Socket**: Unique combination of IP address and port 
+  **DNS**: It is basically a server translates (domain to ip)
+  **Router**: Connects 2 or more ip networks or subnetworks
+  **Hub**: Connectin multiple ethernets together
+  **Bridge**: Interconnect two LAN's
+  **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
+  **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
+ 
+**What happens when we type/search on browser ?**
+      
+       Client(url)                                   Server side
+          |                                            |
+          |(Browser)                                   |
+          |                                            |
+         File (1. GET/HTTP/1.1                       Sent Response(1. HTTP/1.1  200 ok status                       
+          |    2. Host www.google.com                  |           2. Content-type HTML
+ (Browser)|    3. Some other info)                     |           3. Body of Page)
+          |                                            |
+         Binary - - - - - - - - - - - - - - - - - - - Router  
+                   (Wireless or wired media)
+                   
+# Transmission mode in Computer Networks
+    (i) Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
+   (ii) Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
+  (iii) Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
 
-**Network Protocols and Communication**
-  1. Data Communcation: data transfer between 2 nodes(computers) through transmission medium(like cables)
-  2. Data Flow: 
-      (i)Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
-      (ii)Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
-      (iii)Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
+# Unicast, Multicast, Boardcast  
+   (i) Unicast(1 - 1)
+  (ii) Multicast(1 - set of receivers)
+ (iii) Broadcast(1 - all the participants in the network)
+ 
+**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
+(A) 255.255.255.240
+(B) 255.255.255.192
+(C) 255.255.255.198
+(D) None Of the Above
+
+Answer: (D)
+Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
+
+**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
+(A) 202.15.19.127
+(B) 202.15.19.63
+(C) Both a and b
+(D) None of the Above
+
+Answer: (C)
+Explanation: Subnet mask is   255.255.255.1110 0000
+In DBA all host bits are 1.
+from option 202.15.19.011 11111 , this can be a DBA.
+202.15.19.001 11111 ,this can also be a DBA.
+  
+# Classifications of Computer Networks
+  Most widely used models are Open Systems Interconnection and Department of Defense(TCP/IP)
+  1. Local Area Network(LAN)
+     LAN - Devices
+      (i)Wired ( eg: Ethernet - Hub, Switch(Indermediate things)
+      (ii)Wireless( eg: Wifi)
+  2. Metropolitan Area Network(MAN)
+     More than 2 LAN'S connected in particular area
+     Devices: Switches/Hub
+              Routers/Bridges
+  3. Wide Area Network(WAN) - telecommunications networks(large area)
+     More than 2 MAN'S connected
+  
+  **A host can acts as a Client when he is requesting information.**
+  **A host can acts as a Server when he provides information.**
+  **A host can also request and provide information, which is called Peer.** 
+
+# Types of Network Topology (Layout)
+   1. Bus
+       Data is transmitted over common transmission medium
+       No security
+            A
+            |      |      |
+            |      |      |
+            |      |      |    Terminator
+      ----------------------------
+                |      |
+                |      |
+                |      |
+                       B
+       
+   2. Ring (Unidirectional)
+       It is a BUS Topology in a closed loop, Peer-to-Peer LAN 
+       Sending and receiving data takes place with the help of a Token(Token is circulated through out the network)
+       No Security
+       
+   3. Star
+       Every node is connected to a central node called "hub or switch". It is centralized
+       
+       
+                     \     |      /
+                      \    |     /
+                       \   |    /
+                        \  |   /
+               _ _ _ _ _   Hub  _ _ _ _ _ 
+                         /  |
+                        /   |
+                       /    |
+                            |
+                            
+         Two or more stars can be connected through repeaters
+   
+   4. Mesh
+       Each Node is directly connected to every other nodes in the network(Issues with broadcasting messages)
+   5. Hybrid
+       Combinations of 1 or more topologies 
+# NESO ACADEMY: 
+   
       
    NOTE:
      1. Message Delievery Options:
-        (i) Unicast(1 - 1)
-        (ii) Multicast(1 - set of receivers)
-        (iii) Broadcast(1 - all the participants in the network)
+        
   
      2. **Peer-to-Peer Network**
          Ports: How many devices it can connect
@@ -46,64 +142,8 @@
          4. Satellite - Ultimate Long range(GPS)
   3. Services
     
-**Classifications of Computer Networks**
-  1. Local Area Network(LAN)
-     LAN - Devices
-      (i)Wired ( eg: Ethernet - Hub, Switch(Indermediate things)
-      (ii)Wireless( eg: Wifi)
-  2. Metropolitan Area Network(MAN)
-     More than 2 LAN'S connected in particular area
-     Devices: Switches/Hub
-              Routers/Bridges
-  3. Wide Area Network(WAN) - telecommunications networks(large area)
-     More than 2 MAN'S connected
      
-     NOTE: NEW TRENDS
-     (i) Bring your Own Device - BYOP
-     (ii)Online collaboration
-     (iii)Cloud computing
-     
-**Network Topology(Layout)**
-  1. Physical Topology :- Placement of Various nodes
-  2. Logical Topology :- Deals with the Data flow in the network
-    **Bus**
-       Data is transmitted over common transmission medium
-       No security    
-            A
-            |      |      |
-            |      |      |
-            |      |      |    Terminator
-      ----------------------------
-                |      |
-                |      |
-                |      |
-                       B
-       
-    **Ring**(Unidirectional)
-       It is a BUS Topology in a closed loop, Peer-to-Peer LAN 
-       Sending and receiving data takes place with the help of a Token(Token is circulated through out the network)
-       No Security
-       
-    **Star**
-       Every node is connected to a central node called "hub or switch". It is centralized
-       
-       
-                     \     |      /
-                      \    |     /
-                       \   |    /
-                        \  |   /
-               _ _ _ _ _   Hub  _ _ _ _ _ 
-                         /  |
-                        /   |
-                       /    |
-                            |
-                            
-         Two or more stars can be connected through repeaters
-   
-    **Mesh**
-       Each Node is directly connected to every other nodes in the network(Issues with broadcasting messages)
-    **Hybrid**
-       Combinations of 1 or more topologies
+
   
 **Basics of IP addressing**
   There are 2 ways
@@ -156,6 +196,7 @@
 	          Services:
 	          Dialog Control, Synchronization
 	     **4. Transport**(imp)
+	          TCP and UDP	
 	          Process to process delivery of entire message
 	          Services:
 	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
