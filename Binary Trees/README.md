@@ -90,6 +90,9 @@
   
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Binary%20Trees/49.%20Maximum%20sum%20of%20Non-adjacent%20Nodes.cpp">Maximum sum of non-adjacent Nodes</a></b>
   Need to Update
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Binary%20Trees/51.%20Leaves%20to%20DLL.cpp">Leaves to DLL</a></b>
+     Use preorder to get leaves and edit leaves nodes,
+     In function if we want to modify and stay in recursive call use reference(&)
   </pre>
                           
 # Recursive
