@@ -1,4 +1,5 @@
 # Geeks for Geeks
+  <pre>
   **Socket**: Unique combination of IP address and port 
   **DNS**: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
@@ -7,7 +8,7 @@
   **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
   **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
  
-**What happens when we type/search on browser ?**
+  **What happens when we type/search on browser ?**
       
        Client(url)                                   Server side
           |                                            |
@@ -19,39 +20,43 @@
           |                                            |
          Binary - - - - - - - - - - - - - - - - - - - Router  
                    (Wireless or wired media)
-                   
+      
+   </pre>                
 # Transmission mode in Computer Networks
+  <pre>
     (i) Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
    (ii) Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
   (iii) Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
-
+  </pre>
 # Unicast, Multicast, Boardcast  
+  <pre>
    (i) Unicast(1 - 1)
   (ii) Multicast(1 - set of receivers)
  (iii) Broadcast(1 - all the participants in the network)
  
-**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
-(A) 255.255.255.240
-(B) 255.255.255.192
-(C) 255.255.255.198
-(D) None Of the Above
+	**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
+	(A) 255.255.255.240
+	(B) 255.255.255.192
+	(C) 255.255.255.198
+	(D) None Of the Above
 
-Answer: (D)
-Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
+	Answer: (D)
+	Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
 
-**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
-(A) 202.15.19.127
-(B) 202.15.19.63
-(C) Both a and b
-(D) None of the Above
+	**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
+	(A) 202.15.19.127
+	(B) 202.15.19.63
+	(C) Both a and b
+	(D) None of the Above
 
-Answer: (C)
-Explanation: Subnet mask is   255.255.255.1110 0000
-In DBA all host bits are 1.
-from option 202.15.19.011 11111 , this can be a DBA.
-202.15.19.001 11111 ,this can also be a DBA.
-  
+	Answer: (C)
+	Explanation: Subnet mask is   255.255.255.1110 0000
+	In DBA all host bits are 1.
+	from option 202.15.19.011 11111 , this can be a DBA.
+	202.15.19.001 11111 ,this can also be a DBA.
+  </pre>
 # Classifications of Computer Networks
+  <pre>
   Most widely used models are Open Systems Interconnection and Department of Defense(TCP/IP)
   1. Local Area Network(LAN)
      LAN - Devices
@@ -67,7 +72,7 @@ from option 202.15.19.011 11111 , this can be a DBA.
   **A host can acts as a Client when he is requesting information.**
   **A host can acts as a Server when he provides information.**
   **A host can also request and provide information, which is called Peer.** Not scalable and No centralization
-
+  </pre>
 # Layering in Networks
   1. OSI Reference Model(Not a protocol)
      Open System Interconnection - Vertical approach
@@ -80,20 +85,40 @@ from option 202.15.19.011 11111 , this can be a DBA.
 	          Protocols:
 	          1. Telnet : Used for managing files in the internet, Port num is 23
 	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data, 21 for control
+	            2 TCP connections used by FTP in parallel(data, control)
+	            FTP need to keep track of state through the session
+	            
 	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
+	            It used UDP as a Transport Layer Protocol
 	          4. NFS    : Port num is 2049
 	          5. SMTP   : Port num is 25
 	             
 	             GET ->----------<-
 	             SMTP            POP/IMAP
-	                             Post Office protocol
-	                             Internet Message Access Protocol
+	      Out gng mail services  Post Office protocol(used to retrive mails from server)
+	(transfers from servers to   Internet Message Access Protocol
+	  servers)
 	                             
 	             SMTP model is 2 types
 	             (i)End-to-End method(Communicate btw 2 different organizations)
 	             (ii)Store and Forward(Communicate within organizations)
 	             
+	             Client---->User_Agent------>queue----->MTA--
+	                                                        |
+	                                                        |TCP/IP Connection
+	                                                        |
+	                                                        |
+	             Recevier<----User_Agent<------queue<-----MTA-- 
+	             
 	          6. DNS    : Port num is 53
+	         **Why does DNS use UDP and not TCP ?**
+	         UDP is much faster. TCP is slow and requires 3-way handshake. DNS server don't have to keep connections and these requests r fit into UDP segments.
+	         
+	          DNS Uses Cache to work efficiently, not using nslookup over and over again
+	          DNS Spoofing is like finding flaws in DNS change the ip address redirect to malicious
+	          **PREVENT FROM DNS SPOOFING**: DNS Security Extensions(DNSSEC)add an additional layer to prevent spoofing
+
+	         
 	     **6. Presentation**
 	          Concered with syntax and semantics(mng) info which is exchanged
 	          Services:
@@ -107,6 +132,19 @@ from option 202.15.19.011 11111 , this can be a DBA.
 	          Process to process delivery of entire message
 	          Services:
 	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
+	          
+	          **TCP 3-Way Hand shake:**
+	      Client |- -\SYN  | Server
+	             |     \- -|(1. Listen)                SYN: Synchronize seq number
+	             |        /|                           ACK: Acknowledge
+	             |SYN + ACK|
+(SYN recevied, After |_/       |
+this step connection |         |
+is established)
+                   
+                   
+                 **TCP Implementation uses 4 timers:**
+                 	          
 	     **3. Network**
 	          Deliver the data from original source to destination source
 	          Services:
@@ -115,15 +153,53 @@ from option 202.15.19.011 11111 , this can be a DBA.
 	          Moving data/frames from 1 node to another node
 	     **1. Physical**
 	          Transmitting bits
-  
+	       
+# NOTE:
+  <pre>
+       PDU                       UNITS
+    1. Application               Messages
+    2. Transport                 Segment
+    3. Network                   Packets
+    4. Physical                  Bits
+    5. Data Link layer           Frames
+    
+    **Protocol Graph**:
+    
+    FTP,HTTP,SMTP,DNS   DNS,TFTP    ->Application
+   |_ _ _ _ _ _ _ _ _| |_ _ _ _ |
+         |                 |
+         |                 |
+        TCP               UDP       ->Transport
+         |                 |
+         |                 |
+          \               /
+           \             /
+            \_ _ IP _ _ /           ->Internet
+            /    |     \
+          /      |      \
+        /        |       \
+      Internet   LAN    LAN's and WAN's  ->Network
+      
   2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
      It contains 4 layers - Horizontal approach
      **1. Application Layer([Presentation  + Session] included**
      **2. Transport Layer**
      **3. Internet Layer**(Connection less service)
      **4. Link Layer**
-   
+  </pre>
+# http Non - Persistent & Persistent Connection
+  <pre>
+  **RTT**: Time travel to small packets from client to server back(= 2 * propagation delay)
+  For connection it is sure that it initialize TCP connection
+  So for 1 TCP connection = 1 RTT
+  1 RTT for req and 1 RTT for response
+  
+  Non-Persistent connection:                       Persistent connection:(Modern browsers use this connection)
+  1. without parallel                              1. pipelined
+  2. with parallel                                 2. Non-pipelined
+  </pre>
 # Types of Network Topology (Layout)
+  <pre>
    1. Bus
        Data is transmitted over common transmission medium
        No security
@@ -163,13 +239,18 @@ from option 202.15.19.011 11111 , this can be a DBA.
    5. Hybrid
        Combinations of 1 or more topologies
        
+  </pre> 
 # NOTE:
+  <pre>
   Pairty bits/check bits used for error detection
   1. Tele-communication - Baud rate(speed)
   2. Loop back IP address btw 127.0.0.1 to 127.255.255.255
   3. If the system is used seperate protocols gateway is used
- 
-                                 
+  4. https = http + cryptographic protocols
+     http(state less protocol - server maintains no info abt past clients) - Works at Application Layer (doesn't require certification)
+     https - Works at Transport Layer(require certificates)
+  5. Isochronous - STAR-STOP mode or CHARACTER mode
+  </pre> 
 # cls 1:
   <pre>
      _ _ _ _ _ _ _ _ _                                          1. domain req need to reach Destination network
