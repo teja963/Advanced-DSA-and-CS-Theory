@@ -1,14 +1,13 @@
 # Geeks for Geeks
-  <pre>
-  <b>Socket</b>: Unique combination of IP address and port 
-  </b>DNS</b>: It is basically a server translates (domain to ip)
+  **Socket**: Unique combination of IP address and port 
+  **DNS**: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
   **Hub**: Connectin multiple ethernets together
   **Bridge**: Interconnect two LAN's
   **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
   **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
- 
-  <b>What happens when we type/search on browser ?</b>
+  <pre>
+  **What happens when we type/search on browser ?**
       
        Client(url)                                   Server side
           |                                            |
@@ -34,7 +33,7 @@
   (ii) Multicast(1 - set of receivers)
  (iii) Broadcast(1 - all the participants in the network)
  
-  **If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
+	**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
 	(A) 255.255.255.240
 	(B) 255.255.255.192
 	(C) 255.255.255.198
@@ -43,7 +42,7 @@
 	Answer: (D)
 	Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
 
-  **If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
+	**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
 	(A) 202.15.19.127
 	(B) 202.15.19.63
 	(C) Both a and b
@@ -74,6 +73,7 @@
   **A host can also request and provide information, which is called Peer.** Not scalable and No centralization
   </pre>
 # Layering in Networks
+  <pre>
   1. OSI Reference Model(Not a protocol)
      Open System Interconnection - Vertical approach
      The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
@@ -144,7 +144,36 @@ is established)
                    
                    
                  **TCP Implementation uses 4 timers:**
-                 	          
+                 1. ReTransmission Timer:
+                    To retransmit lost segments, TCP uses (RTO)- Round-Trip time
+                 **RTT 3 types**
+                 (i)Measured RTT(RTTm): Time req for the segement to reach the destination and be acknowledged
+                 (ii)Smoothed RTT(RTTs): It is weighted avg of RTT
+                 	After frst measurement -> RTTs = RTTm
+                 	After each measurement -> RTTs = (1-t)*RTTs + t*RTTm
+                 	**Note**: Default value is 1/8(not given)
+                 iii)Deviated RTT(RTTd): Most implementations don't use RTT alone so RTT derivated is also calculated to findout RTO
+                       After frst measurement -> RTTd = RTTm/2
+                       After each measurement -> RTTd = (1-k)*RTTd + k*(RTTm - RTTs)
+                       **Note**: Default value is 1/4(not given)
+                       
+                 2. Persistent Timer:(Imp)
+                    To deal with 0 window size deadlock situation, TCP uses this timer(It start when size is 0). When this timer goes off, the sending tcp sends a special segment called a probe(contains 1 byte of new data has a seq num, but it seq num is never acknowledged. The probe causes the receiving TCP to resend the acknowledged which was lost
+                    
+                 3. Keep Alive Timer:
+                    Prevent a long idle connection between 2 TCP's. The time out is usally 2 hrs after client response at all the time. No response after 2 hrs it sends a probe segment. It send 10 probes each of which 75sec apart, then it terminates.
+                 
+                 4. Time wait Timer:
+                    The timer starts after sending the last Ack for 2nd FIN and closing the connection.
+                    
+                  **TCP Connection Termination**:
+                    The common way of terminating a TCP connection is using a TCP's headers FIN flag
+                    
+                  **WrapAround Concept**: 
+                  When sequence numbers(TCP header's contains 2^32 = 4gb) are over, it resue the same seq numbers. seq numbers are created while intiall connection
+                  
+                  WrapAround Time depends on the seq numbers bandwidth (tot seq nums / Bandwidth)
+                    
 	     **3. Network**
 	          Deliver the data from original source to destination source
 	          Services:
@@ -153,7 +182,8 @@ is established)
 	          Moving data/frames from 1 node to another node
 	     **1. Physical**
 	          Transmitting bits
-	       
+	      
+  </pre>
 # NOTE:
   <pre>
        PDU                       UNITS
@@ -191,7 +221,7 @@ is established)
   <pre>
   **RTT**: Time travel to small packets from client to server back(= 2 * propagation delay)
   For connection it is sure that it initialize TCP connection
-  So for 1 TCP connection = 1 RTT
+  So for 1 TCP connection = 1 RTT(Round Trip Time)
   1 RTT for req and 1 RTT for response
   
   Non-Persistent connection:                       Persistent connection:(Modern browsers use this connection)
@@ -242,7 +272,7 @@ is established)
   </pre> 
 # NOTE:
   <pre>
-  Pairty bits/check bits used for error detection
+  Parity bits/check bits used for error detection
   1. Tele-communication - Baud rate(speed)
   2. Loop back IP address btw 127.0.0.1 to 127.255.255.255
   3. If the system is used seperate protocols gateway is used
@@ -250,6 +280,7 @@ is established)
      http(state less protocol - server maintains no info abt past clients) - Works at Application Layer (doesn't require certification)
      https - Works at Transport Layer(require certificates)
   5. Isochronous - STAR-STOP mode or CHARACTER mode
+  6. TCP RESET (RST) - Branching to frequently used subroutines
   </pre> 
 # cls 1:
   <pre>
