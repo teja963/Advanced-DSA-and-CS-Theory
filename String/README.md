@@ -25,6 +25,11 @@
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/28.%20Longest%20common%20Prefix%20in%20array.cpp">Longest common prefix</a></b>
      prefix = a[0];
      while traversing array of strings update prefix
+     
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Sliding%20Window/4.%20Count%20anagrams.cpp">Count Anagram</a></b> or <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/29.Permutation%20in%20String.cpp">Permuation in string</a></b>
+    Same concept application of anagrams
+    If s1's pemutation is present in s2, if permutations equal means sort(s1) == sort(s2)
+    In Simple way without sorting use map m1 == m2, then permutation of s1 is present in s2
   </pre>
 # Note
   <pre>
