@@ -1,14 +1,14 @@
 # Geeks for Geeks
   <pre>
-  **Socket**: Unique combination of IP address and port 
-  **DNS**: It is basically a server translates (domain to ip)
+  <b>Socket</b>: Unique combination of IP address and port 
+  </b>DNS</b>: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
   **Hub**: Connectin multiple ethernets together
   **Bridge**: Interconnect two LAN's
   **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
   **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
  
-  **What happens when we type/search on browser ?**
+  <b>What happens when we type/search on browser ?</b>
       
        Client(url)                                   Server side
           |                                            |
@@ -21,7 +21,7 @@
          Binary - - - - - - - - - - - - - - - - - - - Router  
                    (Wireless or wired media)
       
-   </pre>                
+   </pre> 
 # Transmission mode in Computer Networks
   <pre>
     (i) Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
@@ -34,7 +34,7 @@
   (ii) Multicast(1 - set of receivers)
  (iii) Broadcast(1 - all the participants in the network)
  
-	**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
+  **If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
 	(A) 255.255.255.240
 	(B) 255.255.255.192
 	(C) 255.255.255.198
@@ -43,7 +43,7 @@
 	Answer: (D)
 	Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
 
-	**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
+  **If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
 	(A) 202.15.19.127
 	(B) 202.15.19.63
 	(C) Both a and b
