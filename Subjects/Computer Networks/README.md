@@ -173,7 +173,15 @@ is established)
                   When sequence numbers(TCP header's contains 2^32 = 4gb) are over, it resue the same seq numbers. seq numbers are created while intiall connection
                   
                   WrapAround Time depends on the seq numbers bandwidth (tot seq nums / Bandwidth)
-                    
+                  
+                  
+                  **User Datagram Protocol**:
+                   UDP is more efficient in terms of latency(measure of delay) and bandwidth
+                   UDP header is 8 bytes fixed and simple header, while for TCP it may vary from 20 to 60 bytes
+                   Unlike TCP, the checksum calculation is not mandatory in UDP. UDP depends on IP and ICMP for reporting.
+                   UDP is stateless, connectionless, unreliable, useful for Boardcast and Unidrectional communication		
+                   No fields are there in UDP to control flow or Congestion
+                         
 	     **3. Network**
 	          Deliver the data from original source to destination source
 	          Services:
@@ -195,8 +203,8 @@ is established)
     
     **Protocol Graph**:
     
-    FTP,HTTP,SMTP,DNS   DNS,TFTP    ->Application
-   |_ _ _ _ _ _ _ _ _| |_ _ _ _ |
+    FTP,HTTP,SMTP,DNS   DNS,TFTP,NTP,NNP    ->Application
+   |_ _ _ _ _ _ _ _ _| |_ _ _ _ _ _ _ _|
          |                 |
          |                 |
         TCP               UDP       ->Transport
@@ -281,6 +289,10 @@ is established)
      https - Works at Transport Layer(require certificates)
   5. Isochronous - STAR-STOP mode or CHARACTER mode
   6. TCP RESET (RST) - Branching to frequently used subroutines
+  7. Multiplexing and Demultiplexing definitions
+  8. Packets of the same session may be routed through diff paths is both TCP and UDP
+     With the help of TCP window -> Flow control
+     With the help of congestion windows -> Congestion control
   </pre> 
 # cls 1:
   <pre>
