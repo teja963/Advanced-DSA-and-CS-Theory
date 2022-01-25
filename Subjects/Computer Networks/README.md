@@ -1,4 +1,5 @@
 # Geeks for Geeks
+  <pre>
   **Socket**: Unique combination of IP address and port 
   **DNS**: It is basically a server translates (domain to ip)
   **Router**: Connects 2 or more ip networks or subnetworks
@@ -6,6 +7,7 @@
   **Bridge**: Interconnect two LAN's
   **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
   **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
+  </pre>
   <pre>
   **What happens when we type/search on browser ?**
       
@@ -70,17 +72,37 @@
   
   **A host can acts as a Client when he is requesting information.**
   **A host can acts as a Server when he provides information.**
-  **A host can also request and provide information, which is called Peer.** Not scalable and No centralization
+  **A host can also request and provide information(No need of server), which is called Peer.** Not scalable and No centralization
+    if 1 peer makes a req, it is possible that multiple peers have copy of that req obj. Now prob is how to get the ip address of all. So It is decided y Architecture of P2P
+  **THREE SUCH ARCHITECTURES PRESENT**:
+  1. Centralized Directory
+     1 main server - Contains all details abt requirements and ip address
+     Peer - Every peer need to go through server for details
+  2. Query Flooding - It used Distributed systems
+  
+              _ _ _ _ _ _ _ _ _
+             |         |       | 
+          _ _|_ _  _ _ |_ _ _ _|_ _ 
+        |         |        |       |
+       Peer1    Peer2    Peer3   Peer4
+       
+       Gnutella was the frst decentralized Peer-to-Peer Network
+       kaZaA technology is such example that makes use of Napster and Gnutella 
+  3. Exploiting Heterogeneity 
+       It like divide and conquer 
+       Many Peer connect to super Node
+       All super nodes connect to each other
+    
   </pre>
 # Layering in Networks
   <pre>
-  1. OSI Reference Model(Not a protocol)
+  1. OSI Reference Model
      Open System Interconnection - Vertical approach
      The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
      It is never fully Implemented
      
      7 layers in OSI Reference model(order is imp)
-	     **7. Application** 
+	     **7. Application** (It can send any size of data to TCP, no limit)
 	          Enables the user to access the network resources
 	          Protocols:
 	          1. Telnet : Used for managing files in the internet, Port num is 23
@@ -89,7 +111,7 @@
 	            FTP need to keep track of state through the session
 	            
 	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
-	            It used UDP as a Transport Layer Protocol
+	                      It used UDP as a Transport Layer Protocol
 	          4. NFS    : Port num is 2049
 	          5. SMTP   : Port num is 25
 	             
@@ -180,7 +202,21 @@ is established)
                    UDP header is 8 bytes fixed and simple header, while for TCP it may vary from 20 to 60 bytes
                    Unlike TCP, the checksum calculation is not mandatory in UDP. UDP depends on IP and ICMP for reporting.
                    UDP is stateless, connectionless, unreliable, useful for Boardcast and Unidrectional communication		
-                   No fields are there in UDP to control flow or Congestion
+                   No fields are there in UDP to control flow or Congestion(A state occurs in the network layer when the message traffic is so heavy)
+                   
+                   **Congestion policy in TCP**:(Imp)
+                     1. Slow Start Phase: exponential increment(After every RTT the congestion window size incr exponentailly)
+                     2. Congestion Avoidance Phase: additive increment
+                     3. Congestion Detection Phase: multiplicative decrement
+                     
+                     ReTransmission can occur in one of 2 cases
+                     (i) When the RTO Timer Times Out
+                    (ii) When 3 duplicate ACK's are received
+                   **Leaky Bucket Algorithm**:
+                    Formula: 
+                     M*s = C + p*s
+                     
+                     
                          
 	     **3. Network**
 	          Deliver the data from original source to destination source
