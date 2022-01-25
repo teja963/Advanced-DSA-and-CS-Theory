@@ -95,8 +95,11 @@
   1. Next greater number problem use next premuation for simple approach
   2. For given number see paterns from given input to usage of dp or fibonacci series
   3. Factorial of given values in array, store the fact values by providing size of max limit <pre>O(max(array)+ N)</pre>
-     4. Check given num is power of smtg apply log on both sides get condition to check
-
+  4. Check given num is power of smtg apply log on both sides get condition to check
+     for 2: return n > 0 && __builtin_popcount(n) == 1;
+     for 3: return n > 0 && 3^19 % n == 0;
+     for 4: return n > 0 && __builtin_popcount(n) == 1 && n%10 == (1 || 4 || 6);
+  </pre>
 # ROOTS:
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/1.%20finding%20nth%20root%20of%20M%20in%20nlog%20m.cpp">Finding Nth root of M O(N* log m)</a></b>
@@ -106,6 +109,7 @@
     find last 2 digits of b%4(and use map) 
   </pre>     
 # XOR CONCEPTS
+  <pre>
   a ^ b = c
   b ^ c = a
   c ^ a = b
