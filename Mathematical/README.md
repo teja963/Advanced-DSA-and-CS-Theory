@@ -94,7 +94,7 @@
   <pre>
   1. Next greater number problem use next premuation for simple approach
   2. For given number see paterns from given input to usage of dp or fibonacci series
-  3. Factorial of given values in array, store the fact values by providing size of max limit <pre>O(max(array)+ N)</pre>
+  3. Factorial of given values in array, store the fact values by providing size of max limit <b>O(max(array)+ N)</b>
   4. Check given num is power of smtg apply log on both sides get condition to check
      for 2: return n > 0 && __builtin_popcount(n) == 1;
      for 3: return n > 0 && 3^19 % n == 0;
