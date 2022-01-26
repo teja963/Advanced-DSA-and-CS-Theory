@@ -3,13 +3,14 @@ public:
 	int maxSubstring(string S)
 	{
 	    // Your code goes here
-	    int c=0,m=0;
-	    for(int i=0;i<S.size();i++)
+	   int ans = 0, sum = 0;
+	    if(S.find('0') == string::npos)return -1;
+	    for(auto x: S)
 	    {
-	        if(S[i]=='0')c+=1;
-	        else if(S[i]=='1')c-=1;
-	        m=max(m,c);
-	        if(c<0)c=0;   //update curr_sum if case of all 1's
+	        int tmp = (x == '0')? 1: -1;
+	        sum = max(tmp, sum + tmp);
+	        ans = max(ans, sum);
 	    }
-	    return m==0?-1:m;   //if all 1's -1 else return ans
+	    return ans;
 	}
+};
