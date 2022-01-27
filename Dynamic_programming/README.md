@@ -67,6 +67,15 @@
     frst check base case of size 1
     Next is similar to edit dist/gold_mine application (choosing min among 3 ways)
     update size each time 
+    
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/27.%20Handshake.cpp">**Hand Shake Problem**</a></b>
+   starting from 1 to N, we can select (2 <= K <= N)
+   Among these Select (2 <= k)  (k<= N)
+   Anyone from part 1 can't give handshake to Part 2
+   
+    i runs from 2 to N
+    j runs from 2 to i
+                     
   </pre>
   
 # NOTE
