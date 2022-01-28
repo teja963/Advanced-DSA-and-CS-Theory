@@ -2,7 +2,14 @@
   <pre>
   **Socket**: Unique combination of IP address and port 
   **DNS**: It is basically a server translates (domain to ip)
-  **Router**: Connects 2 or more ip networks or subnetworks
+  **Router**: Connects 2 or more ip networks or subnetworks (It is gateway)
+              Consists of
+              1. Network
+              2. Data link
+              3. physical
+  **Switch**: Consists of 
+              1. Data link
+              2. Physical
   **Hub**: Connectin multiple ethernets together
   **Bridge**: Interconnect two LAN's
   **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
@@ -127,7 +134,7 @@
 	             
 	             Client---->User_Agent------>queue----->MTA--
 	                                                        |
-	                                                        |TCP/IP Connection
+	                                                        |TCP Connection
 	                                                        |
 	                                                        |
 	             Recevier<----User_Agent<------queue<-----MTA-- 
@@ -212,6 +219,7 @@ is established)
                      ReTransmission can occur in one of 2 cases
                      (i) When the RTO Timer Times Out
                     (ii) When 3 duplicate ACK's are received
+                    
                    **Leaky Bucket Algorithm**:
                     Formula: 
                      M*s = C + p*s
@@ -233,9 +241,9 @@ is established)
        PDU                       UNITS
     1. Application               Messages
     2. Transport                 Segment
-    3. Network                   Packets
-    4. Physical                  Bits
-    5. Data Link layer           Frames
+    3. Network                   Packets(Datagram)
+    4. Data Link layer           Frames
+    5. Physical                  Bits
     
     **Protocol Graph**:
     
