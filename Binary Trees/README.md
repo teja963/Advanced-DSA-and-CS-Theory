@@ -6,7 +6,7 @@
         1+ max ( f(left), f(right) );                 leaf node : return 1;
                                                       1+ min ( f(left), f(right) ); 
                                                       
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/16.%20BT%20Tilt.cpp">BT Tilt</a></b>                                                               <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/40.%20Sum%20Tree.cpp">Sum Tree</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/16.%20BT%20Tilt.cpp">BT Tilt</a></b>                                                                         <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/40.%20Sum%20Tree.cpp">Sum Tree</a></b>
   Tilt: absolute diff of sum of all left tree nodes and                             function: sum(){ }
         right tree nodes                                                            recursively check for all nodes 
         ans+= abs(left -right)
