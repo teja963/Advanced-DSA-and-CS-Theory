@@ -98,7 +98,12 @@
 # Recursive
   <pre>
    Inorder, Preorder, Postorder for iterative approach use stack instead of queue
-
-
-
   </pre> 
+  
+# Theory
+  <pre>
+  <b>Types of Binary Tree</b>
+  <b>1. Strict BT :-</b> each node has exactly (2 or 0)children
+  <b>2. Full BT :-</b>each node has 2 children and all leaf nodes are at same level
+  <b>3. Complete BT :-</b>All leaf nodes are at ht (h or h-1) and also without any missing number in sequence.
+  </pre>
