@@ -9,3 +9,19 @@ public:
          }
         return m;
     }
+    
+
+//Max difference between increasing element    
+class Solution {
+public:
+    int maximumDifference(vector<int>& nums) {
+        int ans = -1, m = INT_MAX;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            if(nums[i] < m)m = nums[i];
+            else if(nums[i] - m > ans)ans = nums[i] - m;  //for equal elements in decrasing order we get 0, for that case
+        }
+        return ans == 0? -1: ans;
+        
+    }
+};
