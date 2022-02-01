@@ -17,7 +17,10 @@
    If we are counting pairs we need to take care of 
    1. Do we need to count duplicate or distnict, if duplicates
    2. basic and main condition is arr[i] == sum - arr[i]
-   
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/11.%20Best%20time%20to%20buy%20sell%20stock.cpp">Best Time to buy and sell stock</a></b>   and  <b><a href="#" >Maximum difference between increasing element</a></b>
+  1. Update min each time                                
+  2. Calculate max diff of elements                      In this case max diff = 0(if decreasing order 9 8 7 7 6), so return -1
+  
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>
      Initializing variable valley-peak approach
 	   
