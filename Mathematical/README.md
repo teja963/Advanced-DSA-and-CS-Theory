@@ -110,6 +110,9 @@
   </pre>     
 # XOR CONCEPTS
   <pre>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/35.%20Missing%20Number.cpp">Missing number</a></b>
+   We can use sum of n number concept /
+   We can use xor concepts by [0,1,2,3,4] ^ [0,1,2,4]
   a ^ b = c
   b ^ c = a
   c ^ a = b
