@@ -69,4 +69,5 @@
   find(ans.begin(),ans.end(),v)!=ans.end()
   
   accumulate(a,a+n,sum) //find sum of all elements within range, we can modify it
+  stable_sort(a, a+n) //Inbuilt fun is there
   </pre>
