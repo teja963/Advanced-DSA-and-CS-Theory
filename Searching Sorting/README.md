@@ -45,7 +45,8 @@
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
    Usage of regular expression for removing leading zeros
    <pre>
-   const regex pattern( "^0 + (?!$) " );  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
+   const regex pattern("^0+(?!$)");  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
+                                        Don't give spaces for expression
    ans= regex_replace(ans, pattern ,"");
    
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>

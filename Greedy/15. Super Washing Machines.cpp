@@ -7,7 +7,8 @@ public:
         int avg = sum / machines.size(), ans = 0, prefix = 0;
         for(auto x: machines)
         {
-            ans = max({ans, abs(prefix), x - avg});
+            sum = max( x - avg, abs(prefix));
+            ans = max(ans, sum);
             prefix += x-avg;
         }
         return ans;
