@@ -51,7 +51,11 @@
     
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/13.%20Maximum%20Length%20Chain.cpp">Max Length Chain</a></b>
     Sort by increasing order by second one [first, second]
-   </pre> 
+  
+  <b><a href="https://leetcode.com/problems/super-washing-machines/">Super washing machines Question</a></b> :-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/15.%20Super%20Washing%20Machines.cpp"> Answer</a></b>
+   Kadane's prefix algorithm model
+  </pre> 
+   
    
 # NOTE:
   <pre>                                                                  j      i
