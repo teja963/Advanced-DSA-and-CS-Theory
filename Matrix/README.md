@@ -31,5 +31,9 @@
         1 2 2 3 3 4 6 6 9
         for i=1 to m: count+=min(mid/i,n)
       
-   </pre>    
+   <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/11.%20Find%20Rectangle%20with%20corner%20as%201.cpp">Rectangle with corner as 1</a></b>
+   Choose two rows with brute force method and traverse column
+   now check their corresponding matrix[row1][column] and matrxi[row2][column] is 1
+    
+   </pre> 
       
