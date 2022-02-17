@@ -38,6 +38,14 @@
     Same concept application of anagrams
     If s1's pemutation is present in s2, if permutations equal means sort(s1) == sort(s2)
     In Simple way without sorting use map m1 == m2, then permutation of s1 is present in s2
+    
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/32.%20Group%20Special%20Equivalent%20string.cpp">Group Special equivalent string</a></b>
+   2 strings are special equivalent such that s1 == s2,
+   s1: abcd     s2: adcb
+   we can make any no.of swaps of even or odd characters to check its equal means,
+   odd characters and even charcters are same so, convert every string to 
+   s: sort (odd_characters) + sort ( even_characters)
+   
   </pre>
 # Note
   <pre>
