@@ -1,5 +1,10 @@
 # Tricky Approaches:
   <pre>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/36.%20Rearrange%20geeks%20and%20his%20classmates.cpp">Rearrange nums in O(N) and space O(1)</a></b>
+  	a[i] = a[a[i]];
+  	just modify a[i] = n * (a[a[i]] % n) + a[i] % n
+  	so while traversing a[i] = a[i] / n
+  	
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/14.%20Check%20binary%20is%20multiple%20of%203.cpp">Check given binary number is multipe of 3 or not</a></b>
         ans: Count odd 1's and even 1's diff between odd 1's and even 1's is multiple of 3
         
@@ -107,7 +112,7 @@
    
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/28.Last%20digit%20of%20a%20pow%20b.cpp">Last digit of a^b (for large values)</a></b>
     find last 2 digits of b%4(and use map) 
-  </pre>     
+  </pre> 
 # XOR CONCEPTS
   <pre>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/35.%20Missing%20Number.cpp">Missing number</a></b>
