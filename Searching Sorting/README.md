@@ -44,25 +44,24 @@
          
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
    Usage of regular expression for removing leading zeros
-   <pre>
+   <b>
    const regex pattern("^0+(?!$)");  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
                                         Don't give spaces for expression
    ans= regex_replace(ans, pattern ,"");
-   </pre>
+   </b>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
     
         ------------------------------
                  a        b                   find no.of triplets less than b and a-1
        ----------         |
       ---------------------
-  **<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/27.%20Smallest%20Absolute%20difference.cpp">Smallest absolute difference</a></b>**
+**<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/27.%20Smallest%20Absolute%20difference.cpp">Smallest absolute difference</a></b>**
   	After sorting low = min_absolute diff, high = max_absolute diff in O(N)
   	while low < high:					<b>When array is in sorted order we can find the no. of absolute diff
   	  	if count_pairs(mid) < k:			abs(a[j] - a[i]) <= mid in O(N log N)
-  	  		low = mid + 1				<pre>
+  	  		low = mid + 1
   	  	else:							for i = 0 to n:
   	  		high = mid						count += upper_bound(a+i, a+n, a[i]+mid) - (a+i+1)
-  	  							</pre>
   	  							</b>	
   	  		
   	  		
