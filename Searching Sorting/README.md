@@ -48,7 +48,7 @@
    const regex pattern("^0+(?!$)");  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
                                         Don't give spaces for expression
    ans= regex_replace(ans, pattern ,"");
-   
+   </pre>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
     
         ------------------------------
