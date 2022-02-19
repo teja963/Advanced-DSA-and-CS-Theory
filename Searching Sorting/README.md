@@ -55,8 +55,18 @@
                  a        b                   find no.of triplets less than b and a-1
        ----------         |
       ---------------------
-   </pre>    
-  </pre>
+  **<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/27.%20Smallest%20Absolute%20difference.cpp">Smallest absolute difference</a></b>**
+  	After sorting low = min_absolute diff, high = max_absolute diff in O(N)
+  	while low < high:					<b>When array is in sorted order we can find the no. of absolute diff
+  	  	if count_pairs(mid) < k:			abs(a[j] - a[i]) <= mid in O(N log N)
+  	  		low = mid + 1				<pre>
+  	  	else:							for i = 0 to n:
+  	  		high = mid						count += upper_bound(a+i, a+n, a[i]+mid) - (a+i+1)
+  	  							</pre>
+  	  							</b>	
+  	  		
+  	  		
+   </pre>
 # STL
   <pre>
   The lower_bound() method in C++ is used to return an iterator pointing to the first element
