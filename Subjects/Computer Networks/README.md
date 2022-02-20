@@ -196,7 +196,14 @@ is established)
                     The timer starts after sending the last Ack for 2nd FIN and closing the connection.
                     
                   **TCP Connection Termination**:
-                    The common way of terminating a TCP connection is using a TCP's headers FIN flag
+                    The common way of terminating a TCP connection is using a TCP's headers FIN flag(1 side termination)
+                    RST Flag used for both sides termination
+                    PSH Flag: 
+                    	Generally Transport layer waits some time for the application layer to send data of max size, to reduce the packets
+                    	numbers, this process can't be implemented in chat systems, so at that time we use PSH Flag. Data is delivered in sequence.
+                    	
+                    URG Flag:
+                    	It is used for sending the details frst compared to other flags, simply priority. Data is delivered out of sequence
                     
                   **WrapAround Concept**: 
                   When sequence numbers(TCP header's contains 2^32 = 4gb) are over, it resue the same seq numbers. seq numbers are created while intiall connection
@@ -220,9 +227,14 @@ is established)
                      (i) When the RTO Timer Times Out
                     (ii) When 3 duplicate ACK's are received
                     
+                    Congestion Control Technqiues:
+                    1. Open loop(prevent congestion before it happens)
+                    2. Closed loop(
                    **Leaky Bucket Algorithm**:
                     Formula: 
                      M*s = C + p*s
+                     
+                     
                      
                      
                          
