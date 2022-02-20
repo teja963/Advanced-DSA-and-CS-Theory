@@ -7,7 +7,12 @@
          fun(m,n):
           if(m==1||n==1)return 1;
           return fun(m-1,n) + fun(m,n-1);    //if there is a obstacle fill 0 instead of this 
-          
+   
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/17.%20Longest%20Common%20Subsequence.cpp">Longest common subsequence</a></b>   Application:<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/28.%20Delete%20operations%20for%202%20string.cpp">Delete operations for 2 string</a></b>
+  	fun(s1,s2,m,n):
+  		if(m == 0 || n == 0)return 0;					After finding length of common subsequene  
+  		if(s1[m] == s2[n])return 1 + fun(s1,s2,m-1,n-1);		s1.size() + s2.size() - 2*dp[ s1.size ][ s2.size ]
+  		return max(fun(s1,s2,m-1,n) , fun(s1,s2,m,n-1));
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/4.%20Perfect%20Squares.cpp">Perfect squares and Min coins</a></b>
        recursion:
           fun(n):
