@@ -113,15 +113,17 @@
 	          Enables the user to access the network resources
 	          Protocols:
 	          1. Telnet : Used for managing files in the internet, Port num is 23
-	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data, 21 for control
+	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data connection, 21 for control connection
 	            2 TCP connections used by FTP in parallel(data, control)
 	            FTP need to keep track of state through the session
+	            Type of band used is Out of Band
 	            
 	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
 	                      It used UDP as a Transport Layer Protocol
 	          4. NFS    : Port num is 2049
-	          5. SMTP   : Port num is 25
+	          5. SMTP   : Port num is 25, It uses Out of Band
 	             
+	             All FTP, HTTP(In Band), SMTP Uses TCP as a underlying protocol
 	             GET ->----------<-
 	             SMTP            POP/IMAP
 	      Out gng mail services  Post Office protocol(used to retrive mails from server)
@@ -341,7 +343,7 @@ is established)
   2. Loop back IP address btw 127.0.0.1 to 127.255.255.255
   3. If the system is used seperate protocols gateway is used
   4. https = http + cryptographic protocols
-     http(state less protocol - server maintains no info abt past clients) - Works at Application Layer (doesn't require certification)
+     http(state less protocol - server doesn't maintains info abt past clients) - Works at Application Layer (doesn't require certification)
      https - Works at Transport Layer(require certificates)
   5. Isochronous - STAR-STOP mode or CHARACTER mode
   6. TCP RESET (RST) - Branching to frequently used subroutines
