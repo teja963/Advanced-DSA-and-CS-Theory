@@ -244,6 +244,15 @@ is established)
 	          Deliver the data from original source to destination source
 	          Services:
 	          Logical Addressing, Routing(finding best route)
+	          
+	          They are 2 types of network transmission techniques
+	          1. Circuit Switch:- Single path is designates for transmission of data(received in order)
+	          2. Packet Switch:- Multiple Paths to reach destination(received out of order)
+	          	Further divided into Virtual circuits and Datagram
+	          	
+	          	IPv4 is a connectionless protocol used for packet-switched networks(eg: ethernet)
+	          	
+	          	
 	     **2. Data Link**
 	          Moving data/frames from 1 node to another node
 	     **1. Physical**
@@ -390,10 +399,12 @@ is established)
   **CLASSFULL**:
 	 starting with 0	      In class A :  32 bits(choosing 1) - remaining (2^31 IP address possible)
 	 
-			 8NID             |      24HID
-			0_ _ _ _ _ _ _ _ 
-			  
-			  Remaining 7(8-1) bits(128) in that
+			  	7NID             |      24HID
+	frst bit is fixed 0 _ _ _ _ _ _ _ 
+			
+				2^7 - 2(NID) 		2^24 - 2(HID)  
+			 
+			 Remaining 7(8-1) bits(128) in that
 			 0 0 0 0 0 0 0 __  are not possible(bcz it is network ip address)
 			 1 1 1 1 1 1 1 __ not possible bcz it is Limited board cast address 
 			 so 128-2 = 126
@@ -404,9 +415,10 @@ is established)
 	 starting with 10	      In class B :  31 bits(choosing 1) - remaining (2^30 IP address possible)
 	 
 	 
-			 16NID             |      16HID
-			1_ 0_ _ _ _ _ _ _ 
+			 	14NID     |      16HID
+	frst 2 bits fixed: 1 0 _ _ _ _ _ _ 
 					  
+			   
 			   1 0 0 0 0 0 0 0 - 128
 			   .
 			   .                               128 + 63 = 191 
@@ -429,16 +441,14 @@ is established)
 	               
 	 
 	 starting with 1110	      In class D :  29 bits(choosing 1) - remaining (2^28 IP address possible)
-	              It doesn't have NID and HID(so no Board cast is possible)
+	              It doesn't have NID and HID(so no Board cast is possible)Multicast address
+	              It doesn't have any subnet mask
 	              Range: [224,239]
-	              eg: Multicasting
+	              It is reserver for Military purposes
 	              
 	 starting with 1111	      In class E :  29 bits(choosing 1) - remaining (2^28 IP address possible)
                       It is reserved for future use  
   
-                      Reserved
-                      eg: Military
-                      
   </pre>
 # cls 2:
    <pre>
@@ -486,4 +496,10 @@ is established)
    
    
 # GATE OVERVIEW CONCEPTS:
+	1. Number of subnets : Given bits for mask – No. of bits in default mask
+	2. Subnet address : AND result of subnet mask and the given IP address
+	3. Broadcast address : By putting the host bits as 1 and retaining the network bits as in the IP address
+	4. Number of hosts per subnet : 2^(32 – Given bits for mask) – 2
+	5. First Host ID : Subnet address + 1 (adding one to the binary representation of the subnet address)
+	6. Last Host ID : Subnet address + Number of Hosts
   
