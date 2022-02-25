@@ -44,4 +44,7 @@
 
          1. count the no.of open and close
          2. if count(open)>0 and s[i]=='}'  open --  (it means balanced for that open)          
-    </pre>
+  </pre>
+    
+# NOTE:
+  We can use for balancing checking (eg: ( ), a b b a....)Applications
