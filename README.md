@@ -3,6 +3,6 @@
     Conceptual Usage of Algorithms and their applications view
     
 # Checking
-  while arthemetic operators check abt constraints
-  if numbers check +ve, -ve, 0
-    
+    while arthemetic operators check abt constraints
+    if numbers check +ve, -ve, 0 and size_limit
+	    
