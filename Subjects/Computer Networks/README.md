@@ -476,8 +476,13 @@ is established)
     
     
     
-    In a network if subnet size is different then it is called Variable Length Subnet Masking(VLSM)
+   In a network if subnet size is different then it is called Variable Length Subnet Masking(VLSM)
      Given a subnet mask, no.of zeros represent the size of network 
+     
+   There are some points which should be kept in mind while supernetting: 
+	All the Networks should be contiguous. 
+	The block size of every network should be equal and must be in form of 2^n. 
+	First Network id should be exactly divisible by whole size of supernet.(When a binary number is divisible by 2^n , then last n bits are equal to 0) 
    </pre> 
 
 # cls 4:(Practice of subnets)
@@ -502,4 +507,10 @@ is established)
 	4. Number of hosts per subnet : 2^(32 – Given bits for mask) – 2
 	5. First Host ID : Subnet address + 1 (adding one to the binary representation of the subnet address)
 	6. Last Host ID : Subnet address + Number of Hosts
-  
+	7. How to calculate IP address subent info ?
+		NID: floor(Host address / Subnet no.of hosts) * Subnet no.of hosts
+		BID: (Host ID + Subnet number of Hosts - 1)
+		First Host: NID + 1
+		Last Host: BID - 1
+  		Tip: Based on Network prefix subnet no.of hosts depends
+  		eg: 192.168.1.65/28   - 2 ^ (32-28) = subnet no.of hosts
