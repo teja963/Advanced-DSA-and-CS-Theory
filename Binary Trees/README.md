@@ -42,7 +42,12 @@
                 
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/18.%20Flatten%20BT%20to%20LL.cpp">Flatten BT</a></b>
    
-                                     
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/54.%20Maximum%20width%20of%20Binary%20Tree.cpp">Maximum widht of BT</a></b>
+   Use parent, left_child, right_child index concept add index parameter in the queue
+   i - parent
+   2 * i + 1 - left_child
+   2 * i + 2 - right_child
+   
   </pre>
   
 # BST
