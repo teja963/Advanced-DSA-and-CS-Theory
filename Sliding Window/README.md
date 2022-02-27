@@ -27,4 +27,11 @@
     
         while start<= end  and sum>x:  //sum-=arr[start++]
         count+= (end-start+1)
+        
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Sliding%20Window/8.%20Smallest%20window%20containing%20012.cpp">Smallest window containing 012</a></b>
+    we can find 012, 021, 102, 120, 201, 210, They haven't mention anything abt sequence
+    so make index of two pointer for last and first element
+index: 0 1 2 3 4 5 6 7 8 9 10                ans = min(ans, last_element - first_element + 1)
+input1:0 1 2 1 2        first_element = 0 , last_elment = 2   
+input2:0 1 1 2 0        first_element = 4, last_element = 2
              
