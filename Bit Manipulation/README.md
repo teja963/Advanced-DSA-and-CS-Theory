@@ -87,6 +87,13 @@
      
        Use bitmap for checking common charcters for 
        and check (bitmap[i] & bitmap[j] == 0) ,if common characters present it won't be zero
+       
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Bit%20Manipulation/14.%20Counting%20Bits.cpp">Couting bits</a></b>
+   	we need to find no.of bits in O(1)
+   	1. make use of previously calculated thing ans[i] = ans[i / 2]
+   	2. Even and odd status helps us update, finally ans[i] = ans[i / 2] + i % 2
+   	
+   
    </pre>
   
     
