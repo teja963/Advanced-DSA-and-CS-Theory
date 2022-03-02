@@ -24,6 +24,15 @@
           b be bea                       to its right it repeat in (n-i) times  
           e ea
           a
+          
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/34.%20Exactly%20one%20swap.cpp">Exactly one swap</a></b>
+     i
+   g e e k                if we take g (egek, eegk ,keeg)
+                          similiarly if we take frst e(geek, gkee)
+   for ith character we know (n - i -1)swaps are possible among those we need to reduce duplicate cases
+   so if we swap e with e, then it can't be distnict string so use map to update frequencies 
+   m[s[i]]--;   //it will remove duplicate characters swaping
+   ans += (n - i - 1 - m[s[i]])
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/25.%20Next%20Highest%20Palindrome.cpp">Next Highest Palindrome in O(N Log N)</a></b>
       i/p: 3 5 4 5 3
       o/p: 5 3 4 3 5
@@ -45,6 +54,7 @@
    we can make any no.of swaps of even or odd characters to check its equal means,
    odd characters and even charcters are same so, convert every string to 
    s: sort (odd_characters) + sort ( even_characters)
+   
    
   </pre>
 # Note
