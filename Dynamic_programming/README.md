@@ -81,6 +81,14 @@
    
     i runs from 2 to N
     j runs from 2 to i
+    
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/29.%20Champagne%20Tower.cpp">Champagne Tower</a></b>
+   if each champagne glass if full dp[i][j] = 1
+   after filling one layer next down layer filled only excess water in top
+   so <b>it will divide (dp[i][j] - 1) / 2 </b> equally  left and right
+   dp[i + 1][j] += left_half
+   dp[i + 1][j + 1] += right_half
+   dp[i][j] = 1; 
                      
   </pre>
   
