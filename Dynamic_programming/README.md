@@ -65,7 +65,9 @@
         {
           dp[i] = max ( dp[i], dp[j] + 1)
         }
-        
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/10.%20House%20robber.cpp">House robber</a></b>        <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/10_1.%20%20House%20robber%202.cpp">House robber 2</a></b>   Application:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/30.%20Delete%20and%20Earn.cpp">Delete and Earn</a></b> 
+    Not choosing adjust house or elements and getting max value
+    dp[i] = max( dp[i-1] , dp[i-2] + nums[i]);
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/23.%20Decode%20Ways.cpp">Decode ways</a></b>
     Need to Update it 
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/26.%20Largest%20Square%20formed%20in%20Matrix.cpp">Largest Square formed in matrix</a></b>
