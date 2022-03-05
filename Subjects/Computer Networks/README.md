@@ -1,22 +1,23 @@
 # Geeks for Geeks
   <pre>
-  **Socket**: Unique combination of IP address and port 
-  **DNS**: It is basically a server translates (domain to ip)
-  **Router**: Connects 2 or more ip networks or subnetworks (It is gateway)
+  <b>Socket</b>: Unique combination of IP address and port 
+  <b>DNS</b>: It is basically a server translates (domain to ip)
+  <b>Router</b>: Connects 2 or more ip networks or subnetworks (It is gateway)
               Consists of
               1. Network
               2. Data link
               3. physical
-  **Switch**: Consists of 
+  <b>Switch</b>: Consists of 
               1. Data link
               2. Physical
-  **Hub**: Connectin multiple ethernets together
-  **Bridge**: Interconnect two LAN's
-  **ARP PROTOCOL**: Convert ip addr to Mac addr, Used by Datalink layer
-  **URL and URI**: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
+  <b>Hub</b>: Connectin multiple ethernets together
+  <b>Bridge</b>: Interconnect two LAN's
+  <b>ARP PROTOCOL</b>: Convert ip addr to Mac addr, Used by Datalink layer
+  <b>URL and URI</b>: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
   </pre>
   <pre>
   **What happens when we type/search on browser ?**
+      Works on http protocol
       
        Client(url)                                   Server side
           |                                            |
@@ -299,7 +300,8 @@ is established)
   So for 1 TCP connection = 1 RTT(Round Trip Time)
   1 RTT for req and 1 RTT for response
   
-  Non-Persistent connection:                       Persistent connection:(Modern browsers use this connection)
+  Non-Persistent connection:(1:1)                  Persistent connection:(m: 1)
+  Single object is sent over TCP connection        multiple objects can be sent over single TCP connection
   1. without parallel                              1. pipelined
   2. with parallel                                 2. Non-pipelined
   </pre>
