@@ -177,7 +177,7 @@ is established)
                    
                  **TCP Implementation uses 4 timers:**
                  1. ReTransmission Timer:
-                    To retransmit lost segments, TCP uses (RTO)- Round-Trip time
+                    To retransmit lost segments, TCP uses (RTO)- Round-Trip Time
                  **RTT 3 types**
                  (i)Measured RTT(RTTm): Time req for the segement to reach the destination and be acknowledged
                  (ii)Smoothed RTT(RTTs): It is weighted avg of RTT
@@ -298,12 +298,20 @@ is established)
   **RTT**: Time travel to small packets from client to server back(= 2 * propagation delay)
   For connection it is sure that it initialize TCP connection
   So for 1 TCP connection = 1 RTT(Round Trip Time)
-  1 RTT for req and 1 RTT for response
+  HTTP request message: 1 RTT for req and 1 RTT for response
+  So non-persistent HTTP response time = 2 * RTT + file transmission time
   
   Non-Persistent connection:(1:1)                  Persistent connection:(m: 1)
   Single object is sent over TCP connection        multiple objects can be sent over single TCP connection
   1. without parallel                              1. pipelined
   2. with parallel                                 2. Non-pipelined
+  
+  HTTP response status codes:
+  200 ok - request successed
+  301    - Moved permanently
+  400    - Bad request
+  404    - Not found
+  505    - HTTP Version not supported
   </pre>
 # Types of Network Topology (Layout)
   <pre>
@@ -355,6 +363,7 @@ is established)
   3. If the system is used seperate protocols gateway is used
   4. https = http + cryptographic protocols
      http(state less protocol - server doesn't maintains info abt past clients) - Works at Application Layer (doesn't require certification)
+     By using cookies we can make http(stateless to) stateform
      https - Works at Transport Layer(require certificates)
   5. Isochronous - STAR-STOP mode or CHARACTER mode
   6. TCP RESET (RST) - Branching to frequently used subroutines
@@ -362,6 +371,10 @@ is established)
   8. Packets of the same session may be routed through diff paths is both TCP and UDP
      With the help of TCP window -> Flow control
      With the help of congestion windows -> Congestion control
+  9. Uploading from input
+     POST method:
+     URL method:
+     	uses GET method(limitations of size 256,)
   </pre> 
 # cls 1:
   <pre>
@@ -499,7 +512,6 @@ is established)
    1111 1110 - 254
    1111 1111 - 255
    </pre>
-   
    
    
 # GATE OVERVIEW CONCEPTS:
