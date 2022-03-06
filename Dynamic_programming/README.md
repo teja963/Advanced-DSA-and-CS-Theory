@@ -94,7 +94,15 @@
    dp[i + 1][j] += left_half
    dp[i + 1][j + 1] += right_half
    dp[i][j] = 1; 
-                     
+  
+  <b><a href="https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/">Question</a></b>          <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/31.%20Count%20all%20pick%20ups%20and%20delivery%20options.cpp">Count all pickups and delivery options</a></b>                 
+   p1   p2   p3   p4    
+   _    _    _    _     _     _     _     _ 
+   di possible after pi
+   so for d1 we have 2*n - 1 possiblilities
+   so for d2 we have p1 d1 p2 fixed so we have 2*n - 3 possibilities ...........
+   for p1 to pn we have n!ways
+   so n! * (1 * 3* 5 * ...2n-1)
   </pre>
   
 # NOTE
