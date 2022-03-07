@@ -34,17 +34,20 @@
    </pre> 
 # Transmission mode in Computer Networks
   <pre>
+  <p>
     (i) Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
    (ii) Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
   (iii) Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
+  </p>
   </pre>
 # Unicast, Multicast, Boardcast  
   <pre>
+  <p>
    (i) Unicast(1 - 1)
   (ii) Multicast(1 - set of receivers)
  (iii) Broadcast(1 - all the participants in the network)
  
-	**If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?**
+	<b>If Direct Broadcast Address of subnet is 201.15.16.31. Which of the following will be subnet mask ?</b>
 	(A) 255.255.255.240
 	(B) 255.255.255.192
 	(C) 255.255.255.198
@@ -53,7 +56,7 @@
 	Answer: (D)
 	Explanation: Last octet of given DBA is 0001 1111. So, in Subnet mask address all should be 1’s except last 5 digits, i.e., 255.255.255.224.
 
-	**If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?**
+	<b>If subnet mask 255.255.255.224, which of the following will be Direct Broadcast address ?</b>
 	(A) 202.15.19.127
 	(B) 202.15.19.63
 	(C) Both a and b
@@ -64,9 +67,11 @@
 	In DBA all host bits are 1.
 	from option 202.15.19.011 11111 , this can be a DBA.
 	202.15.19.001 11111 ,this can also be a DBA.
+  </p>
   </pre>
 # Classifications of Computer Networks
   <pre>
+  <p>
   Most widely used models are Open Systems Interconnection and Department of Defense(TCP/IP)
   1. Local Area Network(LAN)
      LAN - Devices
@@ -81,8 +86,8 @@
   
   <b>A host can acts as a Client when he is requesting information.</b>
   <b>A host can acts as a Server when he provides information.</b>
-  <b>A host can also request and provide information(No need of server), which is called Peer.  Not scalable and No centralization
-    if 1 peer makes a req, it is possible that multiple peers have copy of that req obj. Now prob is how to get the ip address of all. So It is decided y Architecture of P2P</b>
+  <b>A host can also request and provide information(No need of server), which is called Peer.  Not scalable and No centralization</b>
+    if 1 peer makes a req, it is possible that multiple peers have copy of that req obj. Now prob is how to get the ip address of all. So It is decided y Architecture of P2P
   
   <b>THREE SUCH ARCHITECTURES PRESENT</b>:
   <b><i> 1. Centralized Directory</i></b>
@@ -104,10 +109,11 @@
        It like divide and conquer 
        Many Peer connect to super Node
        All super nodes connect to each other
-    
+    </p>
   </pre>
 # Layering in Networks
   <pre>
+  <p>
   1. OSI Reference Model
      Open System Interconnection - Vertical approach
      The purpose of the model is how to faciliate communication between systems(like windows to linux or any)
@@ -182,7 +188,7 @@ is established)      | \       |
                    for 1st packet we have TCP layer
                    for 2nd packet(ack) we have both TCP and APPLICATION LAYER
                    
-                 <b>TCP Implementation uses 4 timers:</>b
+                 <b>TCP Implementation uses 4 timers:</b>
                  1. ReTransmission Timer:
                     To retransmit lost segments, TCP uses (RTO)- Round-Trip Time(RTT)
                     
@@ -260,7 +266,7 @@ is established)      | \       |
 	          2. Packet Switch:- Multiple Paths to reach destination(received out of order)
 	          	
 	          	Further divided into <b>Virtual circuits and Datagram</b>
-	          	<b>IPv4 is a connectionless protocol<b> used for packet-switched networks(eg: ethernet)
+	          	<b>IPv4 is a connectionless protocol</b> used for packet-switched networks(eg: ethernet)
 	          	
 	          Two key network-layer functions
 	          <b>(i) Forwarding</b> - move packets from router's i/p to appropriate router o/p
@@ -271,10 +277,11 @@ is established)      | \       |
 	     
 	     <b>1. Physical</b>
 	          Transmitting bits
-	      
+  </p>	      
   </pre>
 # NOTE:
   <pre>
+  <p>
        PDU                       UNITS
     1. Application               Messages
     2. Transport                 Segment
@@ -308,6 +315,7 @@ is established)      | \       |
      
      
   3. TCP Header - Diagram
+  </p>
   </pre>
 # http Non - Persistent & Persistent Connection
   <pre>
