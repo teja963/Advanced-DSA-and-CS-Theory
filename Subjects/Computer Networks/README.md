@@ -256,7 +256,9 @@ is established)
 	          	
 	          	IPv4 is a connectionless protocol used for packet-switched networks(eg: ethernet)
 	          	
-	          	
+	          Two key network-layer functions
+	          (i) Forwarding - move packets from router's i/p to appropriate router o/p
+	          (ii)Routing - route taken by packet from source to destination
 	     **2. Data Link**
 	          Moving data/frames from 1 node to another node
 	     **1. Physical**
@@ -383,6 +385,7 @@ is established)
      	uses GET method(limitations of size 256,)
  10. Caching mechanism can't be appiled for dynamic sites only for static sites
      Proxy server(acts as both client and server - webcaching reduce response time for client req)
+ 11. Interface - connection between host and physical link    
   </pre> 
 # cls 1:
   <pre>
