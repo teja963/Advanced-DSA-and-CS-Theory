@@ -116,7 +116,7 @@
 	          1. Telnet : Used for managing files in the internet, Port num is 23
 	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data connection, 21 for control connection
 	            2 TCP connections used by FTP in parallel(data, control)
-	            FTP need to keep track of state through the session
+	            FTP need to keep track of state through the session(past clients info)
 	            Type of band used is Out of Band
 	            
 	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
@@ -167,13 +167,15 @@
 	          
 	          **TCP 3-Way Hand shake:**
 	      Client |- -\SYN  | Server
-	             |     \- -|(1. Listen)                SYN: Synchronize seq number
+	             |     \- -|(1. Listen)                SYN: Synchronize seq number(syn + 1 = ack, correction is : ack = syn + payload_length + 1)
 	             |        /|                           ACK: Acknowledge
 	             |SYN + ACK|
 (SYN recevied, After |_/       |
 this step connection |         |
 is established)
                    
+                   for 1st packet we have TCP layer
+                   for 2nd packet(ack) we have both TCP and APPLICATION LAYER
                    
                  **TCP Implementation uses 4 timers:**
                  1. ReTransmission Timer:
@@ -204,6 +206,7 @@ is established)
                     PSH Flag: 
                     	Generally Transport layer waits some time for the application layer to send data of max size, to reduce the packets
                     	numbers, this process can't be implemented in chat systems, so at that time we use PSH Flag. Data is delivered in sequence.
+                    	eg: infinite loop break
                     	
                     URG Flag:
                     	It is used for sending the details frst compared to other flags, simply priority. Data is delivered out of sequence
@@ -292,6 +295,9 @@ is established)
      **2. Transport Layer**
      **3. Internet Layer**(Connection less service)
      **4. Link Layer**
+     
+     
+  3. TCP Header - Diagram
   </pre>
 # http Non - Persistent & Persistent Connection
   <pre>
@@ -363,7 +369,7 @@ is established)
   3. If the system is used seperate protocols gateway is used
   4. https = http + cryptographic protocols
      http(state less protocol - server doesn't maintains info abt past clients) - Works at Application Layer (doesn't require certification)
-     By using cookies we can make http(stateless to) stateform
+     By using cookies(collecting user searching info data in simple terms) we can make http(stateless to) stateform(https)
      https - Works at Transport Layer(require certificates)
   5. Isochronous - STAR-STOP mode or CHARACTER mode
   6. TCP RESET (RST) - Branching to frequently used subroutines
@@ -375,6 +381,8 @@ is established)
      POST method:
      URL method:
      	uses GET method(limitations of size 256,)
+ 10. Caching mechanism can't be appiled for dynamic sites only for static sites
+     Proxy server(acts as both client and server - webcaching reduce response time for client req)
   </pre> 
 # cls 1:
   <pre>
