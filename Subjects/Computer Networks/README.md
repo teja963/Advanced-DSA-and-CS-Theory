@@ -1,5 +1,6 @@
 # Geeks for Geeks
   <pre>
+  <p>
   <b>Socket</b>: Unique combination of IP address and port 
   <b>DNS</b>: It is basically a server translates (domain to ip)
   <b>Router</b>: Connects 2 or more ip networks or subnetworks (It is gateway)
@@ -10,7 +11,7 @@
   <b>Switch</b>: Consists of 
               1. Data link
               2. Physical
-  <b>Hub</b>: Connectin multiple ethernets together
+  <b>Hub</b>: Connection of multiple ethernets together
   <b>Bridge</b>: Interconnect two LAN's
   <b>ARP PROTOCOL</b>: Convert ip addr to Mac addr, Used by Datalink layer
   <b>URL and URI</b>: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
@@ -29,7 +30,7 @@
           |                                            |
          Binary - - - - - - - - - - - - - - - - - - - Router  
                    (Wireless or wired media)
-      
+   </p> 
    </pre> 
 # Transmission mode in Computer Networks
   <pre>
@@ -78,15 +79,17 @@
   3. Wide Area Network(WAN) - telecommunications networks(large area)
      More than 2 MAN'S connected
   
-  **A host can acts as a Client when he is requesting information.**
-  **A host can acts as a Server when he provides information.**
-  **A host can also request and provide information(No need of server), which is called Peer.** Not scalable and No centralization
-    if 1 peer makes a req, it is possible that multiple peers have copy of that req obj. Now prob is how to get the ip address of all. So It is decided y Architecture of P2P
-  **THREE SUCH ARCHITECTURES PRESENT**:
-  1. Centralized Directory
+  <b>A host can acts as a Client when he is requesting information.</b>
+  <b>A host can acts as a Server when he provides information.</b>
+  <b>A host can also request and provide information(No need of server), which is called Peer.  Not scalable and No centralization
+    if 1 peer makes a req, it is possible that multiple peers have copy of that req obj. Now prob is how to get the ip address of all. So It is decided y Architecture of P2P</b>
+  
+  <b>THREE SUCH ARCHITECTURES PRESENT</b>:
+  <b><i> 1. Centralized Directory</i></b>
      1 main server - Contains all details abt requirements and ip address
      Peer - Every peer need to go through server for details
-  2. Query Flooding - It used Distributed systems
+  
+  <b>2. Query Flooding</b> - It used Distributed systems
   
               _ _ _ _ _ _ _ _ _
              |         |       | 
@@ -94,9 +97,10 @@
         |         |        |       |
        Peer1    Peer2    Peer3   Peer4
        
-       Gnutella was the frst decentralized Peer-to-Peer Network
+       <b>Gnutella was the frst decentralized Peer-to-Peer Network</b>
        kaZaA technology is such example that makes use of Napster and Gnutella 
-  3. Exploiting Heterogeneity 
+  
+  <b>3. Exploiting Heterogeneity</b> 
        It like divide and conquer 
        Many Peer connect to super Node
        All super nodes connect to each other
@@ -110,16 +114,16 @@
      It is never fully Implemented
      
      7 layers in OSI Reference model(order is imp)
-	     **7. Application** (It can send any size of data to TCP, no limit)
+	     <b>7. Application</b> (It can send any size of data to TCP, no limit)
 	          Enables the user to access the network resources
 	          Protocols:
-	          1. Telnet : Used for managing files in the internet, Port num is 23
-	          2. FTP    : FTP is not just a protocol but it is also a program, Port num is 20 for data connection, 21 for control connection
+	          <b>1. Telnet</b>: Used for managing files in the internet, Port num is 23
+	          <b>2. FTP</b>   : FTP is not just a protocol but it is also a program, Port num is 20 for data connection, 21 for control connection
 	            2 TCP connections used by FTP in parallel(data, control)
 	            FTP need to keep track of state through the session(past clients info)
 	            Type of band used is Out of Band
 	            
-	          3. TFTP   : If we know exactly and where to find(simplified version of FTP), Port num is 69
+	          <b>3. TFTP</b>   : If we know exactly and where to find(simplified version of FTP), Port num is 69
 	                      It used UDP as a Transport Layer Protocol
 	          4. NFS    : Port num is 2049
 	          5. SMTP   : Port num is 25, It uses Out of Band
@@ -143,50 +147,52 @@
 	             Recevier<----User_Agent<------queue<-----MTA-- 
 	             
 	          6. DNS    : Port num is 53
-	         **Why does DNS use UDP and not TCP ?**
-	         UDP is much faster. TCP is slow and requires 3-way handshake. DNS server don't have to keep connections and these requests r fit into UDP segments.
-	         
+	          
+	         <b>Why does DNS use UDP and not TCP ?</b>
+       	          UDP is much faster. TCP is slow and requires 3-way handshake. DNS server don't have to keep connections and these requests r fit into UDP segments.
 	          DNS Uses Cache to work efficiently, not using nslookup over and over again
 	          DNS Spoofing is like finding flaws in DNS change the ip address redirect to malicious
-	          **PREVENT FROM DNS SPOOFING**: DNS Security Extensions(DNSSEC)add an additional layer to prevent spoofing
+	          <b>PREVENT FROM DNS SPOOFING</b>: DNS Security Extensions(DNSSEC)add an additional layer to prevent spoofing
 
 	         
-	     **6. Presentation**
+	     <b>6. Presentation</b>
 	          Concered with syntax and semantics(mng) info which is exchanged
 	          Services:
 	          Translation, Encryption, Compression
-	     **5. Session**
+	     <b>5. Session</b>
 	          Maintains and synchronizes the interaction
 	          Services:
 	          Dialog Control, Synchronization
-	     **4. Transport**(imp)
+	     <b>4. Transport</b>(imp)
 	          TCP and UDP	
 	          Process to process delivery of entire message
 	          Services:
 	          Port addressing, Segmentation and Reassembly(spliting and combining data), Conntection and End-to-End flow control
 	          
-	          **TCP 3-Way Hand shake:**
+	          <b>TCP 3-Way Hand shake:</b>
 	      Client |- -\SYN  | Server
 	             |     \- -|(1. Listen)                SYN: Synchronize seq number(syn + 1 = ack, correction is : ack = syn + payload_length + 1)
 	             |        /|                           ACK: Acknowledge
-	             |SYN + ACK|
+	             |SYN + ACK|                           payload for initialization step is 0
 (SYN recevied, After |_/       |
-this step connection |         |
-is established)
-                   
+this step connection |-        |
+is established)      | \       |
+                     |   ACK   |
+                           \
                    for 1st packet we have TCP layer
                    for 2nd packet(ack) we have both TCP and APPLICATION LAYER
                    
-                 **TCP Implementation uses 4 timers:**
+                 <b>TCP Implementation uses 4 timers:</>b
                  1. ReTransmission Timer:
-                    To retransmit lost segments, TCP uses (RTO)- Round-Trip Time
-                 **RTT 3 types**
+                    To retransmit lost segments, TCP uses (RTO)- Round-Trip Time(RTT)
+                    
+                 <b>RTT 3 types</b>
                  (i)Measured RTT(RTTm): Time req for the segement to reach the destination and be acknowledged
                  (ii)Smoothed RTT(RTTs): It is weighted avg of RTT
                  	After frst measurement -> RTTs = RTTm
                  	After each measurement -> RTTs = (1-t)*RTTs + t*RTTm
-                 	**Note**: Default value is 1/8(not given)
-                 iii)Deviated RTT(RTTd): Most implementations don't use RTT alone so RTT derivated is also calculated to findout RTO
+                 	<b>Note</b>: Default value is 1/8(not given)
+                 (iii)Deviated RTT(RTTd): Most implementations don't use RTT alone so RTT derivated is also calculated to findout RTO
                        After frst measurement -> RTTd = RTTm/2
                        After each measurement -> RTTd = (1-k)*RTTd + k*(RTTm - RTTs)
                        **Note**: Default value is 1/4(not given)
@@ -200,7 +206,7 @@ is established)
                  4. Time wait Timer:
                     The timer starts after sending the last Ack for 2nd FIN and closing the connection.
                     
-                  **TCP Connection Termination**:
+                  <b>TCP Connection Termination</b>:
                     The common way of terminating a TCP connection is using a TCP's headers FIN flag(1 side termination)
                     RST Flag used for both sides termination
                     PSH Flag: 
@@ -211,20 +217,20 @@ is established)
                     URG Flag:
                     	It is used for sending the details frst compared to other flags, simply priority. Data is delivered out of sequence
                     
-                  **WrapAround Concept**: 
+                  <b>WrapAround Concept</b>: 
                   When sequence numbers(TCP header's contains 2^32 = 4gb) are over, it resue the same seq numbers. seq numbers are created while intiall connection
                   
                   WrapAround Time depends on the seq numbers bandwidth (tot seq nums / Bandwidth)
                   
                   
-                  **User Datagram Protocol**:
+                  <b>User Datagram Protocol</b>:
                    UDP is more efficient in terms of latency(measure of delay) and bandwidth
                    UDP header is 8 bytes fixed and simple header, while for TCP it may vary from 20 to 60 bytes
-                   Unlike TCP, the checksum calculation is not mandatory in UDP. UDP depends on IP and ICMP for reporting.
+                   Unlike TCP, the checksum calculation is not mandatory in UDP. <b>UDP depends on IP and ICMP for reporting.</b>
                    UDP is stateless, connectionless, unreliable, useful for Boardcast and Unidrectional communication		
                    No fields are there in UDP to control flow or Congestion(A state occurs in the network layer when the message traffic is so heavy)
                    
-                   **Congestion policy in TCP**:(Imp)
+                   <b>Congestion policy in TCP</b>:(Imp)
                      1. Slow Start Phase: exponential increment(After every RTT the congestion window size incr exponentailly)
                      2. Congestion Avoidance Phase: additive increment
                      3. Congestion Detection Phase: multiplicative decrement
@@ -236,7 +242,7 @@ is established)
                     Congestion Control Technqiues:
                     1. Open loop(prevent congestion before it happens)
                     2. Closed loop(
-                   **Leaky Bucket Algorithm**:
+                   <b>Leaky Bucket Algorithm</b>:
                     Formula: 
                      M*s = C + p*s
                      
@@ -244,7 +250,7 @@ is established)
                      
                      
                          
-	     **3. Network**
+	     <b>3. Network</b>
 	          Deliver the data from original source to destination source
 	          Services:
 	          Logical Addressing, Routing(finding best route)
@@ -252,16 +258,18 @@ is established)
 	          They are 2 types of network transmission techniques
 	          1. Circuit Switch:- Single path is designates for transmission of data(received in order)
 	          2. Packet Switch:- Multiple Paths to reach destination(received out of order)
-	          	Further divided into Virtual circuits and Datagram
 	          	
-	          	IPv4 is a connectionless protocol used for packet-switched networks(eg: ethernet)
+	          	Further divided into <b>Virtual circuits and Datagram</b>
+	          	<b>IPv4 is a connectionless protocol<b> used for packet-switched networks(eg: ethernet)
 	          	
 	          Two key network-layer functions
-	          (i) Forwarding - move packets from router's i/p to appropriate router o/p
-	          (ii)Routing - route taken by packet from source to destination
-	     **2. Data Link**
+	          <b>(i) Forwarding</b> - move packets from router's i/p to appropriate router o/p
+	          <b>(ii)Routing</b> - route taken by packet from source to destination
+	     
+	     <b>2. Data Link</b>
 	          Moving data/frames from 1 node to another node
-	     **1. Physical**
+	     
+	     <b>1. Physical</b>
 	          Transmitting bits
 	      
   </pre>
@@ -274,7 +282,7 @@ is established)
     4. Data Link layer           Frames
     5. Physical                  Bits
     
-    **Protocol Graph**:
+    <b>Protocol Graph</b>:
     
     FTP,HTTP,SMTP,DNS   DNS,TFTP,NTP,NNP    ->Application
    |_ _ _ _ _ _ _ _ _| |_ _ _ _ _ _ _ _|
