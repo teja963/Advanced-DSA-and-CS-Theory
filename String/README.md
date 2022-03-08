@@ -24,6 +24,8 @@
           b be bea                                 |
           e ea                               left / \ right
           a                                  (i+1)     (n - i) times it repeates in substring
+                                       ending with     starting with
+                                     ith character      ith character substring
           
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/34.%20Exactly%20one%20swap.cpp">Exactly one swap</a></b>
      i
