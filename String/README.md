@@ -18,7 +18,7 @@
    <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/13.%20Next%20permutation.cpp">Next Permuation</a></b>
           <img alt="Gif" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/String/images/31_Next_Permutation.gif">
           
-   <b>Imp:</b> <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/18.%20Vowels%20of%20all%20substrings.cpp">Vowels of all substrings</a></b>                                          Application: <b><a href="https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true">Minion game question</a></b>          <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/18.%20Minion%20Game.py">Solution</a></b>
+   <b>Imp:</b> <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/18.%20Vowels%20of%20all%20substrings.cpp">Vowels of all substrings</a></b>                    Application: <b><a href="https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true">Minion game question</a></b>          <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/18.%20Minion%20Game.py">Solution</a></b>
       eg: abea                           a  b  e  a
           a ab abe abea                        ith is vowel
           b be bea                                 |
