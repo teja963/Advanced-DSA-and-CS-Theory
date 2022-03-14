@@ -43,7 +43,14 @@
          "{{}{{{}{{}}{{"   -1
 
          1. count the no.of open and close
-         2. if count(open)>0 and s[i]=='}'  open --  (it means balanced for that open)          
+         2. if count(open)>0 and s[i]=='}'  open --  (it means balanced for that open)  
+         
+    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Stack/17.%20Simplify%20Path.cpp">Simplify Path</a></b>
+    	Store /content//
+    	push string between /  and / in the stack
+    	if string is "." current direcotry
+    	if string is ".." parent direcotry so pop current
+    	otherwise push in the stack
   </pre>
     
 # NOTE:
