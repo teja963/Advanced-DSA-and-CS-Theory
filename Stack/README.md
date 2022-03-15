@@ -54,4 +54,4 @@
   </pre>
     
 # NOTE:
-  We can use for balancing checking (eg: ( ), a b b a....)Applications
+  We can use stack for balancing checking (eg: ( ), a b b a....)Applications
