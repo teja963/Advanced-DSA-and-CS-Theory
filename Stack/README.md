@@ -40,8 +40,8 @@
     <img alt="Stock Span" width="500" height="300" src="https://github.com/teja963/DSA_All_Models/blob/master/Stack/images/stock.png">
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/16.%20count%20reversals.cpp">Count reversals</a></b>                          Concept Application: <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Stack/18.%20Minimum%20remove%20to%20make%20valid%20parentheses.cpp">Minimum remove to make valid parentheses</a></b>
          "}{{}}{{{"   3                                                                              
-         "{{}{{{}{{}}{{"   -1                                                                                                          Use the open close concept and do
-                                                                                                                                         right balancing  and left balancing iterating 2 times 
+         "{{}{{{}{{}}{{"   -1                                                      Use the open close concept and do
+                                                                                   right balancing  and left balancing iterating 2 times 
 
          1. count the no.of open and close
          2. if count(open)>0 and s[i]=='}'  open --  (it means balanced for that open)  
