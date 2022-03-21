@@ -55,6 +55,12 @@
   <b><a href="https://leetcode.com/problems/super-washing-machines/">Super washing machines Question</a></b> :-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/15.%20Super%20Washing%20Machines.cpp"> Answer</a></b>
    Kadane's prefix algorithm model
   </pre> 
+  
+  <b><a href="https://leetcode.com/problems/partition-labels/">Question</a></b>                  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/17.%20Partition%20labels.cpp">Partition labels</a></b>
+   Find the last element occurance of character
+   and use <b>maxi - prev</b>   , intializing to maxi 0, and prev -1
+   if <b>maxi == i</b>   condition for spliting, the we can update 
+   
    
    
 # NOTE:
