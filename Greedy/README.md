@@ -60,7 +60,7 @@
    and use <b>maxi - prev</b>   , intializing to maxi 0, and prev -1
    if <b>maxi == i</b>   condition for spliting, the we can update 
    
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/18.%20Smallest%20string.cpp">Smallest string</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/18.%20Smallest%20string%20with%20given%20numeric%20value.cpp">Smallest string with given numberic value</a></b>
    First fill with a's and update string from rightend to leftend
    ans[--n] += min(25,k);
    </pre>
