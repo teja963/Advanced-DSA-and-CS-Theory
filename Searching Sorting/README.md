@@ -71,7 +71,7 @@
   in the range [first, last) which has a value not less than val. This means that the function 
   returns the index of the next smallest number just greater than or equal to that number.
   
-  <b>set<int>s</b>it store elements in the sorted order usage for searching elements  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/28.%20Smaller%20on%20left.cpp">Smaller left</a></b>
+  <b>set< int > s</b>it store elements in the sorted order usage for searching elements  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/28.%20Smaller%20on%20left.cpp">Smaller left</a></b>
                                                                 So we will check the lowerbound of that element in log n time 
   pair< vector < int > ::iterator1, vector < int >::iterator2>p;
   p = equal_range(v.begin(), v.end(), x);
