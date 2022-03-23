@@ -60,6 +60,11 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Linked%20list/35.%20Sort%20List.cpp">Sort List</a></b>
   	Merge sort implementation
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Linked%20list/36.%20swap%20kth%20nodes%20from%20ends.cpp">Swap kth nodes from ends</a></b>
+    <b>check min(k, n - k + 1)</b>
+    make prev_node a from frst and prev_node b from end
+    make a connection diagram and implment 
   </pre>
 # Methods
   <pre>
