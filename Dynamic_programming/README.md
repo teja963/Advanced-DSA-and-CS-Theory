@@ -8,7 +8,7 @@
           if(m==1||n==1)return 1;
           return fun(m-1,n) + fun(m,n-1);    //if there is a obstacle fill 0 instead of this 
    
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/17.%20Longest%20Common%20Subsequence.cpp">Longest common subsequence</a></b>   Application:<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/28.%20Delete%20operations%20for%202%20string.cpp">Delete operations for 2 string</a></b>          <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/32.%20Form%20Palindrome.cpp">Form Palindrome</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/17.%20Longest%20Common%20Subsequence.cpp">Longest common subsequence</a></b>                                           Application:<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/28.%20Delete%20operations%20for%202%20string.cpp">Delete operations for 2 string</a></b>          <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/32.%20Form%20Palindrome.cpp">Form Palindrome</a></b>
   	fun(s1,s2,m,n):
   		if(m == 0 || n == 0)return 0;					After finding length of common subsequene                                             first half anf second half are equal rgt
   		if(s1[m] == s2[n])return 1 + fun(s1,s2,m-1,n-1);		s1.size() + s2.size() - 2*dp[ s1.size ][ s2.size ]                                    string = "teja" , ans_string = "tejaajet" 
