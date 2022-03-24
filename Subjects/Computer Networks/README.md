@@ -12,8 +12,8 @@
               1. Data link
               2. Physical
   <b>Hub</b>: Connection of multiple ethernets together
-  <b>Bridge</b>: Interconnect two LAN's
-  <b>ARP PROTOCOL</b>: Convert ip addr to Mac addr, Used by Datalink layer
+  <b>Bridge</b>: Interconnect two LAN's(data link layer device)
+  <b>ARP</b>: Convert ip addr to Mac addr, Used by Datalink layer
   <b>URL and URI</b>: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
   </pre>
   <pre>
@@ -24,7 +24,7 @@
           |                                            |
           |(Browser)                                   |
           |                                            |
-         File (1. GET/HTTP/1.1                       Sent Response(1. HTTP/1.1  200 ok status                       
+         File (1. GET/HTTP/1.1                       Sent Response(1. HTTP/1.1  200 Ok status                       
           |    2. Host www.google.com                  |           2. Content-type HTML
  (Browser)|    3. Some other info)                     |           3. Body of Page)
           |                                            |
@@ -274,10 +274,61 @@ is established)      | \       |
 	     
 	     <b>2. Data Link</b>
 	          Moving data/frames from 1 node to another node
-	     
+	          Ethernet is most widely used LAN technology. It operates in 2 layers of the OSI Model(physical and Data link). In order to handle collision the access control mechnaism used in Ethernet is CSMA/CD
+	          Manchester encoding technique is used in ethernet
+	          
+	          <b>Aloha :-</b>It is a multiple access protocol at this layer, how multiple terminals access the medium without interference or collision.
+	          2 version of aloha
+	          (i)Pure aloha (ii)Slotted aloha
+	     	  
+	     	  Internetworking was designed to resolve the matter of delivering a packet of info through many links
+	     	  There is chiefly 3 units (i)Extranet (ii)Intranet (iii)Internet
+	     	  
+	     	  Frames have headers that contain info such as error-checking codes
+	     	  
+	     	  The main functions of the layer (i)Data link Control (ii)Multiple Access Control
+	     	  1. Datalink layer is responsible for reliable transmission of msg over transmission channel like framing, error control and flow control
+	     	  2. Multiple access control - is like multiple incmng which is unclear
+	     	     (i)Random Access Protocols - all stations has same superiority that is no station has more priority
+	     	     (ii)Controlled Access Protocols - data is sent to the stations which is approved by all other stations
+	     	     (iii)Channelization Protocols - available bandwidth of the link is shared in time, frequency and code to multiple stations to access channel simultanenously
+	     	  
+	     	  Ether channel is a port link aggregation technology in which multiple phy port links are grped into one logical link. A max of 8 links can be aggregated to form a single logical link
+	     	  
+	     	  <b>To form an etherchannel, all ports should have
+	     	  (i)same duplex
+	     	  (ii)same speed
+	     	  (iii)Same VLAN configuration
+	     	  (iv)switch port modes should be the same
+	     	  
+	     	  To form etherchannel there r 2 protocols, port aggregation protocol and link aggregation control protocol
+	     	  
+	     	  When we r sending frames of variable size, the problem is we need to define the end of the frame and begining of the frame
+	     	  To overcome this problem, we r using <b>byte stuffing</b> and <b>bit stuffing</b>
+	     	  
+	     	  point to point is byte-oriented protocol
+	     	  High-Levek Data Link control(HDLC) is a bit oriented protocol
+	     	  
+	     	  <b>Circuit Switching in Computer Network</b>Recording of packet is never possible
+	     	  Telephone system network is one of the example of circuit switching
+	     	  Multiplexing multiple signals into a single carrier
+	     	  (i)Time Division Multiplexing(divide into frames used for long distance communication links also known as <b>digital circuit switched)
+	     	  (ii)Frequency division multiplexing(divide into multiple bands which is independent eg: optical fiber) 
+	     	  
+	     	  Formulas in Circuit Switching:(It is more reliable)
+	     	  <pre>
+	     	  Transmission rate = Link Rate or Bit rate / no. of slots = R/h bps (amount of data sent in sec)
+	          Transmission time = size of file / transmission rate = x / (R/h) = (x*h)/R second
+	          Total time to send packet to destination =Transmission time + circuit setup time 
+	     	  </pre>
+	     	  
+	     	  Modes of packet switching(It is less reliable)
+	     	  (i)Connection-oriented Packet Switching(Virtual Circuit)
+	     	  (ii)Connectionless Packet Switching(Datagram)
+	     	  
 	     <b>1. Physical</b>
 	          Transmitting bits
-  </p>	      
+  </p>
   </pre>
 # NOTE:
   <pre>
@@ -308,10 +359,10 @@ is established)      | \       |
       
   2. TCP/IP Model(It is a hierarchical protocol made up of interactive modules)
      It contains 4 layers - Horizontal approach
-     **1. Application Layer([Presentation  + Session] included**
-     **2. Transport Layer**
-     **3. Internet Layer**(Connection less service)
-     **4. Link Layer**
+     <b>1. Application Layer([Presentation  + Session] included</b>
+     <b>2. Transport Layer</b>
+     <b>3. Internet Layer</b>(Connection less service)
+     <b>4. Link Layer</b>
      
      
   3. TCP Header - Diagram
@@ -319,7 +370,8 @@ is established)      | \       |
   </pre>
 # http Non - Persistent & Persistent Connection
   <pre>
-  **RTT**: Time travel to small packets from client to server back(= 2 * propagation delay)
+  <p>
+  <b>RTT</b>: Time travel to small packets from client to server back(= 2 * propagation delay)
   For connection it is sure that it initialize TCP connection
   So for 1 TCP connection = 1 RTT(Round Trip Time)
   HTTP request message: 1 RTT for req and 1 RTT for response
@@ -336,9 +388,11 @@ is established)      | \       |
   400    - Bad request
   404    - Not found
   505    - HTTP Version not supported
+  </p>
   </pre>
 # Types of Network Topology (Layout)
   <pre>
+  <p>
    1. Bus
        Data is transmitted over common transmission medium
        No security
@@ -377,10 +431,11 @@ is established)      | \       |
        Each Node is directly connected to every other nodes in the network(Issues with broadcasting messages)
    5. Hybrid
        Combinations of 1 or more topologies
-       
+   </p> 
   </pre> 
 # NOTE:
   <pre>
+  <p>
   Parity bits/check bits used for error detection
   1. Tele-communication - Baud rate(speed)
   2. Loop back IP address btw 127.0.0.1 to 127.255.255.255
@@ -402,6 +457,7 @@ is established)      | \       |
  10. Caching mechanism can't be appiled for dynamic sites only for static sites
      Proxy server(acts as both client and server - webcaching reduce response time for client req)
  11. Interface - connection between host and physical link    
+  </p>
   </pre> 
 # cls 1:
   <pre>
@@ -432,13 +488,13 @@ is established)      | \       |
                        2. Host Id(HID))(24 bits = 16M)    --|
            Inorder to reach the process we need port num            
   
-   **NOTE**:
+   <b>NOTE</b>:
       IP address representation in 3 ways:
       1. Decimal(very huge)
       2. Binary
       3. Dotted-Decimal-Representation: 32bits(4 parts- each having 8 bits) 
                
-  **CLASSFULL**:
+  <b>CLASSFULL</b>:
 	 starting with 0	      In class A :  32 bits(choosing 1) - remaining (2^31 IP address possible)
 	 
 			  	7NID             |      24HID
@@ -451,7 +507,6 @@ is established)      | \       |
 			 1 1 1 1 1 1 1 __ not possible bcz it is Limited board cast address 
 			 so 128-2 = 126
 			 Range:- [1,126]
-			 
 			 eg: NASA
 	     
 	 starting with 10	      In class B :  31 bits(choosing 1) - remaining (2^30 IP address possible)
