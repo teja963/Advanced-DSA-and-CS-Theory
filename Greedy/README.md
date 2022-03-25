@@ -63,6 +63,10 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/18.%20Smallest%20string%20with%20given%20numeric%20value.cpp">Smallest string with given numberic value</a></b>
    First fill with a's and update string from rightend to leftend
    ans[--n] += min(25,k);
+   
+  **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/19.%20Two%20City%20Scheduling.cpp">Two city scheduling</a></b>**
+   First to go city A and simultaneously calculate difference of B to A
+   sort difference and choose least n values for shifting from A to B
    </pre>
    
    
