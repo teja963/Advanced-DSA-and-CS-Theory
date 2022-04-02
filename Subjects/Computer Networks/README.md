@@ -233,7 +233,7 @@ is established)      | \       |
                    UDP is more efficient in terms of latency(measure of delay) and bandwidth
                    UDP header is 8 bytes fixed and simple header, while for TCP it may vary from 20 to 60 bytes
                    Unlike TCP, the checksum calculation is not mandatory in UDP. <b>UDP depends on IP and ICMP for reporting.</b>
-                   UDP is stateless, connectionless, unreliable, useful for Boardcast and Unidrectional communication		
+                   UDP is stateless, connectionless, unreliable and message oriented protocol, useful for Boardcast and Unidrectional communication		
                    No fields are there in UDP to control flow or Congestion(A state occurs in the network layer when the message traffic is so heavy)
                    
                    <b>Congestion policy in TCP</b>:(Imp)
@@ -257,7 +257,7 @@ is established)      | \       |
                      
                          
 	     <b>3. Network</b>
-	          Deliver the data from original source to destination source
+	          Deliver the data from original source to destination source(Here it will done fragmentation)
 	          Services:
 	          Logical Addressing, Routing(finding best route)
 	          
@@ -286,8 +286,8 @@ is established)      | \       |
 	     	  
 	     	  Frames have headers that contain info such as error-checking codes
 	     	  
-	     	  The main functions of the layer (i)Data link Control (ii)Multiple Access Control
-	     	  1. Datalink layer is responsible for reliable transmission of msg over transmission channel like framing, error control and flow control
+	     	  The main functions of this layer (i)Logical link Control (ii)Multiple Access Control
+	     	  1. Logicallink layer is responsible for reliable transmission of msg over transmission channel like framing, error control and flow control
 	     	  2. Multiple access control - is like multiple incmng which is unclear
 	     	     (i)Random Access Protocols - all stations has same superiority that is no station has more priority
 	     	     (ii)Controlled Access Protocols - data is sent to the stations which is approved by all other stations
@@ -388,6 +388,13 @@ is established)      | \       |
   400    - Bad request
   404    - Not found
   505    - HTTP Version not supported
+  
+  HTTP Methods and action
+  (i)Head - Requests info about a document but not the document itself
+  (ii)POST - Sends some information from the client ot server
+  (iii)PUT - Sends a document from the server to the client
+  (iv)TRACE - Echoes the incoming request
+  
   </p>
   </pre>
 # Types of Network Topology (Layout)
@@ -456,10 +463,10 @@ is established)      | \       |
      	uses GET method(limitations of size 256,)
  10. Caching mechanism can't be appiled for dynamic sites only for static sites
      Proxy server(acts as both client and server - webcaching reduce response time for client req)
- 11. Interface - connection between host and physical link    
+ 11. Interface - connection between host and physical link 
   </p>
   </pre> 
-# cls 1:
+# cls A:
   <pre>
      _ _ _ _ _ _ _ _ _                                          1. domain req need to reach Destination network
     |                 |                                         2. After this it need to reach host
@@ -547,7 +554,7 @@ is established)      | \       |
                       It is reserved for future use  
   
   </pre>
-# cls 2:
+# cls B:
    <pre>
     Sending packets(consists of [data|source address|destination] address) from 1 host to another is called casting. It is 2 types
      1. Unicast(1-1)         _ _ _ _ Limited
@@ -559,7 +566,7 @@ is established)      | \       |
          2. Directed: sending 1 packet to many hosts in diff network([data|source address|NID.255.255.255])
    </pre>
    
-# cls 3:
+# cls C:
    <pre>
    SubNeting: Dividing a big network into small network(4 steps required to reach process but adv is more
    Subnet Mask: It is a 32bit number
@@ -569,7 +576,7 @@ is established)      | \       |
           Using subnet mask we can find the where IP address network belongs to(SM & IP = NID)
           
           
-        CIDR | subnet masking | wildcard mask | no.of ip address
+        CIDR(Class less Inter domain Routing) | subnet masking | wildcard mask | no.of ip address
     
     
     
@@ -582,7 +589,7 @@ is established)      | \       |
 	First Network id should be exactly divisible by whole size of supernet.(When a binary number is divisible by 2^n , then last n bits are equal to 0) 
    </pre> 
 
-# cls 4:(Practice of subnets)
+# cls D:(Practice of subnets)
    <pre>
    0000 0000 - 0
    1000 0000 - 128
@@ -605,7 +612,7 @@ is established)      | \       |
 	6. Last Host ID : Subnet address + Number of Hosts
 	7. How to calculate IP address subent info ?
 		NID: floor(Host address / Subnet no.of hosts) * Subnet no.of hosts
-		BID: (Host ID + Subnet number of Hosts - 1)
+		BID: (Host ID + Subnet no.of hosts - 1)
 		First Host: NID + 1
 		Last Host: BID - 1
   		Tip: Based on Network prefix subnet no.of hosts depends
