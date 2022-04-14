@@ -1,6 +1,5 @@
 # Geeks for Geeks
   <pre>
-  <p>
   <b>Socket</b>: Unique combination of IP address and port 
   <b>DNS</b>: It is basically a server translates (domain to ip)
   <b>Router</b>: Connects 2 or more ip networks or subnetworks (It is gateway)
@@ -16,8 +15,10 @@
   <b>ARP</b>: Convert ip addr to Mac addr, Used by Datalink layer
   <b>URL and URI</b>: URL is a subset of URI, URL = (protocol + websitename + Top_Level_Domain + path)
   </pre>
+  
+  
+  <b>What happens when we type/search on browser ?</b>
   <pre>
-  **What happens when we type/search on browser ?**
       Works on http protocol
       
        Client(url)                                   Server side
@@ -30,19 +31,16 @@
           |                                            |
          Binary - - - - - - - - - - - - - - - - - - - Router  
                    (Wireless or wired media)
-   </p> 
+                   
    </pre> 
 # Transmission mode in Computer Networks
   <pre>
-  <p>
     (i) Simple :- Communication always unidirectional ( ---> or <---) eg: Keyboard
    (ii) Half Duplex :- Communication is in both directions but not at the same time(<---->)  eg: Walkie-Talkie
   (iii) Full Duplex :- Communication is in both directions simultaneously at same time eg: Telephone line
-  </p>
   </pre>
 # Unicast, Multicast, Boardcast  
   <pre>
-  <p>
    (i) Unicast(1 - 1)
   (ii) Multicast(1 - set of receivers)
  (iii) Broadcast(1 - all the participants in the network)
@@ -67,11 +65,10 @@
 	In DBA all host bits are 1.
 	from option 202.15.19.011 11111 , this can be a DBA.
 	202.15.19.001 11111 ,this can also be a DBA.
-  </p>
+  
   </pre>
 # Classifications of Computer Networks
   <pre>
-  <p>
   Most widely used models are Open Systems Interconnection and Department of Defense(TCP/IP)
   1. Local Area Network(LAN)
      LAN - Devices
@@ -109,7 +106,7 @@
        It like divide and conquer 
        Many Peer connect to super Node
        All super nodes connect to each other
-    </p>
+    
   </pre>
 # Layering in Networks
   <pre>
