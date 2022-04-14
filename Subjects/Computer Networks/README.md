@@ -292,7 +292,7 @@ is established)      | \       |
 	     	  
 	     	  Ether channel is a port link aggregation technology in which multiple phy port links are grped into one logical link. A max of 8 links can be aggregated to form a single logical link
 	     	  
-	     	  <b>To form an etherchannel, all ports should have
+	     	  <b>To form an etherchannel, all ports should have</b>
 	     	  (i)same duplex
 	     	  (ii)same speed
 	     	  (iii)Same VLAN configuration
@@ -306,18 +306,18 @@ is established)      | \       |
 	     	  point to point is byte-oriented protocol
 	     	  High-Levek Data Link control(HDLC) is a bit oriented protocol
 	     	  
-	     	  <b>Circuit Switching in Computer Network</b>Recording of packet is never possible
+	     	  <b>Circuit Switching in Computer Network</b> Recording of packet is never possible
 	     	  Telephone system network is one of the example of circuit switching
 	     	  Multiplexing multiple signals into a single carrier
 	     	  (i)Time Division Multiplexing(divide into frames used for long distance communication links also known as <b>digital circuit switched)
 	     	  (ii)Frequency division multiplexing(divide into multiple bands which is independent eg: optical fiber) 
 	     	  
 	     	  Formulas in Circuit Switching:(It is more reliable)
-	     	  <pre>
+	     	  <b>
 	     	  Transmission rate = Link Rate or Bit rate / no. of slots = R/h bps (amount of data sent in sec)
 	          Transmission time = size of file / transmission rate = x / (R/h) = (x*h)/R second
 	          Total time to send packet to destination =Transmission time + circuit setup time 
-	     	  </pre>
+	     	  </b>
 	     	  
 	     	  Modes of packet switching(It is less reliable)
 	     	  (i)Connection-oriented Packet Switching(Virtual Circuit)
