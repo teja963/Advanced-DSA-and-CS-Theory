@@ -309,7 +309,7 @@ is established)      | \       |
 	     	  <b>Circuit Switching in Computer Network</b> Recording of packet is never possible
 	     	  Telephone system network is one of the example of circuit switching
 	     	  Multiplexing multiple signals into a single carrier
-	     	  (i)Time Division Multiplexing(divide into frames used for long distance communication links also known as <b>digital circuit switched)
+	     	  (i)Time Division Multiplexing(divide into frames used for long distance communication links also known as <b>digital circuit switched)</b>
 	     	  (ii)Frequency division multiplexing(divide into multiple bands which is independent eg: optical fiber) 
 	     	  
 	     	  Formulas in Circuit Switching:(It is more reliable)
