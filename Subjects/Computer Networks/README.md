@@ -278,9 +278,6 @@ is established)      | \       |
 	          2 version of aloha
 	          (i)Pure aloha (ii)Slotted aloha
 	     	  
-	     	  Internetworking was designed to resolve the matter of delivering a packet of info through many links
-	     	  There is chiefly 3 units (i)Extranet (ii)Intranet (iii)Internet
-	     	  
 	     	  Frames have headers that contain info such as error-checking codes
 	     	  
 	     	  The main functions of this layer (i)Logical link Control (ii)Multiple Access Control
@@ -301,7 +298,13 @@ is established)      | \       |
 	     	  To form etherchannel there r 2 protocols, port aggregation protocol and link aggregation control protocol
 	     	  
 	     	  When we r sending frames of variable size, the problem is we need to define the end of the frame and begining of the frame
-	     	  To overcome this problem, we r using <b>byte stuffing</b> and <b>bit stuffing</b>
+	     	  To overcome this problem, we r using
+	     	  <b>(a) Framing             (b)Addressing                (c)Error Control</b>
+	     	   <b>byte stuffing              Ip address + Mac Addr         Error Detection -Parity
+	     	                                                                               - Check Sum
+	     	                                                                               - Cyclic Redundancy check</b> 
+	     	   <b>bit stuffing                                             Error Control</b>
+	     	   
 	     	  
 	     	  point to point is byte-oriented protocol
 	     	  High-Levek Data Link control(HDLC) is a bit oriented protocol
@@ -360,7 +363,7 @@ is established)      | \       |
      <b>2. Transport Layer</b>
      <b>3. Internet Layer</b>(Connection less service)
      <b>4. Link Layer</b>
-     
+     	
      
   3. TCP Header - Diagram
   </p>
