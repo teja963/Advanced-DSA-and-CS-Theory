@@ -302,8 +302,11 @@ is established)      | \       |
 	     	  <b>(a) Framing             (b)Addressing                (c)Error Control</b>
 	     	   <b>byte stuffing              Ip address + Mac Addr         Error Detection -Parity
 	     	                                                                               - Check Sum
-	     	                                                                               - Cyclic Redundancy check</b> 
-	     	   <b>bit stuffing                                             Error Control</b>
+	     	                                                                               - Cyclic Redundancy check</b>
+	     	                                                                               message = binary_number
+	     	                                                                               generator = polynomial
+	     	                                                                               (m + r)mod G(x) = FCS(Frame check sequence) 
+	     	   <b>bit stuffing                                             Error Correction</b>
 	     	   
 	     	  
 	     	  point to point is byte-oriented protocol
