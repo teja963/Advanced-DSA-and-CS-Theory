@@ -284,12 +284,25 @@ is established)      | \       |
 	     	     (ii)Controlled Access Protocols - data is sent to the stations which is approved by all other stations
 	     	     (iii)Channelization Protocols - available bandwidth of the link is shared in time, frequency and code to multiple stations to access channel simultanenously
 	     	     
-	     	                           _ FDMA
-	     	     (i)Fixed Partioning -| 
-	     	                           - TDMA         _ Pure Aloha(18%)
+	     	                                         _ FDMA
+	     	     (i)Deterministic/Fixed Partioning -| 
+	     	                                         - TDMA
+	     	                                          
+	     	                                          _ Pure Aloha(18%)
 	     	                                _ ALOHA -|_ Slotted Aloha(36%)
 	     	     (ii)Dynamic/Random access-|_ 
-	     	                                  CSMA/CD
+	     	                                  CSMA(Carrier Sense Multiple Access)/CD(> Aloha types efficiency)
+	     	                                  1. Sense the channnel
+	     	                                  2. if(idle) - analog process
+	     	                                       transmit (or) transmit untill the probability p
+	     	                                  3. if(!idle)
+	     	                                       (a) wait for random amount of time - Non persistent
+	     	                                       (b) wait untill the channel become idle - 
+	     	                                       (c) wait for the probability (1-p)
+	     	                                       
+	     	                                  
+	     	                                  
+	     	                                  
 	     	     (iii)Reservation
 	     	  
 	     	  Ether channel is a port link aggregation technology in which multiple phy port links are grped into one logical link. A max of 8 links can be aggregated to form a single logical link
