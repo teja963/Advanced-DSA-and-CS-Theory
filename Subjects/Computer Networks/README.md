@@ -273,19 +273,24 @@ is established)      | \       |
 	          Moving data/frames from 1 node to another node
 	          Ethernet is most widely used LAN technology. It operates in 2 layers of the OSI Model(physical and Data link). In order to handle collision the access control mechnaism used in Ethernet is CSMA/CD
 	          Manchester encoding technique is used in ethernet
-	          
-	          <b>Aloha :-</b>It is a multiple access protocol at this layer, how multiple terminals access the medium without interference or collision.
-	          2 version of aloha
-	          (i)Pure aloha (ii)Slotted aloha
+	        
 	     	  
 	     	  Frames have headers that contain info such as error-checking codes
 	     	  
 	     	  The main functions of this layer (i)Logical link Control (ii)Multiple Access Control
-	     	  1. Logicallink layer is responsible for reliable transmission of msg over transmission channel like framing, error control and flow control
+	     	  1. Logicallink layer is responsible for reliable transmission of msg over transmission channel like <b>framing, error control and flow control</b>
 	     	  2. Multiple access control - is like multiple incmng which is unclear
 	     	     (i)Random Access Protocols - all stations has same superiority that is no station has more priority
 	     	     (ii)Controlled Access Protocols - data is sent to the stations which is approved by all other stations
 	     	     (iii)Channelization Protocols - available bandwidth of the link is shared in time, frequency and code to multiple stations to access channel simultanenously
+	     	     
+	     	                           _ FDMA
+	     	     (i)Fixed Partioning -| 
+	     	                           - TDMA         _ Pure Aloha(18%)
+	     	                                _ ALOHA -|_ Slotted Aloha(36%)
+	     	     (ii)Dynamic/Random access-|_ 
+	     	                                  CSMA/CD
+	     	     (iii)Reservation
 	     	  
 	     	  Ether channel is a port link aggregation technology in which multiple phy port links are grped into one logical link. A max of 8 links can be aggregated to form a single logical link
 	     	  
@@ -307,10 +312,21 @@ is established)      | \       |
 	     	                                                                               generator = polynomial
 	     	                                                                               (m + r)mod G(x) = FCS(Frame check sequence) 
 	     	   <b>bit stuffing                                             Error Correction</b>
+	     	      point to point is byte-oriented protocol                  (n)bit code word = m + r
+	     	  High-Levek Data Link control(HDLC) is a bit oriented          code rate m/n
+	     	   protocol                                                     for noisy channel it is 1/2
+	     	                                                                for noiseless channel it is appox 1
+	     	                                                                for 'd bit' error detection we need d + 1
+	     	                                                                           error correction we need 2d + 1
+	     	                                                                <b>m + r + 1 <= 2^r</b>
+	     	                                                                <b>for calculating r value we will use hamming technique</b>
+	     	                                                                leave pow(2) positions and may assume even parity rule for filling 
+	     	                                                                If we getting bursting errors then do <b>Low Density Parity Check</b>
+	     	                                                                In this redundancy will be in suffix first m next r
+	     	                                                                 
 	     	   
 	     	  
-	     	  point to point is byte-oriented protocol
-	     	  High-Levek Data Link control(HDLC) is a bit oriented protocol
+	     	 
 	     	  
 	     	  <b>Circuit Switching in Computer Network</b> Recording of packet is never possible
 	     	  Telephone system network is one of the example of circuit switching
