@@ -291,21 +291,37 @@ is established)      | \       |
 	     	                                          _ Pure Aloha(18%)
 	     	                                _ ALOHA -|_ Slotted Aloha(36%)
 	     	     (ii)Dynamic/Random access-|_ 
-	     	                                  CSMA(Carrier Sense Multiple Access)/CD(> Aloha types efficiency)
-	     	                                  1. Sense the channnel
-	     	                                  2. if(idle) - analog process
-	     	                                       transmit (or) transmit untill the probability p
-	     	                                  3. if(!idle)
-	     	                                       (a) wait for random amount of time - Non persistent
-	     	                                       (b) wait untill the channel become idle - 
-	     	                                       (c) wait for the probability (1-p)
-	     	                                       
-	     	                                  
-	     	                                  
+	     	                                  CSMA(Carrier Sense Multiple Access)/CD(Collision detection: Transmission Time >= 2Propagation Time)-(> Aloha types efficiency)
+			 	                                |  1. Sense the channnel
+			 	                                |  2. if(idle) - analog process
+			 	                                |       transmit (or) transmit untill the probability p
+			 	                                |  3. if(!idle)
+			 	                                |       (a) wait for random amount of time - Non persistent
+			 	                                |       (b) wait untill the channel become idle - 1 - persistent
+			 	                                |       (c) wait for the probability (p - persistent)
+	     	                                    |_ _
+	     	                                    |     MACA(Multiple Access Collision Avoidance)
+	     	                                    |                         _ Data Send Control Frame
+	     	                                    |_ _ MACAW(For Wireless)-|_ RRTS(Request Request To Send)
+	     	                                                                
+	     	                               
+	     	                               BEB(Binary Exponential BackOff)
 	     	                                  
 	     	     (iii)Reservation
 	     	  
-	     	  Ether channel is a port link aggregation technology in which multiple phy port links are grped into one logical link. A max of 8 links can be aggregated to form a single logical link
+	     	  Can we apply CSMA/CD(Half duplex) to wireless LAN?
+	     	  CD:
+	     	  Hidden terminal problem: Unable to locate the collision problem
+	     	  Exposed terminal problem: There is no collision for the transmission
+	     	  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+			 |   Wireless| CSMA/CD | CSMA/CA | MACA  |
+			 |- - - - - -|- - - - -|- - - - -|- - - -|
+			 |    HTP    |    No   |  Yes    | Yes   |
+			 |    ETP    |    No   |  No     | Yes   |
+	         |_ _ _ _ _ _| _ _ _ _ |_ _ _ _ _| _ _ _ |
+	          
+	     	  So Mac protocol : CSMA/CA(Collision avoidance)
+	     	  There are 2 frames Data Frame(actual data), Control frame(RTS(Request To Send), CTS(Conform To Send))
 	     	  
 	     	  <b>To form an etherchannel, all ports should have</b>
 	     	  (i)same duplex
