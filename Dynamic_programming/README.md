@@ -104,6 +104,14 @@
    so for d2 we have p1 d1 p2 fixed so we have 2*n - 3 possibilities ...........
    for p1 to pn we have n!ways
    so n! * (1 * 3* 5 * ...2n-1)
+   
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/33.%20count%20sorted%20vowels%20string.cpp">count sorted vowels string</a></b>
+  make a table for pattern finding if input is range is very small, then curr o/p is dependent on prev o/p
+  
+	  n u o i e a
+	  1 1 1 1 1 1
+	  2 1 2 3 4 5
+	  3 1 3 6 10 15 
   </pre>
   
 # NOTE
