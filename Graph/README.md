@@ -3,6 +3,10 @@
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Graph/1.%20Steps%20by%20Knight.cpp">Steps by Knight</a></b>
   Use bfs approach by making all possiblities frst
   dp intiliaze -1, if we moved to that mark it as 0
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/9.%20Transitive%20closure%20of%20a%20graph.cpp">Transitive closure of a graph</a></b>
+  frst track the all the destinations that particular node reaches(visited array)
+  after that update adjacency list getting visited array
   </pre>
 # NOTE
   <pre>
