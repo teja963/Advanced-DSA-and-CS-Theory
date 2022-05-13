@@ -18,7 +18,7 @@
    1. Do we need to count duplicate or distnict, if duplicates
    2. basic and main condition is arr[i] == sum - arr[i]
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/11.%20Best%20time%20to%20buy%20sell%20stock.cpp">Best Time to buy and sell stock</a></b>   and  <b><a href="#" >Maximum difference between increasing element</a></b>
-  1. Update min each time                                
+  1. Update min each time 
   2. Calculate max diff of elements                      In this case max diff = 0(if decreasing order 9 8 7 7 6), so return -1
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>
@@ -48,6 +48,11 @@
        using count method find n/2 element if odd 
        find n/2- 1 and n/2 if even bcz array sorted
        need to traverse only (n1+n2)/2 elements 
+       
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/64.%20Maximize%20the%20array.cpp">Maximize the array</a></b>
+  	we need to take max elements from both the array
+  	use set for removing duplicated and sorting
+  	and push according to priority
   </pre>
   
 # NOTE
@@ -75,5 +80,5 @@
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/23.%20Chocolate%20distribution.cpp">Chocolate Distribution Problem</a></b>
     <img alt="chocolate" width="650" height="500" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/Chocolate-Distribution-Problem.png">
-   
+  
   </pre>
