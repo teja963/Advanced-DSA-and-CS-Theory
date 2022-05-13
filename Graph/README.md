@@ -10,7 +10,12 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/10.%20Find%20whether%20path%20exist.cpp">Find whether path exist</a></b>
   after finding source or destination, go dfs approach (make sure all edge case implemented like)
-  <b>i < 0 || i >= size || j < 0 || j >= size || grid[i][j] == 0</b> return false; 
+  <b>i < 0 || i >= size || j < 0 || j >= size || grid[i][j] == 0</b> return false;
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/11.%20Detect%20cycle%20in%20a%20directed%20graph.cpp">Detect cycle in a directed graph</a></b>
+  keep track and mark visited, if we visited again then
+  use dfsvisited(imagine recursive calls diagram) for checking whether we meet this node for not
+  for particular traversal and update it
   </pre>
 # NOTE
   <pre>
