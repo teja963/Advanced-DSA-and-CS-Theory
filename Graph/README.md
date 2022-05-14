@@ -17,6 +17,11 @@
   use dfsvisited(imagine recursive calls diagram) for
    checking whether we meet this node for not                                       just need to track of parent node for detecting	
   for particular traversal and update it
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/13.%20Network%20Delay%20time.cpp">Network Delay time</a></b>
+  Dijkstra's algo application
+  Intiallize all the signal to INT_MAX, and start with given node as 0,
+  Use bfs approach and updated all nodes signal
   </pre>
 # NOTE
   <pre>
