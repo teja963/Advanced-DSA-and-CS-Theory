@@ -39,7 +39,7 @@
         for remove f(m-1,n) + 1
         for replace f(m-1,n-1) +1 
         
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/11.%20Gold%20Mine%20Problem.cpp">Gold mine problem</a></b>    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/11_1.%20Broken%20blocks.cpp">Broken blocks</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/11.%20Gold%20Mine%20Problem.cpp">Gold mine problem</a></b>                                                                       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/11_1.%20Broken%20blocks.cpp">Broken blocks</a></b>
        Instead of gng from start to destination                 Same Logic, but if there is wooden blocks consider all -1,
        come from destination to start,                          then we need to make max(down, diag_up, diag_down, 0); - Imp condition
         for avoid overlap cases                      
