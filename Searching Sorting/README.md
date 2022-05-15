@@ -55,7 +55,7 @@
                  a        b                   find no.of triplets less than b and a-1
        ----------         |
       ---------------------
-**<a href="https://practice.geeksforgeeks.org/problems/smallest-absolute-difference4320/1#"> Que</a>             <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/27.%20Smallest%20Absolute%20difference.cpp">Smallest absolute difference</a></b>**
+**<a href="https://practice.geeksforgeeks.org/problems/smallest-absolute-difference4320/1#"> Que</a>**                              **<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/27.%20Smallest%20Absolute%20difference.cpp">Smallest absolute difference</a></b>**
   	After sorting low = min_absolute diff, high = max_absolute diff in O(N)
   	while low < high:					<b>When array is in sorted order we can find the no. of absolute diff
   	  	if count_pairs(mid) < k:			abs(a[j] - a[i]) <= mid in O(N log N)
@@ -64,6 +64,10 @@
   	  		high = mid						count += upper_bound(a+i, a+n, a[i]+mid) - (a+i+1)
   	  							</b>	
   	  			  		
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/29.%20Min%20Swaps%20to%20sort.cpp">Minimum swaps to sort</a></b>
+  make parallel view of input and result
+  find pattern for swapping to which element
    </pre>
 # STL
   <pre>
