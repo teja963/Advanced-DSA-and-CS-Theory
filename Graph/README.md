@@ -32,6 +32,11 @@
   <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
   So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b>
   
+  <b>Bipartite graph</b>: It need to be split into 2 independent sets like 2 coloring
+  so 0 for not colored
+  	1 for blue
+  	-1 for red
+  	check for valid color using dfs
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/8.%20Eulerian%20Path%20in%20Undirected%20path.cpp">Eulerian Path</a></b>
   	  number of vertices with an odd edges is > 2 then no path
   	  if it has even, then we start from any nodes (odd_vertices == 0)
