@@ -29,14 +29,16 @@
   </pre>
 # Theory
   <pre>
+  <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
+  So for implementation use DFS + stack
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/8.%20Eulerian%20Path%20in%20Undirected%20path.cpp">Eulerian Path</a></b>
   	  number of vertices with an odd edges is > 2 then no path
   	  if it has even, then we start from any nodes (odd_vertices == 0)
   	  if it has 2, then we start from any 2 vertices (odd_vertices == 2)
   	  there will be no case where exactly one vertex has odd number of edges
   	  
-  <b>A spanning tree of a connected graph is a subgraph that contains all of that graph’s
-     vertices and is a single tree.</b>
+  A spanning tree of a connected graph is a subgraph that contains all of that graph’s
+     vertices and is a single tree.
   
-  <b>In dfs approach make a visulization of passing and marking nodes for better</b>
+  In dfs approach make a visulization of passing and marking nodes for better
   </pre>
