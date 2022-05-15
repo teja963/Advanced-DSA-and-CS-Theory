@@ -33,7 +33,7 @@
   So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b>
   
   <b>Bipartite graph</b>: It need to be split into 2 independent sets like 2 coloring
-  so 0 for not colored
+  so 0 for not colored    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/16.%20Bipartite%20graph.cpp">Bipartite graph</a></b>
   	1 for blue
   	-1 for red
   	check for valid color using dfs
