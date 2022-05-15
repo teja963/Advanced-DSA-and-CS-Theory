@@ -30,7 +30,8 @@
 # Theory
   <pre>
   <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
-  So for implementation use DFS + stack
+  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b>
+  
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/8.%20Eulerian%20Path%20in%20Undirected%20path.cpp">Eulerian Path</a></b>
   	  number of vertices with an odd edges is > 2 then no path
   	  if it has even, then we start from any nodes (odd_vertices == 0)
