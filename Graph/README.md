@@ -43,8 +43,10 @@
   	  if it has 2, then we start from any 2 vertices (odd_vertices == 2)
   	  there will be no case where exactly one vertex has odd number of edges
   	  
-  A spanning tree of a connected graph is a subgraph that contains all of that graph’s
-     vertices and is a single tree.
+  A Spanning Tree of a connected graph is a subgraph that contains all of that graph’s
+     vertices and is a single tree. with E' = |V| - 1. It can't be disconnected
+   MST is having minimum weight among all ST. A complete undirected graph can have n^(n-2) ST's
+  From completed graph by removing max(e-n+1)edges, we can construct a ST
   
   In dfs approach make a visulization of passing and marking nodes for better
   </pre>
