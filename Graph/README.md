@@ -30,9 +30,9 @@
 # Theory
   <pre>
   <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
-  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> Application: <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>
-                                         We have getting indeg and relationship from the given strings
-                                         and used bfs approach for finfing topological sort
+  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>
+                                         We are getting indeg and relationship from the given strings
+                                         and used bfs approach for finding topological sort
   
   <b>Bipartite graph</b>: It need to be split into 2 independent sets like 2 coloring
   so 0 for not colored    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/16.%20Bipartite%20graph.cpp">Bipartite graph</a></b>
