@@ -86,3 +86,9 @@
   accumulate(a,a+n,sum) //find sum of all elements within range, we can modify it
   stable_sort(a, a+n) //Inbuilt fun is there
   </pre>
+  
+# Efficient Approach
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/tree/master/Searching%20Sorting">Minimum number in sorted array</a></b>
+  use binary search and check mid and high conditions
+  </pre>

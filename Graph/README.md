@@ -43,10 +43,12 @@
   	  if it has 2, then we start from any 2 vertices (odd_vertices == 2)
   	  there will be no case where exactly one vertex has odd number of edges
   	  
-  A Spanning Tree of a connected graph is a subgraph that contains all of that graph’s                                  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/19.%20Minimum%20Spanning%20tree.cpp">Minimum spanning tree</a></b>
-     vertices and is a single tree. with E' = |V| - 1. It can't be disconnected                                    we need to neglect highest weight from the graph so, we visited already that node, 
-   MST is having minimum weight among all ST. A complete undirected graph can have n^(n-2) ST's                    then no need to include it, add all lowest weights by using priority queue(min heap)
-  From completed graph by removing max(e-n+1)edges, we can construct a ST                                          and mark all the nodes that visited
-  
+  A Spanning Tree of a connected graph is a subgraph that contains all of that graph’s                <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/19.%20Minimum%20Spanning%20tree.cpp">Minimum spanning tree</a></b>
+     vertices and is a single tree. with E' = |V| - 1. It can't be disconnected                        we need to neglect highest weight from the graph so, we visited already that node, 
+   MST is having minimum weight among all ST. A complete undirected graph can have n^(n-2) ST's        then no need to include it, add all lowest weights by using priority queue(min heap)
+  From completed graph by removing max(e-n+1)edges, we can construct a ST                              and mark all the nodes that visited
+   
+  <b>Strongly Connected graph</b>If every vertices can reach all other vertices then it is SCC. Every single node is SCC. If we reverse edge direction
+  in Directed graph, the property doesn't change. 
   In dfs approach make a visulization of passing and marking nodes for better
   </pre>
