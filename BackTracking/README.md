@@ -1,5 +1,8 @@
 # BackTracking Overview
   <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/BackTracking/7.%20Permuation%20with%20spaces.cpp">Permuation with spaces</a></b>
+  just create all possibilites with space include or not condition
+  for edge case(last character) push it without space 
   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/BackTracking/3.%20generate%20parenthesis.cpp">Generate parenthesis</a></b>**
   for n we get (2n C n)/(n+1)
   we will make open(n) and close(0) parameter
