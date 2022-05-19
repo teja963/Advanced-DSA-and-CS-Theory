@@ -57,6 +57,10 @@
    odd characters and even charcters are same so, convert every string to 
    s: sort (odd_characters) + sort ( even_characters)
    
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/35.%20Transform%20string.cpp">Transform string</a></b>
+   frst check base conditions which are not possible
+   <b>Best method for both strings has same characters using subtraction irrespective of order</b>
+   Comes from end of string
    
   </pre>
 # Note
