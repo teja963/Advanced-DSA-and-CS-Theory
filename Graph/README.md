@@ -27,7 +27,8 @@
   we use dfs approach for finding frst_time
   after end of graph, such that its visited all nodes then we updated the min_time using backtracking
   for detecting bridges <b>min_time[node] = min(min_time[node], min_time[child])</b>
-  for detecting edges <b>first_time[node] < min_time[child]</b> then push it 
+  for detecting edges <b>first_time[node] < min_time[child]</b> then push it
+   
   </pre>
 # NOTE
   <pre>
