@@ -114,6 +114,11 @@
 	  1 1 1 1 1 1
 	  2 1 2 3 4 5
 	  3 1 3 6 10 15 
+	  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/34.%20Longest%20Increasing%20path%20in%20a%20matrix.cpp">Longest Incrasing Path in a matrix</a></b>
+  we don't know where to start so we traverse all the nodes
+  implement base case and all possibilites
+  dp[i][j] = max({left, right, up, down}) + 1 - for couting this step
   </pre>
   
 # NOTE
