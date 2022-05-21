@@ -34,7 +34,7 @@
 	    2        10   /
 		       \ /
 		        8 
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive subsequence</a></b>: Just map or set to find next element and update leng
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive sequence</a></b>: Just map or set to find next element and update leng
   1 2 3 4 100 150 151 400 without sorting we can do that
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elemenst together</a></b>
@@ -46,7 +46,10 @@
                  if arr2[j] < arr1[i]: s2 += arr2[j++]
                  if both elements are equal then update or shifting from 1 to another  
       <img alt="max sum path" width="500" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/download.png">
-                                             
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/41.%20Max%20value.cpp">Max value</a></b>: (A[i] - i) - (A[j] - j)
+  Treat like max = A[i] - i  Traverse single time find max and min at a time
+  			 min = A[j] - j 
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/54.%20Median%20of%20sorted%20array%20different%20sizes.cpp">Median of 2 sorted Array</a></b>
        using count method find n/2 element if odd 
        find n/2- 1 and n/2 if even bcz array sorted
@@ -60,10 +63,11 @@
  
 # Subarray concept
   <pre>
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/14.%20%20Subarray%20with%20sum%20zero.cpp">Subarray with sum zero</a></b>
-  	basic concept 0 + sum = sum, so adding any value to zero gives that result so need to keep track of previous sums
-  		sum - 0 = sum    for that we need map approach
-  		0 + 0 = 0
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/14.%20%20Subarray%20with%20sum%20zero.cpp">Subarray with sum zero</a></b>  Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/33.%20Subarray%20with%20equal%200s%20and%201s.cpp">Subarray with equal no.of 0's and 1's</a></b>
+  	basic concept 0 + sum = sum - 0 = sum,           Just need to convert 0 to -1 and 
+  	so adding any value to zero gives that result    and apply base concept problem
+  	so need to keep track of previous sums
+    for that we need map approach
   				
   </pre>
 # NOTE
@@ -75,19 +79,12 @@
         a: [ 1 -5  4  9  8 -10 6]
       sum: [ 1 -4  4  13 21 11 17]
       ans: [ 1  1  4  13 21 21 21]
-      
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/15.%20Factorial%20of%20largenum.cpp">Factorial of large number</a></b>
-    maintain the ans in array or string update each time array as well as size
-    0: 1
-    1: 1
-    2: 2
-    3: 6
-    4: 4 2
-    5: 0 2 1
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/22.%20Trapping%20rainwater.cpp">Trapping rain water</a></b>
    <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">   for filling part
      we need to know the left and right end for particular bar in O(1)
      so we need to keep track of 2 arrays
   
+  <b>Tips:</b>
+  When we are searching check possibility for binary search
   </pre>

@@ -15,14 +15,14 @@ class Solution{
         
         // Your code here
        
-       int i,j,k=0,l[n],r[n];
-       l[0]=arr[0];
-       for(i=1;i<n;i++)l[i]=min(l[i-1],arr[i]);
-       r[n-1]=arr[n-1];
-       for(i=n-2;i>=0;i--)r[i]=max(arr[i],r[i+1]);
-       i=0;j=0;
-       while(i<n&&j<n){
-           if(l[i]<=r[j]){k=max(k,j-i); j++;}
+       int i,j,k = 0,l[n],r[n];
+       l[0] = arr[0];
+       for(i = 1; i < n; i++)l[i] = min(l[i-1], arr[i]);
+       r[n-1] = arr[n-1];
+       for(i = n-2; i >= 0; i--)r[i] = max(arr[i], r[i+1]);
+       i = 0; j = 0;
+       while(i < n && j < n){
+           if(l[i] <= r[j]){k = max(k, j-i); j++;}
            else i++;
        }
        return k;

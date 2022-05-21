@@ -24,11 +24,11 @@ class Solution{
                                  int m, int n)
     {
     //Your code goes here
-       sort(arr2,arr2+n);
+       sort(arr2, arr2+n);
        vector<int>v;
-       int i=0,j=0,k=0;
-       for(i=0;i<m;i++){
-           k=binary_search(arr2,0,n-1,arr1[i]);
+       int i = 0,j = 0,k = 0;
+       for(i = 0; i < m; i++){
+           k = binary_search(arr2, 0, n-1, arr1[i]);
            v.push_back(k+1);
        }
        return v;
