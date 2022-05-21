@@ -13,12 +13,12 @@ class Solution{
         //Your code here
         long long int c=0;
         int i,j,s=0;
-        unordered_map<int,int>m;
-        for(i=0;i<n;i++){
-            if(arr[i]==0)arr[i]=-1;
-            s+=arr[i];
-            if(s==0)c++;
-            if(m[s])c+=m[s];
+        unordered_map<int, int>m;
+        for(i = 0; i < n; i++){
+            if(arr[i] == 0)arr[i] = -1;
+            s += arr[i];
+            if(s == 0)c++;
+            if(m[s])c += m[s];
             m[s]++;
         }
         return c;

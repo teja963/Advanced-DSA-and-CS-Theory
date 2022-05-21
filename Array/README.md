@@ -34,7 +34,9 @@
 	    2        10   /
 		       \ /
 		        8 
-		 
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive subsequence</a></b>: Just map or set to find next element and update leng
+  1 2 3 4 100 150 151 400 without sorting we can do that
+  
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elemenst together</a></b>
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/37.%20Max%20sum%20path.cpp">Maximum sum path</a></b>
@@ -85,9 +87,7 @@
    
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/22.%20Trapping%20rainwater.cpp">Trapping rain water</a></b>
    <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">   for filling part
-     we need to know the min between left and right one in O(n) time
-   
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/23.%20Chocolate%20distribution.cpp">Chocolate Distribution Problem</a></b>
-    <img alt="chocolate" width="650" height="500" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/Chocolate-Distribution-Problem.png">
+     we need to know the left and right end for particular bar in O(1)
+     so we need to keep track of 2 arrays
   
   </pre>
