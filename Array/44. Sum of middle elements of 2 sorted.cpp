@@ -11,10 +11,10 @@ class Solution {
 public:
     int findMidSum(int ar1[], int ar2[], int n) {
             // code here 
-            int i=n-1,j=0,k;
-            while(ar1[i]>=ar2[j])swap(ar1[i--],ar2[j++]);
-            sort(ar1,ar1+n);
-            sort(ar2,ar2+n);
+            int i = n-1,j = 0,k;
+            while(ar1[i] >= ar2[j])swap(ar1[i--], ar2[j++]);
+            sort(ar1, ar1+n);
+            sort(ar2, ar2+n);
             return ar1[n-1]+ar2[0];
             
             

@@ -78,6 +78,8 @@
   <b>set< int > s</b>it store elements in the sorted order usage for searching elements
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/28.%20Smaller%20on%20left.cpp">Smaller left</a></b>: So we will check the lowerbound of that element in log n time
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/31.%20Farthest%20number.cpp">Farthest number</a></b>:Just search only min elements in the right side in log n time
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/32.%20Max%20index%20difference.cpp">Max index difference</a></b>: Just search elements which are Arr[i] <= Arr[j] by making parralel view
+   Make a parallel array if you want to search for greater elements instead of searching all logic 
   
   pair< vector < int > ::iterator1, vector < int >::iterator2>p;
   p = equal_range(v.begin(), v.end(), x);
