@@ -8,13 +8,13 @@ class Solution{
 	long long subCount(long long arr[], int N, long long K)
 	{
 	    // Your code goes here
-	    int i,j,s=0,c=0,l;
+	    int i,j,s = 0,c = 0,l;
 	    unordered_map<int,int>m;
 	    for(i=0;i<N;i++){
-	        s+=arr[i];
-	        l=((s%K)+K)%K;
-	        if(l==0)c++;                    //(((s%K)+K)%K is done as the sum can be neg
-	        if(m[l])c+=m[l];
+	        s += arr[i];
+	        l = ((s%K)+K)%K;
+	        if(l == 0)c++;                    //(((s%K)+K)%K is done as the sum can be neg
+	        if(m[l])c += m[l];
 	        m[l]++;
 	        
 	    }

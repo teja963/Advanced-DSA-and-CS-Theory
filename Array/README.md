@@ -60,6 +60,10 @@
   	we need to take max elements from both the array
   	use set for removing duplicated and sorting
   	and push according to priority
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/47.%20Sorted%20subsequence%20of%20size%203.cpp">Sorted subsequence</a></b> and <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/51.%20Increasing%20triplet%20subsequence.cpp">Increasing Triplet</a></b>
+	Same conditions but approach is different for sorted frst increasing then index
+	for triplet first index any order then increasing
   </pre>
  
 # Subarray concept
@@ -69,6 +73,12 @@
   	so adding any value to zero gives that result    and apply base concept problem
   	so need to keep track of previous sums
     for that we need map approach
+   
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/46.%20Subarray%20sum%20divisble%20by%20K.cpp">Subarray sum divisible by k</a></b>
+  	divisible means remainder 0
+	sum += arr[i] 
+  	rem = ((sum % k) + n)) % k; //remainder can be neg also to avoid that
+  	apply above problem base logic
   				
   </pre>
 # NOTE
