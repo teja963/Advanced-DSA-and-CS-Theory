@@ -11,11 +11,11 @@ using namespace std;
 int maxSubarraySum(int arr[], int n){
     
     // Your code here
-    int i,s=0,b=0;
-    for(i=0;i<n;i++){
-    s=max(arr[i],s+arr[i]);
-    b=max(s,b);}
-    return b;
+    int i,sum = 0,ans = 0;
+    for(i = 0; i < n; i++){
+    sum = max(arr[i], sum + arr[i]);
+    ans = max(sum, ans);}
+    return ans;
     
 }
 

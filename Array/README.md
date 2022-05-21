@@ -1,6 +1,8 @@
 # Efficient Approaches
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/4.%20Sort%20012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/24.%203%20way%20partitioning%20around%20given%20value.cpp">3 way partitioning</a></b>
+  <b>Method normal</b>: keep of count of elements
+  <b>1 time traversal</b>
    Just traverse through the each and every element 
            i                                    
    l_ _ _ _ _ _ _ _ _ h               if current element is 0 swap (l++,i)
@@ -8,18 +10,19 @@
                                       if current element is 2 swap (i,h--)
                                       
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/7.%20Cyclic%20rotate.cpp">Cyclic rotate in O(n)</a></b>
-   By using reverse function do  :  a=[1 2 3 4 5 6 7]     k=3;
-      reverse entire array:      :  a=[7 6 5 4 3 2 1]
-      reverse starting k elements:  a=[5 6 7 4 3 2 1]
-      reverse remaining elements :  a=[5 6 7 1 2 3 4]
+   By using reverse function do  : a=[5 6 7 1 2 3 4]     k=3; <b>Imp condition</b>: k may be any value so use k %= n; 
+      reverse entire array:      : a=[4 3 2 1 7 6 5]
+      reverse starting k elements: a=[1 2 3 4 7 6 5]
+      reverse remaining elements : a=[1 2 3 4 5 6 7] 
       
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/12.%20Count%20pairs%20with%20given%20sum.cpp">Count pairs</a></b>
    If we are counting pairs we need to take care of 
    1. Do we need to count duplicate or distnict, if duplicates
    2. basic and main condition is arr[i] == sum - arr[i]
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/11.%20Best%20time%20to%20buy%20sell%20stock.cpp">Best Time to buy and sell stock</a></b>   and  <b><a href="#" >Maximum difference between increasing element</a></b>
+   
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/11.%20Best%20time%20to%20buy%20sell%20stock.cpp">Best Time to buy and sell stock</a></b>   and  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/11.%20Best%20time%20to%20buy%20sell%20stock.cpp" >Maximum difference between increasing element</a></b>
   1. Update min each time 
-  2. Calculate max diff of elements                      In this case max diff = 0(if decreasing order 9 8 7 7 6), so return -1
+  2. Calculate max diff of elements          In this case max diff = 0(if decreasing order 9 8 7 7 6), so return -1
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>
      Initializing variable valley-peak approach
@@ -54,7 +57,15 @@
   	use set for removing duplicated and sorting
   	and push according to priority
   </pre>
-  
+ 
+# Subarray concept
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/14.%20%20Subarray%20with%20sum%20zero.cpp">Subarray with sum zerp</a></b>
+  	basic concept 0 + sum = sum, so adding any value to zero gives that result so need to keep track of previous sums
+  				sum - 0 = sum    for that we need map approach
+  				0 + 0 = 0
+  				
+  </pre>
 # NOTE
 
   <pre>
