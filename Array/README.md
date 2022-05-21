@@ -1,8 +1,6 @@
 # Efficient Approaches
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/4.%20Sort%20012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/24.%203%20way%20partitioning%20around%20given%20value.cpp">3 way partitioning</a></b>
-  <b>Method normal</b>: keep of count of elements
-  <b>1 time traversal</b>
    Just traverse through the each and every element 
            i                                    
    l_ _ _ _ _ _ _ _ _ h               if current element is 0 swap (l++,i)
