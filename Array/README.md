@@ -60,8 +60,8 @@
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/14.%20%20Subarray%20with%20sum%20zero.cpp">Subarray with sum zerp</a></b>
   	basic concept 0 + sum = sum, so adding any value to zero gives that result so need to keep track of previous sums
-  				sum - 0 = sum    for that we need map approach
-  				0 + 0 = 0
+  		sum - 0 = sum    for that we need map approach
+  		0 + 0 = 0
   				
   </pre>
 # NOTE
