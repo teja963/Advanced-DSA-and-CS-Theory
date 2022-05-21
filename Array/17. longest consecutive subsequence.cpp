@@ -1,23 +1,15 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        multimap<int,int,greater<int>>m;
-        if(nums.size()==0)return 0;
-        for(auto x:nums)
-        {
-            if(m.find(x)==m.end())m.insert({x,1});
+        unordered_map<int,int>m;
+        for(auto x: nums)m[x] = 1;
+        int ans = 0;
+        for(auto x: m){
+            if(m.find(x.first - 1) != m.end())continue; //for skipping back iteration and starting from fresh element
+            int count = 1;
+            while(m.find(x.first + count) != m.end())count++;
+            ans = max(ans, count);
         }
-        int c=1,ans=0,tmp=-1;
-        for(auto x:m)
-        {
-            if(x.first==tmp-1)c++;
-            else
-            {
-                ans=max(ans,c);
-                 c=1;
-            }
-            tmp=x.first;
-        }
-        return max(ans,c);
+        return ans;
     }
 };
