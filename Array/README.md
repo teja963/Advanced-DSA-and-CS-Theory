@@ -51,7 +51,7 @@
   Treat like max = A[i] - i  Traverse single time find max and min at a time
   		min = A[j] - j 
   			 
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/54.%20Median%20of%20sorted%20array%20different%20sizes.cpp">Median of 2 sorted Array of different size</a></b>
+  **<b>Remark need to go log n</b>**<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/44.%20Sum%20of%20middle%20elements%20of%202%20sorted.cpp">Sum of middle elements of 2 sorted array</a></b>  Extension:<b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Array/54.%20Median%20of%20sorted%20array%20different%20sizes.cpp">Median of 2 sorted Array of different size</a></b>
        using count method find n/2 element if odd 
        find n/2- 1 and n/2 if even bcz array sorted
        need to traverse only (n1+n2)/2 elements 
