@@ -1,6 +1,6 @@
 # Applications
   <pre>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/6.%20Max%20depth%20BT.cpp">Max Depth</a></b>  and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/10.%20Min%20depth%20BT.cpp">Min Depth</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/6.%20Max%20depth%20BT.cpp">Max Depth</a></b>                                      <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/10.%20Min%20depth%20BT.cpp">Min Depth</a></b>
        Max:                                           Min:
         if !root: return 0;                           if !root: return INT_MAX;
         1+ max ( f(left), f(right) );                 leaf node : return 1;
@@ -39,8 +39,6 @@
                 | /|\ | /|\ |
                 5  | 6 7 |  8
                 |  |  |  |  |
-                
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/18.%20Flatten%20BT%20to%20LL.cpp">Flatten BT</a></b>
    
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/54.%20Maximum%20width%20of%20Binary%20Tree.cpp">Maximum widht of BT</a></b>
    Use parent, left_child, right_child index concept add index parameter in the queue
@@ -58,7 +56,7 @@
     arr:  1   2   3   4   5   6   7   8   9                  root.right= (m+1, h)
     
 * Properities:
-   <b>1. Inorder traversal of BST gives sorted order</a> 
+   <b>1. Inorder traversal of BST gives sorted order</b> 
   </pre>
   
 # Concepts
@@ -74,8 +72,9 @@
                           f(!root.left.left&&!root.left.right)
                           
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/15.%20Diameter%20of%20BT.cpp">Diameter tree</a></b>: while finding height of tree we will update dist
-  (max dist btw   distance = max (distance, left.ht+right.ht);
-  2 nodes)
+  (max dist btw 2 nodes,  distance = max (distance, left.ht+right.ht);
+  
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/18.%20Flatten%20BT%20to%20LL.cpp">Flatten BT in O(1) extra space</a></b>: See the result pattern from back and compare in BT
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/42.%20Check%20given%20tree%20is%20heap.cpp">Heap tree</a></b>: Its should be complete binary tree
                   BFS:(prefered)
                  1. Just check heap property and without filling left we can't have right including this property 
@@ -93,6 +92,7 @@
           
             100               
   
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/9.%20Balanced%20BT.cpp">Balanced BT</a></b>: left && right && abs(ht(left) - ht(right)) <= 1
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Binary%20Trees/49.%20Maximum%20sum%20of%20Non-adjacent%20Nodes.cpp">Maximum sum of non-adjacent Nodes</a></b>
   Need to Update
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Binary%20Trees/51.%20Leaves%20to%20DLL.cpp">Leaves to DLL</a></b>
@@ -100,9 +100,12 @@
      In function if we want to modify and stay in recursive call use reference(&)
   </pre>
                           
-# Recursive
+# Recursive and Iterative
   <pre>
-   Inorder, Preorder, Postorder for iterative approach use stack instead of queue
+  	Use stack for Iterative process 
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/1.%20Inorder%20traversal.cpp">Inorder Traversal</a></b>: Just observe ans pattern
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/2.%20Preorder%20traversal.cpp">Preorder Traversal</a></b>: Level order traversal use stack instead of queue
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/3.%20Postorder%20traversal.cpp">Postorder Traversal</a></b>: Level order traversal and reverse the stack outcome
   </pre> 
   
 # Theory

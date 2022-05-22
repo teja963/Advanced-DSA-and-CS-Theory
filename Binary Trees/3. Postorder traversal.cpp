@@ -25,8 +25,8 @@ class Solution{
                 Node* x=s.top();
                 s.pop();
                 ans.push(x);
-                 if(x->left)s.push(x->left);
-                 if(x->right)s.push(x->right);
+                if(x->left)s.push(x->left);
+                if(x->right)s.push(x->right);
             
         }
         while(!ans.empty())
