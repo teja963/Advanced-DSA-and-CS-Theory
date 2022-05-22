@@ -61,11 +61,21 @@
   	use set for removing duplicated and sorting
   	and push according to priority
   	
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/47.%20Sorted%20subsequence%20of%20size%203.cpp">Sorted subsequence</a></b> and <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/51.%20Increasing%20triplet%20subsequence.cpp">Increasing Triplet</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/47.%20Sorted%20subsequence%20of%20size%203.cpp">Sorted subsequence of size 3</a></b> and <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/51.%20Increasing%20triplet%20subsequence.cpp">Increasing Triplet</a></b>
 	Same conditions but approach is different for sorted frst increasing then index
 	for triplet first index any order then increasing
+
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/50.%20k-difference%20pairs.cpp">K difference pairs</a></b>
+  	In this k is >= 0, so always need to check (x + k) present or not only unqiue pairs means
+  	no need to consider duplicate elements so use map or set
+  	and check k = 0 case, [1, 1, 1, 1] only 1 single pair so k == 0 and x.second > 1: ans++	
   </pre>
- 
+
+# XOR Concept
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/48.%20Pairs%20with%20given%20xor.cpp">Pair with given xor in O(n)</a></b>
+  	Need to Update it
+  </pre> 
 # Subarray concept
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/14.%20%20Subarray%20with%20sum%20zero.cpp">Subarray with sum zero</a></b>  Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/33.%20Subarray%20with%20equal%200s%20and%201s.cpp">Subarray with equal no.of 0's and 1's</a></b>
@@ -74,13 +84,20 @@
   	so need to keep track of previous sums
     for that we need map approach
    
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/46.%20Subarray%20sum%20divisble%20by%20K.cpp">Subarray sum divisible by k</a></b>
-  	divisible means remainder 0
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/46.%20Subarray%20sum%20divisble%20by%20K.cpp">Subarray sum divisible by k</a></b>   Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/65.%20longest%20subarray%20with%20sum%20divisible%20by%20k.cpp">Longest subarray with sum divisible by k</a></b>
+  	divisible means remainder 0                                                Same concept just need to store index and update it
 	sum += arr[i] 
   	rem = ((sum % k) + n)) % k; //remainder can be neg also to avoid that
   	apply above problem base logic
-  				
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/60.%20Wiggle%20sort%202.cpp">Wiggle sort 2</a></b>
+  	Need to comeup with O(n)solution
   </pre>
+# BASIC
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/21.%20Triplet%20sum.cpp">Triplet sum</a></b> <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/56.%20Four%20elements.cpp">Four elements</a></b>
+  	sort the array
+  </pre> 
 # NOTE
 
   <pre>

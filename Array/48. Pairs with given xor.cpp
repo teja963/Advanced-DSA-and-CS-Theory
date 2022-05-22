@@ -17,9 +17,9 @@ class Solution{
         // code here
           int i,k=0,s=0;
           unordered_map<int,int>m;
-          for(i=0;i<N;i++){
-              s=X^A[i];
-              if(m[s])k+=m[s];
+          for(i = 0; i < N; i++){
+              s = X ^ A[i];
+              if(m[s])k += m[s];
               m[A[i]]++;
           }
           return k;

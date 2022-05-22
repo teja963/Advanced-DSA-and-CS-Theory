@@ -7,8 +7,8 @@ public:
         int ans=0;
         for(auto x:m)
         {
-            if(k==0&&x.second>1)ans++;
-            else if(k>0&&m.count(x.first+k))ans++;
+            if(k==0 && x.second > 1)ans++;
+            else if(k > 0 && m.count(x.first+k))ans++;
         }
         return ans;
     
