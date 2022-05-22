@@ -11,7 +11,10 @@
         right tree nodes                                                            recursively check for all nodes 
         ans+= abs(left -right)
         return left + right + root.val   //sum of all nodes in left or right
-        
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/25.%20LCA%20BST.cpp">LCA BST</a></b>: 2 cases whether we need to go left or right
+  BST means right is greater left is smaller, otherwise break root itself is ans
+  
         
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/27.%20BT%20from%20preorder%20inorder.cpp">BT from inorder and Preorder</a></b>
      
