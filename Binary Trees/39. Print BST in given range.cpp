@@ -6,7 +6,7 @@ class Solution {
       if(root)
       {
           inorder(root->left,low,high);
-          if(root->data>=low&&root->data<=high)v.push_back(root->data);
+          if(root->data >= low && root->data <= high)v.push_back(root->data);
           inorder(root->right,low,high);
       }
   }

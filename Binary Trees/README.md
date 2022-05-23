@@ -12,10 +12,11 @@
         ans+= abs(left -right)
         return left + right + root.val   //sum of all nodes in left or right
   
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/25.%20LCA%20BST.cpp">LCA BST</a></b>: 2 cases whether we need to go left or right
-  BST means right is greater left is smaller, otherwise break root itself is ans
-  
-        
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/25.%20LCA%20BST.cpp">LCA BST</a></b>                  **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/33.%20LCA%20BT.cpp">LCA BT</a></b>**
+  	2 cases whether we need to go left or right                                                   <b>BASE CASE</b>: if !root <b>or</b> root == p <b>or</b> root == q: return root
+ 	BST means right is greater than root, left is smaller, otherwise break root itself is ans                      Traverse both left and right
+                                                                                                                   if left and right: return root
+                                                                                                                   else return left? left: right;
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/27.%20BT%20from%20preorder%20inorder.cpp">BT from inorder and Preorder</a></b>
      
               l       p       h
@@ -31,9 +32,8 @@
                               i      root.right = (p+1, h)
                                      root.right = (l, p-1)
                                      
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/37.%20Top%20view%20of%20BT.cpp">Top view</a></b> and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/38.%20Bottom%20view%20of%20BT.cpp">Bottom view</a></b> and <b><a href="#">Left view </a></b> and <b><a href="#">Right view</a></b> 
-     Use level order traversal and use map for storing that vertical view 
-     in order 
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/37.%20Top%20view%20of%20BT.cpp">Top view</a></b> and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/38.%20Bottom%20view%20of%20BT.cpp">Bottom view</a></b> and <b><a href="#">Left view </a></b> and <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/20.%20Right%20side%20view%20of%20BT.cpp">Right Side view</a></b>  and    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/35.%20Vertical%20Traversal%20of%20tree.cpp">Vertical Traversal of Tree</a></b> 
+     Use level order traversal and use map for storing that vertical view in order 
                -2 -1  0  1  2
                 |  |  |  |  |
                 |  |  2  |  |
@@ -59,7 +59,7 @@
     arr:  1   2   3   4   5   6   7   8   9                  root.right= (m+1, h)
     
 * Properities:
-   <b>1. Inorder traversal of BST gives sorted order</b> 
+   <b>Inorder traversal of BST gives sorted order</b> Application:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/36.%20Check%20BST.cpp">Check BST</a></b>: implement false conditions 
   </pre>
   
 # Concepts

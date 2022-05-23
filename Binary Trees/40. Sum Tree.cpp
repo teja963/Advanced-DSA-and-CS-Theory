@@ -1,22 +1,22 @@
 class Solution
 {
     public:
-    int sum(Node* root)
-    {
-         if(!root)return 0;
-         return root->data+sum(root->left)+sum(root->right);
+    int ans = 1;
+    int fun(Node* root){
+        if(!root)return 0;
+        int l = fun(root->left);
+        int r = fun(root->right);
+        if(root->left and root->right and root->data != l + r){
+            ans = 0;
+        } 
+        return l + r + root->data;
         
     }
     bool isSumTree(Node* root)
     {
          // Your code here
-         if(root){
-         if(root->left==NULL&&root->right==NULL)return true;
-         int left=sum(root->left);
-         int right=sum(root->right);
-         if(left+right!=root->data)return 0;
-             isSumTree(root->left);
-             isSumTree(root->right);
-         }
-         return true;
+         if(!root)return true;
+         fun(root);
+         return ans;
     }
+};
