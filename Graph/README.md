@@ -4,6 +4,7 @@
   Use bfs approach by making all possiblities frst
   dp intiliaze -1, if we moved to that mark it as 0
   
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/5.%20Biconnected%20Graph.cpp">Biconnected graph</a></b>: If we remove 1 vertices it can't disconnected
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/9.%20Transitive%20closure%20of%20a%20graph.cpp">Transitive closure of a graph</a></b>
   frst track the all the destinations that particular node reaches(visited array)
   after that update adjacency list getting visited array
@@ -12,10 +13,10 @@
   after finding source or destination, go dfs approach (make sure all edge case implemented like) 
   <b>i < 0 || i >= size || j < 0 || j >= size || grid[i][j] == 0</b> return false;
   
-  **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/11.%20Detect%20cycle%20in%20a%20directed%20graph.cpp">Detect cycle in a directed graph</a></b>**                                         **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/12.%20Detect%20cycle%20in%20a%20undirected%20graph.cpp">Detect cycle in a undirected graph</a></b>**
-  keep track and mark visited, if we visited again then                             Same as Directed, but no need to track bfsvisited
+  **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/11.%20Detect%20cycle%20in%20a%20directed%20graph.cpp">Detect cycle in a directed graph</a></b>**                             **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/12.%20Detect%20cycle%20in%20a%20undirected%20graph.cpp">Detect cycle in a undirected graph</a></b>**
+  keep track and mark visited, if we visited again then                  Same as Directed, but no need to track bfsvisited
   use dfsvisited(imagine recursive calls diagram) for
-   checking whether we meet this node for not                                       just need to track of parent node for detecting	
+  checking whether we meet this node for not                             just need to track of parent node for detecting	
   for particular traversal and update it
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/17.%20Implementing%20Dijkstra%20Algorithm.cpp">Dijkstra Algorithm</a></b>     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/13.%20Network%20Delay%20time.cpp">Network Delay time</a></b>
@@ -37,7 +38,7 @@
 # Theory
   <pre>
   <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
-  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>
+  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/22.%20course%20schedule.cpp">Course schedule</a></b>
                                          We are getting indeg and relationship from the given strings
                                          and used bfs approach for finding topological sort
   
