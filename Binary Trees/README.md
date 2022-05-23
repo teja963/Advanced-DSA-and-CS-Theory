@@ -6,9 +6,9 @@
         1+ max ( f(left), f(right) );                 leaf node : return 1;
                                                       1+ min ( f(left), f(right) ); 
                                                       
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/16.%20BT%20Tilt.cpp">BT Tilt</a></b>                                                                         <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/40.%20Sum%20Tree.cpp">Sum Tree</a></b>
-  Tilt: absolute diff of sum of all left tree nodes and                             function: sum(){ }
-        right tree nodes                                                            recursively check for all nodes 
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/16.%20BT%20Tilt.cpp">BT Tilt</a></b>                                                 <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/40.%20Sum%20Tree.cpp">Sum Tree</a></b>                  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/50.%20Count%20Number%20of%20Subtrees%20having%20given%20sum.cpp">Count no.of subtrees with given sum</a></b>
+  Tilt: absolute diff of sum of all left tree nodes and                     function: sum(){ }
+        right tree nodes                                                    recursively check for all nodes 
         ans+= abs(left -right)
         return left + right + root.val   //sum of all nodes in left or right
   
@@ -18,10 +18,10 @@
     otherwise break root itself is ans                                         if left and right: return root
                                                                                else return left? left: right;
                                                                                
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/27.%20BT%20from%20preorder%20inorder.cpp">BT from inorder and Preorder</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/27.%20BT%20from%20preorder%20inorder.cpp">BT from inorder and Preorder</a></b>   Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/44.%20PostOrder%20from%20Inorder%20and%20Preorder.cpp">Post Order from Inorder and Preorder</a></b>
      
               l       p       h
-     inorder: 1 2 3 4 5 6 7 8 9      By storing inorder position in map for efficient search
+     inorder: 1 2 3 4 5 6 7 8 9      By storing inorder position in map for efficient search       that p value in inorder[p] is postorder 
      preorder:5 4 .............      Insert the elements through preorder elements as root
               i                      root.left = (l, p-1)
                                      root.right = (p+1, h)
@@ -60,7 +60,11 @@
     arr:  1   2   3   4   5   6   7   8   9                  root.right= (m+1, h)
     
 * Properities:
-   Inorder traversal of BST gives sorted order <b>Application:</b><b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/36.%20Check%20BST.cpp">Check BST</a></b>: implement false conditions 
+   <b>Inorder traversal of BST gives sorted order</b> 
+   <b>Application:</b><b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/36.%20Check%20BST.cpp">Check BST</a></b>: implement false conditions
+                      <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/43.%20find%20mode%20in%20BST.cpp">Mode in BST</a></b>
+                      <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/47.%20Find%20Pair%20with%20given%20target%20in%20BST.cpp">Find Pair in BST with target sum</a></b>
+                      <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/48.%20Add%20All%20greater%20values%20given%20node%20in%20BST.cpp">Add all greater values in nodes in BST</a></b>
   </pre>
   
 # Concepts
@@ -79,8 +83,8 @@
   (max dist btw 2 nodes,  distance = max (distance, left.ht+right.ht);
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/18.%20Flatten%20BT%20to%20LL.cpp">Flatten BT in O(1) extra space</a></b>: See the result pattern from back and compare in BT
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/42.%20Check%20given%20tree%20is%20heap.cpp">Heap tree</a></b>: Its should be complete binary tree
-                  BFS:(prefered)
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/Level%20order%20Models/42.%20Check%20given%20tree%20is%20heap.cpp">Heap tree</a></b>: Its should be complete binary tree
+                 DO Inorder traversal
                  1. Just check heap property and without filling left we can't have right including this property 
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Binary%20Trees/45.%20Expression%20tree.cpp">Expression tree</a></b>
               +
