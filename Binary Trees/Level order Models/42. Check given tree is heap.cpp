@@ -11,13 +11,13 @@ class Solution {
            q.pop();
            if(x->left)
            {
-               if(check || x->left->data >= x->data)return 0;  //if left null and right not then it is not heap
+               if(check||x->left->data>=x->data)return 0;  //if left null and right not then it is not heap
                q.push(x->left);
            }
-           else check = true;
+           else check=true;
            if(x->right)
            {
-               if(check || x->right->data >= x->data)return 0;
+               if(check||x->right->data>=x->data)return 0;
                q.push(x->right);
            }
            else check=true;
