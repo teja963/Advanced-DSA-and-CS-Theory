@@ -23,6 +23,11 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/BackTracking/7.%20Permuation%20with%20spaces.cpp">Permuation with spaces</a></b>
   just create all possibilites with space include or not condition
   for edge case(last character) push it without space 
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/BackTracking/6.%20Array%20Partition.cpp">Array Partition</a></b>
+  to get absolute diff between any pair of elements we need to sort
+  check start and start + k -1, is basic condition
+  if it satisifies go to fun(start+1)
   </pre>
 # NOTE
   <pre>
