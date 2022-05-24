@@ -62,6 +62,9 @@
    <b>Best method for both strings has same characters using subtraction irrespective of order</b>
    Comes from end of string
    
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/36.%20Longest%20Valid%20Parantheses.cpp">Longest Valid parantheses</a></b>
+   Go from left to right and keep count of open and close, if gng to rgt side, close increases is invalid so make (open, close) = 0
+   similarly gng from right to left, open value increases make both 0
   </pre>
 # Note
   <pre>
