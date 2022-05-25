@@ -26,7 +26,7 @@ int minCoins(int coins[], int M, int V)
 	    dp[0] = 0;
 	    for(int i = 1;i <= V; i++)
 	    {
-	        for(int j = 0; j <M; j++)
+	        for(int j = 0; j < M; j++)
 	        {
 	            if(i >= coins[j])
 	            {

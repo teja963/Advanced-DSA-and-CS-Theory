@@ -1,5 +1,6 @@
 # Important approaches
   <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/6_min_cost_climbing_stairs.cpp">Min cost climbing stairs</a></b>: dp[i] = cost[i] + min(dp[i-1], dp[i-2])
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Dynamic_programming/12.%20Unique%20path.cpp">Unique Path</a></b> and <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Dynamic_programming/12_1.%20Unique%20Path%202.cpp">Unique Path 2</a></b>
     <img alt="Grid image" src="https://github.com/teja963/DSA_All_Models/blob/master/Dynamic_programming/images/robot2.jpg">
       
@@ -14,14 +15,7 @@
   		if(s1[m] == s2[n])return 1 + fun(s1,s2,m-1,n-1);		s1.size() + s2.size() - 2*dp[ s1.size ][ s2.size ]                      string = "teja" , ans_string = "tejaajet" 
   		return max(fun(s1,s2,m-1,n) , fun(s1,s2,m,n-1));                                                                                        if we observer carefully ans_string_frst_half = "teja", ans_string_second_half = "ajet", which is reverse of string
   		                                                                                                                                        so ans = n - dp[n][n], where n is size of given string 
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/4.%20Perfect%20Squares.cpp">Perfect squares and Min coins</a></b>
-       recursion:
-          fun(n):
-            if (n == 0): return 0;
-            if (n < 0): return;
-            for j = 1 to m:
-              ans = min(ans, fun(n - j*j) + 1);  //perfect squares
-              ans = min(ans, fun(n - v[j]) + 1); //min no of coins
+
               
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/14.%20Edit%20Distance.cpp">Edit distance</a></b>
        recursion:
@@ -120,7 +114,15 @@
   implement base case and all possibilites
   dp[i][j] = max({left, right, up, down}) + 1 - for couting this step
   </pre>
-  
+
+# Recurrsion -> DP Impelmentation
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/1.%20coin%20problem.cpp">Coin Problem</a></b>: if dp[0] = 1;
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/2.%20knapsack%200-1.cpp">Knapsack</a></b>: N == 0, W == 0, fill with zeros
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/4.%20Perfect%20Squares.cpp">Perfect squares and Min coins</a></b>: See dp version
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/5.%20Integer%20Break.cpp">Integer Break</a></b>: check max limit need to traverse j != n, dp[i] = max(dp[i], j * dp[i-j])
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/8.%20subset%20equal%20partition.cpp">Subset equal partition</a></b>: We need to consider or not cases
+  </pre>
 # NOTE
   <pre>
   When we declare the 2d array, frst assign default values
