@@ -61,9 +61,9 @@
                                                                                  Update starting index and
                                                                                  max length
               
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/20.%20Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence</a></b>  and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/24.%20Longest%20Subsequence-1.cpp">Longest Subsequence 1</a></b> and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/22.%20Maximum%20Increasing%20Subsequence.cpp">Maximum increasing subsequence</a></b>
-    Imp condition :
-         dp[n] = {1}
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/20.%20Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence</a></b>  and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/24.%20Longest%20Subsequence-1.cpp">Longest Subsequence 1</a></b> and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/22.%20Maximum%20Increasing%20Subsequence.cpp">Maximum increasing subsequence</a></b>    Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/36.%20Russian%20Dolls%20envelopes.cpp">Russian Dolls Envelopes</a></b>
+    Imp condition :                                                                        For russian dolls probelms convert into LIS by fixing one parameter inreasing
+         dp[n] = {1}                                                                       after getting variable paramter find LIS 
         if( a[j] < a[i] )                                              
         {
           dp[i] = max ( dp[i], dp[j] + 1)
