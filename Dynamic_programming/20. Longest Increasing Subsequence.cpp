@@ -1,4 +1,4 @@
-  int longestSubsequence(int n, int a[])
+ int longestSubsequence(int n, int a[])
     {
        // your code here
        int dp[n];
