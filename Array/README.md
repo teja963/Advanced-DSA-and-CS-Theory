@@ -69,6 +69,9 @@
   	In this k is >= 0, so always need to check (x + k) present or not only unqiue pairs means
   	no need to consider duplicate elements so use map or set
   	and check k = 0 case, [1, 1, 1, 1] only 1 single pair so k == 0 and x.second > 1: ans++	
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/66.%20First%20Missing%20positive.cpp">First Missing positive</a></b>
+  	Just need to keep 5 in A[4] consider only non-neg nums, bcz frst +ve
   </pre>
 
 # XOR Concept
@@ -86,7 +89,7 @@
    
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/46.%20Subarray%20sum%20divisble%20by%20K.cpp">Subarray sum divisible by k</a></b>   Extension:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/65.%20longest%20subarray%20with%20sum%20divisible%20by%20k.cpp">Longest subarray with sum divisible by k</a></b>
   	divisible means remainder 0                                                Same concept just need to store index and update it
-	sum += arr[i] 
+	sum += arr[i]                                                              m[0] = -1 // Imp
   	rem = ((sum % k) + n)) % k; //remainder can be neg also to avoid that
   	apply above problem base logic
   	
