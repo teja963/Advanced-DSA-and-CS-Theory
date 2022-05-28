@@ -19,9 +19,9 @@
   checking whether we meet this node for not                             just need to track of parent node for detecting	
   for particular traversal and update it
   
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/17.%20Implementing%20Dijkstra%20Algorithm.cpp">Dijkstra Algorithm</a></b>     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/13.%20Network%20Delay%20time.cpp">Network Delay time</a></b>
-                               Dijkstra's algo application
-                               Intiallize all the signal to INT_MAX, and start with given node as 0,
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/17.%20Implementing%20Dijkstra%20Algorithm.cpp">Dijkstra Algorithm</a></b>     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/13.%20Network%20Delay%20time.cpp">Network Delay time</a></b> Bellman ford:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/24.%20Negative%20weight%20cycle.cpp">Negative weight cycle</a></b>
+                               Dijkstra's algo application                                                    make a distance vector and update it for all nodes
+                               Intiallize all the signal to INT_MAX, and start with given node as 0,          except starting node, and check again for detecting
                                Use bfs approach and updated all nodes signal
                                
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/21.%20Critical%20connections%20in%20a%20network.cpp">Critical connections in a network</a></b>
