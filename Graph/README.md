@@ -1,6 +1,6 @@
 # Graph
   <pre>
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Graph/1.%20Steps%20by%20Knight.cpp">Steps by Knight</a></b>     Application:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/18.%20Shortest%20path%20in%20matrix.cpp">Shortest Path in matrix</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/23.%20Rotten%20Oranges.cpp">Rotten Oranges</a></b>
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Graph/1.%20Steps%20by%20Knight.cpp">Steps by Knight</a></b>     Application:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/18.%20Shortest%20path%20in%20matrix.cpp">Shortest Path in matrix</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/23.%20Rotten%20Oranges.cpp">Rotten Oranges</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/27.%20Min%20Cost%20Path.cpp">Minimum cost path</a></b>
   Use bfs approach by making all possiblities frst
   dp intiliaze -1, if we moved to that mark it as 0
   
