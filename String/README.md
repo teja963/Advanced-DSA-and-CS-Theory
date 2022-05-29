@@ -66,6 +66,13 @@
    Go from left to right and keep count of open and close, if gng to rgt side, close increases is invalid so make (open, close) = 0
    similarly gng from right to left, open value increases make both 0
   </pre>
+# Palindrome releated
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/37.%20Minimum%20characters%20to%20be%20added%20at%20front%20to%20make%20it%20palindrome.cpp">Min characters to be added at front to make it palindrome</a></b>
+  <b>Imp concept</b>: In palindrome if we take any character u will get mini palindrome
+  so find the longest palindrome starting from 0 index
+  ans = s.size() - palindrome.size() - no.of characters we need to add
+  </pre>
 # Note
   <pre>
   string matching usage
