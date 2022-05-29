@@ -34,6 +34,9 @@
 # NOTE
   <pre>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Graph/2.%20Find%20the%20town%20judge.cpp">Find town Judge(Indeg and Outdeg Concept)</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/25.%20word%20boggle%20problem.cpp">Word boggle problem</a></b>
+   first search for given word, and next go on
+   mark what is visited v[i][j] != word[k] this condition
   </pre>
 # Theory
   <pre>
