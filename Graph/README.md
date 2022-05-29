@@ -41,7 +41,7 @@
 # Theory
   <pre>
   <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
-  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/22.%20course%20schedule.cpp">Course schedule</a></b>
+  So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/26.%20Prerequisites%20tasks.cpp">Prerequisites tasks</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/22.%20course%20schedule.cpp">Course schedule</a></b>
                                          We are getting indeg and relationship from the given strings
                                          and used bfs approach for finding topological sort
   
