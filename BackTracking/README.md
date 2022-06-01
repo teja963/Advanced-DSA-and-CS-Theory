@@ -31,5 +31,5 @@
   </pre>
 # NOTE
   <pre>
-  
+  <b><a href="https://practice.geeksforgeeks.org/problems/help-the-old-man3848/1">Question</a></b>: <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/BackTracking/8.%20Help%20the%20odd%20man%20out.cpp">Help the odd man out</a></b>
   </pre>
