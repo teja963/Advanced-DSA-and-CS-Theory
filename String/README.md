@@ -72,8 +72,8 @@
    			i == 0 and j == 0
    			if direction is not in north, then we can get circle by coordinates property(repeating 4 times)
    				  <_ _>
-   				|	
-   				^ 
+   				  |	
+   				  ^ 
   </pre>
 # Palindrome releated
   <pre>
