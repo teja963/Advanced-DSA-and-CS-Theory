@@ -65,6 +65,15 @@
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/36.%20Longest%20Valid%20Parantheses.cpp">Longest Valid parantheses</a></b>
    Go from left to right and keep count of open and close, if gng to rgt side, close increases is invalid so make (open, close) = 0
    similarly gng from right to left, open value increases make both 0
+   
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/38.%20Robot%20bounded%20in%20a%20circle.cpp">Robot bounded circle</a></b>
+   After executing logic, we can find the final coordinates 
+   true_conditions: 
+   				i == 0 and j == 0
+   				if direction is not in north, then we can get circle by coordinates property(repeating 4 times)
+   				  <_ _>
+   					|	
+   					^ 
   </pre>
 # Palindrome releated
   <pre>
