@@ -30,7 +30,7 @@
   if it satisifies go to fun(start+1)
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/BackTracking/9.%20Largest%20number%20in%20k%20swaps.cpp">Largest num in k swaps</a></b>
-  find all possibilities and get the max, for every combination recursively 
+  find all possibilities (by decr k) and get the max, for every combination recursively 
   </pre>
 # NOTE
   <pre>
