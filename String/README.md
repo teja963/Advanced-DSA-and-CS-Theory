@@ -69,11 +69,11 @@
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/38.%20Robot%20bounded%20in%20a%20circle.cpp">Robot bounded circle</a></b>
    After executing logic, we can find the final coordinates 
    true_conditions: 
-   				i == 0 and j == 0
-   				if direction is not in north, then we can get circle by coordinates property(repeating 4 times)
+   			i == 0 and j == 0
+   			if direction is not in north, then we can get circle by coordinates property(repeating 4 times)
    				  <_ _>
-   					|	
-   					^ 
+   				|	
+   				^ 
   </pre>
 # Palindrome releated
   <pre>
