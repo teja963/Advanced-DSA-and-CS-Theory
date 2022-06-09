@@ -34,6 +34,14 @@
    <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/11.%20Find%20Rectangle%20with%20corner%20as%201.cpp">Rectangle with corner as 1</a></b>
    Choose two rows with brute force method and traverse column
    now check their corresponding matrix[row1][column] and matrxi[row2][column] is 1
+   
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Matrix/14.%20Filp%20columns%20for%20max%20no.of%20equal%20rows.cpp">Filp columns for max no.of equal rows</a></b>
+  	eg: 1 0 0 0 0
+  	    0 1 1 1 1
+  	    0 1 1 1 1
+  	    if after fliping k columns the rows values r 0's and 1's means
+  	    1's - for row x we need to XOR with its compliment
+  	    0's - we need to xor with same
     
    </pre> 
       
