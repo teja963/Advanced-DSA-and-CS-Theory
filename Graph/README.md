@@ -65,3 +65,9 @@
   in Directed graph, the property doesn't change. 
   In dfs approach make a visulization of passing and marking nodes for better
   </pre>
+  
+# Approaches
+  <pre>
+  When source and destination given use bfs, by using question condition
+  when we want to search all possibilites use dfs
+  </pre>
