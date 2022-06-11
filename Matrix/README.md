@@ -36,6 +36,7 @@
    now check their corresponding matrix[row1][column] and matrxi[row2][column] is 1
    
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Matrix/14.%20Filp%20columns%20for%20max%20no.of%20equal%20rows.cpp">Filp columns for max no.of equal rows</a></b>
+  	use map for storing freq
   	eg: 1 0 0 0 0
   	    0 1 1 1 1
   	    0 1 1 1 1
