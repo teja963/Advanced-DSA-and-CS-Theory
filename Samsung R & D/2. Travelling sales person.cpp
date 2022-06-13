@@ -9,7 +9,9 @@ Input: The first line of input contains an integer T denoting the no of test cas
 
 Constraints
 
-Constraints: 1<=T<=15 1<=N<=12 1<=M[][]<=10000
+Constraints: 1<=T<=15 
+			 1<=N<=12
+			 1<=M[][]<=10000
 
 Output Format
 
@@ -42,7 +44,7 @@ void dfs(int curr, int cost, int a[15][15], int left){
         return;
     }
     for(int i = 1; i < n; i++){
-        if(visited[i] == 0){
+        if(!visited[i]){
             visited[i] = 1;
             dfs(i, cost + a[curr][i], a, left-1);
             visited[i] = 0;

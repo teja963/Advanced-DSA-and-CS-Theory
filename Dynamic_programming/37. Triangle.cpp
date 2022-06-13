@@ -1,4 +1,3 @@
-https://github.com/teja963/Advanced-DSA
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {

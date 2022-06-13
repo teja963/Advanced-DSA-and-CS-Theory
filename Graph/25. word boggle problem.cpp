@@ -5,13 +5,13 @@
         if(i < 0 || j < 0 || i >= board.size() || j >= board[0].size() || board[i][j] != tmp[k])return false;
         char ch = board[i][j];
         board[i][j] = '.';
-        for(auto x: p){
-            if(dfs(i + x.first, j + x.second, board, tmp, k+1)){
-                board[i][j] = ch;
-                return true;
-            }
-        }
-        board[i][j] = ch;
+		    for(auto x: p){
+		        if(dfs(i + x.first, j + x.second, board, tmp, k+1)){
+		            board[i][j] = ch;
+		            return true;
+		        }
+		    }
+		board[i][j] = ch;
         return false;
     }
     bool search(vector<vector<char>>&v, string tmp){
