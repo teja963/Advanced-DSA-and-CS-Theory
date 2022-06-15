@@ -1,3 +1,21 @@
+/*
+A Research team want to establish a research center in a region where they found some rare-elements.
+They want to make it closest to all the rare-elements as close as possible so that they can reduce
+overall cost of research over there. It is given that all the rare-element’s location is connected
+by roads. It is also given that Research Center can only be build on road. Team decided to assign
+this task to a coder. If you feel you have that much potential.
+Here is the Task :- Find the shortest of the longest distance of research center from given locations
+of rare-elements.
+Locations are given in the matrix cell form where 1 represents roads and 0 no road. 
+Number of rare-element and their location was also given(number<=5) and order of square matrix
+was less than equal to (20).
+*/
+/*
+For this you have to implement bfs for every position where road exist to find the distance of 
+every research center or do Vice-versa. for each position store maximum distance of all distances
+to research center and the compare each maximum distance to find minimum of them
+Input - 
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int t, n, c;
@@ -28,7 +46,7 @@ int bfs(int sx, int sy, int dx, int dy){
 			new_tmp.x = x[i] + tmp.x;
 			new_tmp.y = y[i] + tmp.y;
 			new_tmp.level = tmp.level + 1;
-			if(valid(new_tmp) and visi[new_tmp.x][new_tmp.y] == 0){
+			if(valid(new_tmp) and arr[new_tmp.x][new_tmp.y] == 1 and visi[new_tmp.x][new_tmp.y] == 0){
 				q.push(new_tmp);
 				visi[new_tmp.x][new_tmp.y] = 1;
 			}
@@ -63,7 +81,6 @@ int main(){
 						int res = bfs(i, j, rare[k][0], rare[k][1]);
 						tmp = max(tmp, res);	
 					}
-					
 				}
 				ans = min(ans, tmp);
 			}
