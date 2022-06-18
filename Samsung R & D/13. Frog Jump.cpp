@@ -1,68 +1,47 @@
-/*
-this is a mix of dfs with dp
-*/
- 
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
- 
-int n,m; 
-int a[100][100];
- 
-int r[] = {0, -1, 0, 1};
-int c[] = {-1, 0, 1, 0};
- 
-int dp[100][100];
- 
+int t, n, m, ans;
+int a[100][100], dp[100][100];
+struct point{
+	int x, y;
+};
+int xx[] = {-1, 0, 1, 0};
+int yy[] = {0, 1, 0, -1};
 bool valid(int x, int y){
-    return (x>0 && x<=n && y>0 && y<=m && a[x][y] == 1);
+	if(x >= 1 and y >= 1 and x <= m and y <= n and a[x][y] == 1)return true;
+	return false;
 }
- 
-void solve(int sx, int sy, int dx, int dy, int ans){
-    
-   /*
-    the below statement is written to avoid unnecessary calls of recursion
-    for example there are 2 paths a->b->c and e->b->c;
-    now in path and path 2 b is present in both 
-    suppose a->b cost is less than e->b then there is no point to call further recursion from 
-    path 2 
-    here local minimum leads to global minimum
-   */
- 
-    if(dp[sx][sy] > ans){
-    dp[sx][sy] = ans;
-    
-    for(int i = 0; i<4; i++){
-        
-        int x = sx + r[i];
-        int y = sy + c[i];
-        
-        if(valid(x, y)){
-           int temp;
-           if(y == sy)temp = 1;
-           if(x == sx)temp = 0;
-           solve(x,y,dx,dy,ans+temp);
-        }
-    }
-   }
-    
+void fun(int x, int y, int count){
+	if(dp[x][y] > count){
+		dp[x][y] = count;
+		for(int i = 0; i < 4; i++){
+			int new_x = xx[i] + x;
+			int new_y = yy[i] + y;
+			if(valid(new_x, new_y)){
+				int tmp;
+				if(new_y == y)tmp = 1;
+				if(new_x == x)tmp = 0;
+				fun(new_x, new_y, tmp + count);
+			}
+		}
+	}
 }
- 
 int main(){
-    
-    cin>>n>>m;
-    for(int i = 1; i<=n; i++){
-        for(int j = 1; j<=m; j++){
-           dp[i][j] = 1000000;
-           cin>>a[i][j];
-        }
-    }    
-  
-    int sx,sy,dx,dy;    
-    cin>>sx>>sy>>dx>>dy;
-   
-    solve(sx, sy, dx, dy, 0);
-    
-    cout<<dp[dx][dy]<<endl;
-    
+    int t;
+    cin>>t;
+    for(int test_case = 1; test_case <= t; test_case++){
+    	cin>>n>>m;
+    	memset(a, 0, sizeof(a));
+    	for(int i = 1; i <= n; i++){
+    		for(int j = 1; j <= m; j++){
+    			cin>>a[i][j];
+    		}
+    	}
+    	point src, dst;
+    	cin>>src.x>>src.y>>dst.x>>dst.y;
+    	memset(dp, INT_MAX, sizeof(dp));
+    	fun(src.x, src.y, 0);
+    	cout<<'#'<<test_case<<" "<<dp[dst.x][dst.y]<<endl;
+    }
     return 0;
 }
