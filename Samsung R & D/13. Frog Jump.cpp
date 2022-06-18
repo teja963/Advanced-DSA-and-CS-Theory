@@ -8,7 +8,7 @@ struct point{
 int xx[] = {-1, 0, 1, 0};
 int yy[] = {0, 1, 0, -1};
 bool valid(int x, int y){
-	if(x >= 1 and y >= 1 and x <= m and y <= n and a[x][y] == 1)return true;
+	if(x >= 1 and y >= 1 and x <= n and y <= m and a[x][y] == 1)return true;
 	return false;
 }
 void fun(int x, int y, int count){
@@ -34,14 +34,15 @@ int main(){
     	memset(a, 0, sizeof(a));
     	for(int i = 1; i <= n; i++){
     		for(int j = 1; j <= m; j++){
+    			dp[i][j] = INT_MAX;
     			cin>>a[i][j];
     		}
     	}
     	point src, dst;
     	cin>>src.x>>src.y>>dst.x>>dst.y;
-    	memset(dp, INT_MAX, sizeof(dp));
     	fun(src.x, src.y, 0);
     	cout<<'#'<<test_case<<" "<<dp[dst.x][dst.y]<<endl;
     }
     return 0;
 }
+
