@@ -20,9 +20,11 @@
             
   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Priority%20Queue/9.%20Course%20Scheduler%203.cpp">Course Scheduler 3</a></b>**
        sorting is imp based on end time of course
-       add all the duration
-       while pq.top > course[i][1] // don't add that remove from pq
-       
+       	count += courses[i][0];
+       	pq.push(courses[i][0]);
+       	while count > courses[i][1]:   //consider case, having high duration for small timeline, so for getting max remove those 
+       		count -= pq.top();
+       		pq.pop();
   </pre>
 # Priority queue usage
   <pre>
