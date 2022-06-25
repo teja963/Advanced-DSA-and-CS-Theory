@@ -95,6 +95,9 @@
   	
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/60.%20Wiggle%20sort%202.cpp">Wiggle sort 2</a></b>
   	Need to comeup with O(n)solution
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/63.%20Non-decreasing%20array.cpp">Non Decreasing array</a></b>
+  	Update not satisifying element based on prev elements value, only one time, if more than that return false
   </pre>
 # BASIC
   <pre>
