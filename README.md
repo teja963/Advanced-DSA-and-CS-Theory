@@ -1,11 +1,11 @@
 # All Concepts about DSA and Competitive Coding
-	<pre>
+  <pre>
   Contains Detailed Overview Solutions in their respective folders
   Conceptual Usage of Algorithms and their applications view
-    </pre>
+  </pre>
     
 # Checking
-	<pre>
+ <pre>
  <b>Array and integers</b>
  while arthemetic operators check abt constraints
  if numbers check +ve, -ve, 0 and size_limit
@@ -13,7 +13,7 @@
    
  <b>Strings</b>
  check about the what kind of chars it involved and size, any leading or trailing spaces
-   	</pre>
+ </pre>
    	
 # Approach
   <pre>
