@@ -37,5 +37,8 @@ input2:0 1 1 2 0        first_element = 4, last_element = 2
 
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Sliding%20Window/9.%20Max%20points%20you%20can%20obtain%20from%20cards.cpp">Max points you can obtain from cards</a></b>
   	Just need to get idea of sliding pattern such that removing from ends means
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Sliding%20Window/10.%20Equivalent%20sub%20arrays.cpp">Equivalent subarrays</a></b>
+  	
   </pre>
              
