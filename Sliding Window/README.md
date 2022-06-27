@@ -39,6 +39,11 @@ input2:0 1 1 2 0        first_element = 4, last_element = 2
   	Just need to get idea of sliding pattern such that removing from ends means
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Sliding%20Window/10.%20Equivalent%20sub%20arrays.cpp">Equivalent subarrays</a></b>
-  	
+
+	Same as Brute force approach for counting no.of subarrays
+	we will sliding concept and map
+	while i <= j and m.size() == dist_count:           //this logic is imp
+		m[arr[i++]]--;
+		if(m[arr[i]] == 0): m.erase(arr[i])  	
   </pre>
              
