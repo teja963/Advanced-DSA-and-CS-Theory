@@ -74,6 +74,9 @@
    				  <_ _>
    				  |	
    				  ^ 
+   				  
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/39.%20Word%20pattern.cpp">Word Pattern</a></b>
+   	check case pattern.size > s.size and s.size > pattern.size
   </pre>
 # Palindrome releated
   <pre>

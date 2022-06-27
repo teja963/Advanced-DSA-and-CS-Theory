@@ -18,4 +18,4 @@
 # Approach
   <pre>
   Frst implement the base case or check it is working for that like size = 0 or size = 1
-  </pre>	    
+  </pre>
