@@ -115,6 +115,9 @@
   we don't know where to start so we traverse all the nodes                     make recursive block diagrams for each cell and possibilities
   implement base case and all possibilites
   dp[i][j] = max({left, right, up, down}) + 1 - for couting this step
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/38.%20Number%20of%20ways.cpp">Number of ways</a></b>
+  	dp[i] = dp[i-1] + dp[i-4]
   </pre>
 
 # Recurrsion -> DP Impelmentation
