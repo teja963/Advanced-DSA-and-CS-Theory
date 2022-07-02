@@ -65,7 +65,7 @@
         |          | = |       |             
         |_Fn  Fn-1_|   |_1   0_|
         
-        or byusing the formula {(1+sqrt(5)/2)^n}/sqrt(5);
+        or byusing the formula {(1+sqrt(5)/2)^n - (1-sqrt(5)/2)^n} / sqrt(5);
         
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/29.%20Fraction%20to%20recurring%20decimal.cpp">Fraction To Decimal</a></b>
      use map for storing repeated pattern
@@ -121,4 +121,10 @@
   a ^ b = c
   b ^ c = a
   c ^ a = b
+  </pre>
+
+# Sign Overflow
+  <pre>
+   if we want to multiply 2 numbers which is overflow of long long and need to do the modular use this
+   (1LL * product1 * product2) % 1000000007; // to get the number even though overflow
   </pre>
