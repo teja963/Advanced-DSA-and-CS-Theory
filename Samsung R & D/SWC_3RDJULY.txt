@@ -1,0 +1,35 @@
+Mr. Sam. Sung Choi has to do a marathon of D distance. He has a max health H.
+He can run in 5 different paces. Paces are given as how much minutes and seconds and health
+does it require to complete 1km in this pace.
+e.g: pace 1: 6 19 16 (mm ss health)
+means, if mr. Choi runs in pace 1, it takes 6 mins 19 secs to cover 1km and it costs 
+a health of 16 units from the total health.
+Find the min time required to finish the race.
+print the ans in this format: #T mm ss (e.g: #1 137 20)
+
+Input format: 
+no of tc: T
+distance of marathon: D
+Total Health: H
+5 lines each if 3 space separated integers decnoting paces.
+
+contraints:
+3 <= D <= 40
+10 <= H <= 100
+3 <= minutes <= 6
+0 <= second <= 59
+
+testcases:
+2
+10 50
+6 19 6
+6 29 5
+6 39 4
+6 49 3
+6 59 2
+600 40
+3 11 20
+3 18 16
+3 36 14
+3 41 13
+3 53 12    =>answer : 137min 11sec for 2nd TC
