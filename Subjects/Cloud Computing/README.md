@@ -1,10 +1,10 @@
-#Cloud Computing:
-	<pre>
+# Cloud Computing:
+<pre>
 	Processing, Storing and Accessing
-	</pre>
+</pre>
 	
-#Service models:
-	<pre>
+# Service models:
+<pre>
 	<b>1. SaaS(Software as Service)</b>
 		Cloud provider leases applications or software which r owned by them to its client
 		eg:
@@ -16,4 +16,4 @@
 	<b>3. IaaS(Infrastructure as a Service)</b>
 		Everything we can create, we can do our own applications
 		
-	</pre>
+</pre>
