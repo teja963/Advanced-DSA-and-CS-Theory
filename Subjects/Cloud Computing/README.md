@@ -1,6 +1,6 @@
 # Cloud Computing:
   <pre>
-	Processing, Storing and Accessing
+   Processing, Storing and Accessing
   </pre>
 	
 # Service models:
