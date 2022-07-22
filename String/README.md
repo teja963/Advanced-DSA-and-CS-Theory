@@ -33,8 +33,9 @@
                           similiarly if we take frst e(geek, gkee)
    for ith character we know (n - i -1)swaps are possible among those we need to reduce duplicate cases
    so if we swap e with e, then it can't be distnict string so use map to update frequencies 
-   m[s[i]]--;   //it will remove duplicate characters swaping
+   m[s[i]]--;   **it will remove duplicate characters swaping**
    ans += (n - i - 1 - m[s[i]])
+   
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/25.%20Next%20Highest%20Palindrome.cpp">Next Highest Palindrome in O(N Log N)</a></b>
       i/p: 3 5 4 5 3
       o/p: 5 3 4 3 5
@@ -49,6 +50,7 @@
     Same concept application of anagrams
     If s1's pemutation is present in s2, if permutations equal means sort(s1) == sort(s2)
     In Simple way without sorting use map m1 == m2, then permutation of s1 is present in s2
+    frequency of characters same
     
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/32.%20Group%20Special%20Equivalent%20string.cpp">Group Special equivalent string</a></b>
    2 strings are special equivalent such that s1 == s2,
@@ -60,7 +62,7 @@
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/35.%20Transform%20string.cpp">Transform string</a></b>
    frst check base conditions which are not possible
    <b>Best method for both strings has same characters using subtraction irrespective of order</b>
-   Comes from end of string
+   traverse from end of string
    
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/36.%20Longest%20Valid%20Parantheses.cpp">Longest Valid parantheses</a></b>
    Go from left to right and keep count of open and close, if gng to rgt side, close increases is invalid so make (open, close) = 0
