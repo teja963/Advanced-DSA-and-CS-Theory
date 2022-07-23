@@ -4,10 +4,10 @@
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Sliding%20Window/3.%20Sliding%20window%20max.cpp">Sliding Window Maximum</a></b>
  
        deque q;
-    <p>Use "deque" for storing maximum, find max element in the size k(first k elements) by
+       Use "deque" for storing maximum, find max element in the size k(first k elements) by
        pushing elements back in decreasing otherwise pop the elements
        after this first loop q.front() is the max element in first size k elements
-       if(q.front() == arr[i-1])q.pop_front();  //i=1 ,means if 2nd size of k contains first element then pop it</p> 
+       if(q.front() == arr[i-1])q.pop_front();  **i=1 ,means if 2nd size of k contains first element then pop it** 
      
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Sliding%20Window/6.%20count%20the%20no%20of%20subarrays%20in%20given%20range.cpp">Count no.of subarrys in given range in O(n)</a></b>
    
