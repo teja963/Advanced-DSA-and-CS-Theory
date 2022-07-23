@@ -40,7 +40,7 @@
     
     <b>ALTER TABLE</b> tb_name          making constraints not null
     <b>MODIFY</b>col_name data_type not null;
-   </pre>  
+   </pre>
 # SQL CONSTRAINTS:
    <pre>
    Sql constraints are used to specify rules for data in the table(limit the type of data that can go into table-ensures accuracy, col costraints apply to col only where as table constraints apply to whole table)

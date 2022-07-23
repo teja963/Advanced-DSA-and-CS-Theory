@@ -1,14 +1,14 @@
 # Applications
   <pre>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Sliding%20Window/4.%20Count%20anagrams.cpp">Repeated and missing element in O(N)</a></b>
-  Traverse the array. While traversing, use the absolute value of every element as an index -  abs(arr[i])-1
-  and make the value at this index as negative to mark it visited. If something is already
-  marked negative then this is the repeating element.
-  To find missing, traverse the array again and look for a positive value.
+   Traverse the array. While traversing, use the absolute value of every element as an index -  abs(arr[i])-1
+   and make the value at this index as negative to mark it visited. If something is already
+   marked negative then this is the repeating element.
+   To find missing, traverse the array again and look for a positive value.
   
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/6.%20Majority%20element.cpp">Majority element in O(N)</a></b>
    It means the element is repeated morethan N/2 times so half of the array is occupied
-   by that element only. Anykind of arrangement we will that element in atmost 1 
+   by that element only. Anykind of arrangement we will get that element in atmost 1 
    
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/13.%20count%20num%20of%20subarray%20with%20given%20sum.cpp">Subarray with given sum</a></b>
    The basic idea of using map is 0+sum=sum
@@ -26,7 +26,7 @@
    
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/17.%20merging%20overlap%20intervals.cpp">Merging Overlap intervals</a></b>  and <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/18.%20Merging%20overlap%20intervals%202.cpp">Merging Overlap intervals 2</a></b>
      
-      start  end  //initalize   
+      start  end  //initalize
      Q1. [[1,2],[1,3],[2,5]]     update end if end >= intervals[i][0]  //merging intervals case
      Q2. 
          1. push intervals less than range
@@ -42,14 +42,7 @@
 	       
 	 3. push intervals greater than given range
          
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/20.%20Min%20sum.cpp">Min sum</a></b>
-   Usage of regular expression for removing leading zeros
-   <b>
-   const regex pattern("^0+(?!$)");  //^0 for removing leading zeros , (?!) for non-neg , $ for ending of string
-                                        Don't give spaces for expression
-   ans= regex_replace(ans, pattern ,"");
-   </b>
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/11.%20count%20triplet%20no%20of%20lessthan%20sum.cpp">count triplets num less than sum</a></b> <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
     
         ------------------------------
                  a        b                   find no.of triplets less than b and a-1
