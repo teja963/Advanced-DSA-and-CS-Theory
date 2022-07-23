@@ -8,8 +8,8 @@ public:
         for(auto x:m)mp.insert({x.second,x.first});
         for(auto x:mp)
         {
-            int y=x.first;
-            while(y--)ans+=x.second;
+            int y = x.first;
+            while(y--)ans += x.second;
         }
         return ans;
         

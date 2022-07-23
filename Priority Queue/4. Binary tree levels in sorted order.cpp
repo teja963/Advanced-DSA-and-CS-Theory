@@ -1,8 +1,8 @@
-  vector <vector <int>> binTreeSortedLevels (int arr[], int n)
+  vector<vector<int>> binTreeSortedLevels (int arr[], int n)
     {
         // Your code here
         priority_queue<int,vector<int>,greater<int>>pq;
-        int k=log(n)/log(2),j=0;
+        int k = log(n)/log(2), j = 0;
         vector<vector<int>>v;
         for(int i=0;i<n;i)
         {
