@@ -42,7 +42,7 @@
 	       
 	 3. push intervals greater than given range
          
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/11.%20count%20triplet%20no%20of%20lessthan%20sum.cpp">count triplets num less than sum</a></b> <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/11.%20count%20triplet%20no%20of%20lessthan%20sum.cpp">count triplets num less than sum</a></b>                 <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Searching%20Sorting/22.%20count%20triplet%20with%20given%20range.cpp">Count triplets with given range</a></b>
     
         ------------------------------
                  a        b                   find no.of triplets less than b and a-1
@@ -60,7 +60,7 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/29.%20Min%20Swaps%20to%20sort.cpp">Minimum swaps to sort</a></b>
   make parallel view of input and result
-  find pattern for swapping to which element
+  find pattern for swapping to which element by storing indexs
    </pre>
 # STL
   <pre>
