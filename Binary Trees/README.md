@@ -121,5 +121,6 @@
   <b>Types of Binary Tree</b>
   <b>1. Strict BT :-</b> each node has exactly (2 or 0)children
   <b>2. Full BT :-</b>each node has 2 children and all leaf nodes are at same level
-  <b>3. Complete BT :-</b>All leaf nodes are at ht (h or h-1) and also without any missing number in sequence.
+  <b>3. <a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Binary%20Trees/57.%20Check%20given%20tree%20is%20Complete%20Binary%20tree.cpp">Complete BT</a> :-</b>All leaf nodes are at ht (h or h-1) and also without any missing number in sequence.
+   if there is anynode right to empty node or in next level it is not 
   </pre>
