@@ -16,5 +16,5 @@
   <b>3. IaaS(Infrastructure as a Service)</b>
 	Everything we can create, we can do our own applications
 		
-  <img src="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Subjects/Cloud%20Computing/Pics/Service_models.png" alt="Service models" width="550" height="300">
+  <img src="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Subjects/Cloud%20Computing/Pics/Service_models.png" alt="Service models" width="650" height="500">
   </pre>
