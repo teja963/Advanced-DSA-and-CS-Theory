@@ -4,7 +4,7 @@ Example suppose num1 is 3 and num2 is 7
 We will take a num c = 3+ 7*(3+7) = 73
 Since we did addition with 3 so for getting 3 out of 73
 Do 73 mod (3+7) = 3
-We multiplied by 7 so to get 7 out of 73 do
+We divided by 10 so to get 7 out of 73 do
 73 // 10 = 7
 
 Hence tow numbers a and b can be represented as c by using formulae
