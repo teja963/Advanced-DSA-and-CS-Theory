@@ -1,9 +1,9 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode* h=new ListNode(0),*ans=h;
-        ListNode* slow=head,*fast=head;
-        while(fast&&fast->next)
+        ListNode* h = new ListNode(0),*ans = h;
+        ListNode* slow = head,*fast = head;
+        while(fast && fast->next)
         {
             slow=slow->next;
             fast=fast->next->next;
