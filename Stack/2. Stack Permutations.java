@@ -1,6 +1,5 @@
 class Solution {
     public static int isStackPermutation(int n, int[] ip, int[] op) {
-        // code here
         Stack<Integer>st = new Stack<Integer>();
         int j = 0;
         for(int i = 0; i < n; i++){
