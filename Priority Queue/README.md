@@ -49,3 +49,8 @@
   the key value  and mapped value pair has to be unique in this case. One important thing to note about multimap is that
   multimap keeps all the keys in sorted order always
   </pre>
+  
+# Queue
+  <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Priority%20Queue/1.Find%20the%20Original%20Array%20from%20Doubled%20array.java">Find the original array from doubled array</a></b>      <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Priority%20Queue/2.%20Array%20of%20Doubled%20pairs.java">Array of Doubled pairs</a></b>
+  </pre>
