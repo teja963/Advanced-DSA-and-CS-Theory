@@ -88,12 +88,11 @@
 		    b = carry << 1
 		    carry = a & b
 		    
-   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/33.%20Pair%20of%20Songs%20with%20duration%20divisible%20by%2060.cpp">Pair of songs duration is % 60</a></b>
-   mod 60 means its always lie between [0,59] so consider array
-   if rem  == 0 means its multiple of 60, so add its compliment v[0]  //because we need to count only once
-   else add its compliement v[60-rem]
-   update v[rem]++;   
-         
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/33.%20Pair%20of%20Songs%20with%20duration%20divisible%20by%2060.cpp">Pair of songs duration is % 60</a></b>  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/37.%20Grouping%20of%20numbers.java">Grouping of numbers</a></b>
+   mod 60 means its always lie between [0,59] so consider array            Same as % K concept, make a remainder array
+   else add its compliement v[60-rem]                                      check for non-divisible case like max(rem[low], rem[high), low = 1, high = k-1
+   update v[rem]++;                                                        check for all elements divisble case(k, 2k, 3k, ...)
+         																   check for (i == k / i) case
   </pre>
 # NOTE:
   <pre>
