@@ -110,7 +110,9 @@
    binary search of m values(mid^n==m)
    
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/28.Last%20digit%20of%20a%20pow%20b.cpp">Last digit of a^b (for large values)</a></b>
-    find last 2 digits of b%4(and use map) 
+    find last 2 digits of b%4(and use map)
+    
+   <b><a href="https://practice.geeksforgeeks.org/problems/number-of-open-doors1552/1">Num of doors open</a></b> :sqrt(N) 
   </pre> 
 # XOR CONCEPTS
   <pre>
