@@ -93,6 +93,9 @@
    else add its compliement v[60-rem]                                      check for non-divisible case like max(rem[low], rem[high), low = 1, high = k-1
    update v[rem]++;                                                        check for all elements divisble case(k, 2k, 3k, ...)
          																   check for (i == k / i) case
+         																   
+   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/38.%20Maximum%20sum%20LCM.java">Maximum sum LCM</a></b>
+   As the LCM of all the numbers is N. So all the numbers must be the divisors of N and all the numbers are distinct so answer must be the sum of all the divisors of N.
   </pre>
 # NOTE:
   <pre>
