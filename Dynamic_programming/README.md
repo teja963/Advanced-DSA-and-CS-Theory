@@ -82,8 +82,8 @@
     Need to Update it 
     
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/26.%20Largest%20Square%20formed%20in%20Matrix.cpp">Largest Square formed in matrix</a></b>
-    frst check base case of size 1                                            1 1
-    Next is similar to edit dist application (choosing min among 3 ways)      1  mat[i][j] == 1 in directions 
+    frst check base case of size 1 
+    Next is similar to island problem, find 1 then find max length among (hori, verti, diag) 
     update size each time with min among them
     
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Dynamic_programming/27.%20Handshake.cpp">**Hand Shake Problem**</a></b>
