@@ -1,4 +1,5 @@
 # Approach
+	<pre>
   <a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Dynamic_programming/Grid/cheery_pickup.cpp">Cheery pickup</a>
    <b>key points:</b>
    going from top to bottom or bottom to top is same
