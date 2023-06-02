@@ -8,6 +8,6 @@
    <b>cases</b>
    1. Both are at same point pick up one
    2. Both are at different points choose both
-   3. choose next all possible move and take max add to the previous picup
-   4. store the values in 3D dp
+   3. choose next all possible(2*2) move and take max add to the previous pickup
+   4. store the values in 3D dp(by column changing pattern with
 </pre>
