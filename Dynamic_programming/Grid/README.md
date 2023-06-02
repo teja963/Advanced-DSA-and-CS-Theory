@@ -10,4 +10,4 @@
    2. Both are at different points choose both
    3. choose next all possible move and take max add to the previous picup
    4. store the values in 3D dp
-   
+   </pre>
