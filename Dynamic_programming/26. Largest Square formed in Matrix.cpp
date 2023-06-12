@@ -36,14 +36,11 @@
 class Solution {
 public:
     int dp[301][301];
-    static bool comp(int a, int b){
-        return a < b;
-    }
     int fun(int i, int j, vector<vector<char>>& matrix)
     {
         if(i < 0 || j < 0 || i >= matrix.size() || j >= matrix[0].size() || matrix[i][j] == '0')return 0;
         if(dp[i][j] != -1)return dp[i][j]; //memorization method
-        return dp[i][j] = 1 + min({fun(i+1, j, matrix), fun(i, j+1, matrix), fun(i+1, j+1, matrix)}, comp);
+        return dp[i][j] = 1 + min({fun(i+1, j, matrix), fun(i, j+1, matrix), fun(i+1, j+1, matrix)});
     }
     int maximalSquare(vector<vector<char>>& matrix) {
         int ans = INT_MIN;
