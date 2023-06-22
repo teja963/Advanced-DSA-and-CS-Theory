@@ -1,11 +1,11 @@
 # Approaches
 <pre>
- <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Standard%20Ques/Sort_012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Three_way_partitioning.cpp">3 way partitioning</a></b>
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Sort_012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Three_way_partitioning.cpp">3 way partitioning</a></b>
    Just traverse through the each and every element 
            i                                    
    l_ _ _ _ _ _ _ _ _ h 
                                                                      
- <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Standard%20Ques/Cyclic_rotate.cpp">Cyclic rotate in O(n)</a></b>
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Cyclic_rotate.cpp">Cyclic rotate in O(n)</a></b>
    By using reverse function do     <b>Imp condition</b>: k may be any value so use k %= n; 
       reverse entire array
       reverse starting k elements
@@ -31,5 +31,10 @@
 
 # Standard
 <pre>
- <a href="#">Kadanes</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/kadanes_algo.cpp">Kadanes Alogrithm</a></b>
+   Make a parallel array as ans array then update as:
+        sum=0   ans = INT_MIN
+        a: [ 1 -5  4  9  8 -10 6]
+      sum: [ 1 -4  4  13 21 11 17]
+      ans: [ 1  1  4  13 21 21 21]
 </pre>

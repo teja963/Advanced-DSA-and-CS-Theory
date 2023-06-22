@@ -93,13 +93,6 @@
   </pre>
 # NOTE
   <pre>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/10_kadanes_algo.cpp">Kadanes Alogrithm</a></b>
-   Make a parallel array as ans array then update as:
-        sum=0   ans = INT_MIN
-        a: [ 1 -5  4  9  8 -10 6]
-      sum: [ 1 -4  4  13 21 11 17]
-      ans: [ 1  1  4  13 21 21 21]
-   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/22.%20Trapping%20rainwater.cpp">Trapping rain water</a></b>
    <img alt="Trapping image" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/Array/images/images.png">   for filling part
      we need to know the left and right end for particular bar in O(1)
