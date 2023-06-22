@@ -20,6 +20,5 @@
 
 # Pointer Approach
 <pre>
- <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Common_elements_three_arrays.cpp">Common elements in 3 arrays</b></a>
- avoid duplicate cases
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Common_elements_three_arrays.cpp">Common elements in 3 arrays</b></a>:-avoid duplicate cases
 </pre>

@@ -5,7 +5,7 @@
    1. Do we need to count duplicate or distnict, if duplicates
    2. basic and main condition is arr[i] == sum - arr[i]
    
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>: Need to update
      Initializing variable valley-peak approach
 	   
 		                80
@@ -17,8 +17,6 @@
 	    2        10   /
 		       \ /
 		        8 
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive sequence</a></b>: Just map or set to find next element and update leng
-  1 2 3 4 100 150 151 400 without sorting we can do that
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elemenst together</a></b>
   
@@ -87,6 +85,11 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/21.%20Triplet%20sum.cpp">Triplet sum</a></b> <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/56.%20Four%20elements.cpp">Four elements</a></b>
   	sort the array
   </pre> 
+  
+# Map
+ <pre>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive sequence</a></b>: Need to update
+ </pre>
 # NOTE
 
   <pre>
