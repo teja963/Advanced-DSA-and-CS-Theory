@@ -90,9 +90,14 @@
 # Map
  <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive sequence</a></b>: Need to update
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/50.%20k-difference%20pairs.cpp">K diff pairs</a></b>: Need to update
  </pre>
+ 
+# STL
+  <pre>
+  finding next permutation next_permutation(arr.begin(), arr.end())
+  </pre>
 # NOTE
-
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/10_kadanes_algo.cpp">Kadanes Alogrithm</a></b>
    Make a parallel array as ans array then update as:
@@ -109,3 +114,4 @@
   <b>Tips:</b>
   When we are searching check possibility for binary search
   </pre>
+  
