@@ -1,12 +1,10 @@
 # Approaches
 <pre>
- <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Standard%20Ques/Sort_012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/24.%203%20way%20partitioning%20around%20given%20value.cpp">3 way partitioning</a></b>
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Standard%20Ques/Sort_012.cpp">Sort 012 in O(1)</a></b> or <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Three_way_partitioning.cpp">3 way partitioning</a></b>
    Just traverse through the each and every element 
            i                                    
    l_ _ _ _ _ _ _ _ _ h 
-                                      
-                                
-                                      
+                                                                     
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Standard%20Ques/Cyclic_rotate.cpp">Cyclic rotate in O(n)</a></b>
    By using reverse function do     <b>Imp condition</b>: k may be any value so use k %= n; 
       reverse entire array
