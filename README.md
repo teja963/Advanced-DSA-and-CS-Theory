@@ -19,3 +19,9 @@
   <pre>
   Frst implement the base case or check it is working for that like size = 0 or size = 1
   </pre>
+  
+# Keypoints
+  <pre>
+  	Use memset for filling 0 or 1 in array, it won't work for anyother values
+  	you can use <b>fill(begin(a), end(a), anyvalue)</b>
+  </pre>
