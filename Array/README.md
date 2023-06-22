@@ -36,15 +36,6 @@
        using count method find n/2 element if odd 
        find n/2- 1 and n/2 if even bcz array sorted
        need to traverse only (n1+n2)/2 elements 
-       
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/64.%20Maximize%20the%20array.cpp">Maximize the array</a></b>
-  	we need to take max elements from both the array
-  	use set for removing duplicated and sorting
-  	and push according to priority
-  	
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/47.%20Sorted%20subsequence%20of%20size%203.cpp">Sorted subsequence of size 3</a></b> and <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/51.%20Increasing%20triplet%20subsequence.cpp">Increasing Triplet</a></b>
-	Same conditions but approach is different for sorted frst increasing then index
-	for triplet first index any order then increasing
 
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/50.%20k-difference%20pairs.cpp">K difference pairs</a></b>
   	In this k is >= 0, so always need to check (x + k) present or not only unqiue pairs means
@@ -96,6 +87,7 @@
 # STL
   <pre>
   finding next permutation next_permutation(arr.begin(), arr.end())
+  set<int>s - It is used for remove duplicates and sorting
   </pre>
 # NOTE
   <pre>
