@@ -1,10 +1,5 @@
 # Efficient Approaches
   <pre>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/12.%20Count%20pairs%20with%20given%20sum.cpp">Count pairs</a></b>
-   If we are counting pairs we need to take care of 
-   1. Do we need to count duplicate or distnict, if duplicates
-   2. basic and main condition is arr[i] == sum - arr[i]
-   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>: Need to update
      Initializing variable valley-peak approach
 	   
@@ -42,8 +37,7 @@
   	no need to consider duplicate elements so use map or set
   	and check k = 0 case, [1, 1, 1, 1] only 1 single pair so k == 0 and x.second > 1: ans++	
   	
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/66.%20First%20Missing%20positive.cpp">First Missing positive</a></b>
-  	Just need to keep 5 in A[4] consider only non-neg nums, bcz frst +ve
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/66.%20First%20Missing%20positive.cpp">First Missing positive</a></b>: Keep elements in their respective index 
   </pre>
 
 # XOR Concept
@@ -71,7 +65,11 @@
   	
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/63.%20Non-decreasing%20array.cpp">Non Decreasing array</a></b>
   	Update not satisifying element based on prev elements value, only one time, if more than that return false
+  	
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/16.%20Max%20product%20subarray.cpp">Max product subarray</a></b>
+  Use cases for -ve and +ve elements
   </pre>
+  
 # BASIC
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/21.%20Triplet%20sum.cpp">Triplet sum</a></b> <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/56.%20Four%20elements.cpp">Four elements</a></b>
@@ -82,6 +80,10 @@
  <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/17.%20longest%20consecutive%20sequence.cpp">Longest consecutive sequence</a></b>: Need to update
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/50.%20k-difference%20pairs.cpp">K diff pairs</a></b>: Need to update
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/12.%20Count%20pairs%20with%20given%20sum.cpp">Count pairs</a></b>
+   If we are counting pairs we need to take care of 
+   1. Do we need to count duplicate or distnict, if duplicates
+   2. basic and main condition is arr[i] == sum - arr[i]"
  </pre>
  
 # STL
@@ -93,7 +95,7 @@
   <pre>
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/10_kadanes_algo.cpp">Kadanes Alogrithm</a></b>
    Make a parallel array as ans array then update as:
-        sum=0   ans=INT_MIN
+        sum=0   ans = INT_MIN
         a: [ 1 -5  4  9  8 -10 6]
       sum: [ 1 -4  4  13 21 11 17]
       ans: [ 1  1  4  13 21 21 21]
