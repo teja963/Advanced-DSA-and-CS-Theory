@@ -22,3 +22,8 @@
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Triplet_sum.cpp">Triplet sum</a></b> :Sort it
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Four_sum.cpp">Four sum</a></b>: Sort it
 </pre>
+
+# Standard
+<pre>
+ <a href="#">Kadanes</a></b>
+</pre>
