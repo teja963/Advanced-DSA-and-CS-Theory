@@ -24,6 +24,7 @@
 # Pointer Approach
 <pre>
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Common_elements_three_arrays.cpp">Common elements in 3 arrays</b></a>:-avoid duplicate cases
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Remove_duplicates_size_2.cpp">Remove duplicates size greater than 2</a></b>: check conditions for removing and increment 
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Triplet_sum.cpp">Triplet sum</a></b> :Sort it
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/Four_sum.cpp">Four sum</a></b>: Sort it
 </pre>
