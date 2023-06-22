@@ -7,12 +7,12 @@ public:
         q.push(root);
         while(!q.empty())
         {
-            int n=q.size();
+            int n = q.size();
             vector<int>v;
             while(n--)
             {
                TreeNode* temp=q.front();
-                q.pop();
+               q.pop();
                v.push_back(temp->val);
                if(temp->left)q.push(temp->left);
                if(temp->right)q.push(temp->right);

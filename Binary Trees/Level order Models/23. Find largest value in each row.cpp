@@ -6,12 +6,12 @@ public:
         queue<TreeNode*>q;
         q.push(root);
         while(!q.empty()){
-            int n=q.size();
-            int s=INT_MIN;
+            int n = q.size();
+            int s = INT_MIN;
             while(n--){
-                TreeNode* t=q.front();
+                TreeNode* t = q.front();
                 q.pop();
-                s=max(s,t->val);
+                s = max(s, t->val);
                 if(t->left)q.push(t->left);
                 if(t->right)q.push(t->right);
             }

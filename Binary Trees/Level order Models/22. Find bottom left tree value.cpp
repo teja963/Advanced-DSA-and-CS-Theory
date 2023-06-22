@@ -6,11 +6,11 @@ public:
         q.push(root);
         int ans;
         while(!q.empty()){
-            int n=q.size(),k=0;
+            int n = q.size(), k = 0;
             while(n--){
-                TreeNode* t=q.front();
+                TreeNode* t = q.front();
                 q.pop();
-                if(k==0){ans=t->val; k++;}
+                if(k == 0){ans = t->val; k++;}
                 if(t->left)q.push(t->left);
                 if(t->right)q.push(t->right);
             }
