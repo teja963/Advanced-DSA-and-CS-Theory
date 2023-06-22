@@ -1,12 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int main() {
 	//code
 	int t,n,i,j,w;
 	cin>>t;
 	while(t--){
-	    w=0;
+	    w = 0;
 	    cin>>n;
 	    vector<int>l(n),r(n),v(n);
 	    for(i=0;i<n;i++)cin>>v[i];
