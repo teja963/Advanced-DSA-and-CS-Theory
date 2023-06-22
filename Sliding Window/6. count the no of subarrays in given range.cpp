@@ -2,11 +2,11 @@ class Solution {
   public:
       long long  count(vector<int>&a,long long x)
       {
-          long long start=0,sum=0,ct=0;
-          for(int end=0;end<a.size();end++)
+          long long start = 0,sum = 0,ct = 0;
+          for(int end = 0; end < a.size(); end++)
           {
               sum += a[end];
-              while(start <= end && sum>x)
+              while(start <= end && sum > x)
               {
                   sum -= a[start];
                   start++;
