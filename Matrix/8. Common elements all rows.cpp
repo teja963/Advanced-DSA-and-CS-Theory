@@ -30,7 +30,7 @@ void printCommonElements(int mat[M][N])
 				mp[mat[i][j]] = i + 1;
 
 				// If this is last row
-				if (i==M-1 && mp[mat[i][j]]==M)
+				if (i == M-1 && mp[mat[i][j]] == M)
 				cout << mat[i][j] << " ";
 			}
 		}
