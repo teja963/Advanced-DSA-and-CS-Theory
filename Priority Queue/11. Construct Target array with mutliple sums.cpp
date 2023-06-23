@@ -16,7 +16,6 @@ public:
             pq.push(old);
             sum += old;
         }
-        return true;
-        
+        return true;  
     }
 };

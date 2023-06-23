@@ -1,6 +1,5 @@
 class Solution {
 public:
-    
     bool carPooling(vector<vector<int>>& trips, int capacity) {
         vector<int>curr_capacity(1001, 0);
         int max_destination = INT_MIN;

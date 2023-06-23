@@ -8,6 +8,4 @@ public:
         for(i = 1; i < n; i++){ans[i] = l; l *= nums[i];}
         for(i = n-2; i >= 0; i--){ans[i] *= r; r *= nums[i];}
         return ans;
-        
-        
     }
