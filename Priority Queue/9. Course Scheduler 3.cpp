@@ -1,20 +1,20 @@
 class Solution {
 public:
-     static bool cmp(vector<int>v1,vector<int>v2)
-      {
+    static bool cmp(vector<int>v1,vector<int>v2)
+    {
           return v1[1]<v2[1];
-      }
+    }
     int scheduleCourse(vector<vector<int>>& courses) {
         sort(courses.begin(),courses.end(),cmp);
         priority_queue<int>pq;
-        int count=0;
-        for(auto x:courses)
+        int count = 0;
+        for(auto x: courses)
         {
-            count+=x[0];
+            count += x[0];
             pq.push(x[0]);
-            while(count>x[1])
+            while(count > x[1])
             {
-                count-=pq.top();
+                count -= pq.top();
                 pq.pop();
             }
         }
