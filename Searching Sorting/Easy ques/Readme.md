@@ -15,6 +15,7 @@
                  a        b                   find no.of triplets less than b and a-1
       ----------          |
       ---------------------
- <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/28.%20Smaller%20on%20left.cpp">Smaller left</a></b>: So we will check the lowerbound of that element in log n time(using set)
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/28.%20Smaller%20on%20left.cpp">Smaller left</a></b>: So we will check the lowerbound of that element in log n time(using set)
+ <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/Easy%20ques/Farthest%20number.cpp">Farthest number</a></b>:Just search only min elements in the right side in log n time
  
 </pre>

@@ -43,9 +43,7 @@
   <pre>
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/32.%20Max%20index%20difference.cpp">Max index difference</a></b>: Just search elements which are Arr[i] <= Arr[j] by making parralel view
    Make a parallel array if you want to search for greater elements instead of searching all logic 
-  
-  
-  
+ 
   accumulate(a,a+n,sum) //find sum of all elements within range, we can modify it
   stable_sort(a, a+n) //Inbuilt fun is there
   </pre>

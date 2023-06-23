@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
- // } Driver Code Ends
-
 long long int getSum(long long int BITree[], long long int index)
 {
     long long int sum = 0;
@@ -14,9 +10,6 @@ long long int getSum(long long int BITree[], long long int index)
     }
     return sum;
 }
-
-
-
 void updateBIT(long long int BITree[], long long int n, long long int index,long long int val)
 {
     while (index <= n)
@@ -25,7 +18,6 @@ void updateBIT(long long int BITree[], long long int n, long long int index,long
        index += index & (-index);
     }
 }
-
 void convert(long long int arr[], long long int n)
 {
     long long int temp[n];
@@ -33,8 +25,6 @@ void convert(long long int arr[], long long int n)
     sort(temp, temp+n);
     for (int i=0; i<n; i++)arr[i] = lower_bound(temp, temp+n, arr[i]) - temp + 1;
 }
-
-
 class Solution{
   public:
     // arr[]: Input Array
@@ -55,28 +45,4 @@ class Solution{
  
     return invcount;
 }
-    
-
 };
-
-// { Driver Code Starts.
-
-int main() {
-    
-    long long T;
-    cin >> T;
-    
-    while(T--){
-        long long N;
-        cin >> N;
-        
-        long long A[N];
-        for(long long i = 0;i<N;i++){
-            cin >> A[i];
-        }
-        Solution obj;
-        cout << obj.inversionCount(A,N) << endl;
-    }
-    
-    return 0;
-}
