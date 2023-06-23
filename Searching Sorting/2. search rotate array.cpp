@@ -8,7 +8,7 @@ public:
                 return mid;
             // there exists rotation; the middle element is in the left part of the array
             if (nums[mid] > nums[r]) {
-                if (target < nums[mid] && target >= nums[l])
+                if (target >= nums[l] && target < nums[mid])
                     r = mid - 1;
                 else
                     l = mid + 1;

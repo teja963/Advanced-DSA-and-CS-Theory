@@ -2,6 +2,8 @@
 <pre>
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/Easy%20ques/1.%20Find%201st%20and%20last%20position%20in%20sorted%20array.cpp">First and last index of element</a></b>
  use equal range stl
+ pair< vector < int > ::iterator1, vector < int >::iterator2>p;
+  p = equal_range(v.begin(), v.end(), x);
  
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/Easy%20ques/Majority_element.cpp">Majority element</a></b>: It is repeating more than n/2
  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/Easy%20ques/Pair_with_given_difference.cpp">Pair with given difference</a></b>: a[i] = b[i] + K, check it present or not
