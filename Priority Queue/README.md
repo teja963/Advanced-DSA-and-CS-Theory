@@ -25,7 +25,7 @@
        	while count > courses[i][1]:   //consider case, having high duration for small timeline, so for getting max remove those 
        		count -= pq.top();
        		pq.pop();
-       		
+       			
    **<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Priority%20Queue/11.%20Construct%20Target%20array%20with%20mutliple%20sums.cpp">Construct target array with multiple sums</a></b>**
    		while pq.top() != 1:
    			make sure if(sum == 0)return false condition added
