@@ -1,13 +1,6 @@
 # Matrix Problems Approach techniques 
   <pre>
-  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/2.%20Search%20in%20row%20and%20column%20sorted%20.cpp">Search in row and column sorted in O(log (M*N))</a></b>
-    Use Binary Search in Row and column simultaneously
-    
-     while i < m and n >= 0:
-        element = top right corner
-        if equal : return true
-        else if (element < target): i++
-        else n--
+  <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/2.%20Search%20in%20row%20and%20column%20sorted%20.cpp">Search in row and column sorted in O(M+N)</a></b>: First search in last col and go to row
              
   <b>Median in row and col sorted: O(32*r*log(c))</b>
    <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/3.%20median.cpp">Finding median</a> and <a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Matrix/*9.%20kth%20smallest%20in%20matrix.cpp">Kth smallest in matrix multiplication</a></b>
