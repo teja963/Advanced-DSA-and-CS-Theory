@@ -53,5 +53,5 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/tree/master/Searching%20Sorting">Minimum number in sorted array</a></b>
   use binary search and check mid and high conditions
   
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/26.%20Koko%20Eating%20Bananas.cpp">Koko eating bananas</a></b>  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/25.Split%20array%20largest%20sum.cpp">Split array largest sum</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/26.%20Koko%20Eating%20Bananas.cpp">Koko eating bananas</a></b>  ->  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/25.Split%20array%20largest%20sum.cpp">Split array largest sum</a></b>
   </pre>

@@ -96,6 +96,10 @@
          																   
    <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/38.%20Maximum%20sum%20LCM.java">Maximum sum LCM</a></b>
    As the LCM of all the numbers is N. So all the numbers must be the divisors of N and all the numbers are distinct so answer must be the sum of all the divisors of N.
+   
+   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/39.%20Max%20points%20in%20a%20line.cpp">Max points in a line</a></b>
+   key points: divsion/zero case,
+   use: <b>atan()</b> function for slope
   </pre>
 # NOTE:
   <pre>
