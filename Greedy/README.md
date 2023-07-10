@@ -77,6 +77,6 @@
                min no.of rooms for meeting/(ending time)     |_ _ _    if end[j] > start[i] :  ans++
                min things/                                   |
                Activity selection(ending day)            -----
-               sort the required array and make the necessary conditions to make clear
+               sort the required array based on ending value and make the necessary conditions to make clear
   </pre> 
           
