@@ -29,6 +29,10 @@
   after end of graph, such that its visited all nodes then we updated the min_time using backtracking
   for detecting bridges <b>min_time[node] = min(min_time[node], min_time[child])</b>
   for detecting edges <b>first_time[node] < min_time[child]</b> then push it
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/30.%20Trapping%20Rain%20water%202.cpp">Trapping rain water 2</a></b>
+  Insert boundary edges,(four sides) choose min as boundary to prevent it from flowing water
+  update the boundaries while traversing
    
   </pre>
 # NOTE
