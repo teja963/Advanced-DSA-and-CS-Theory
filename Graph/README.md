@@ -24,7 +24,7 @@
                                Intiallize all the signal to INT_MAX, and start with given node as 0,          except starting node, and check again for detecting
                                Use bfs approach and updated all nodes signal
                                
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/21.%20Critical%20connections%20in%20a%20network.cpp">Critical connections in a network</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/*21.%20Critical%20connections%20in%20a%20network.cpp">Critical connections in a network</a></b>
   we use dfs approach for finding frst_time
   after end of graph, such that its visited all nodes then we updated the min_time using backtracking
   for detecting bridges <b>min_time[node] = min(min_time[node], min_time[child])</b>

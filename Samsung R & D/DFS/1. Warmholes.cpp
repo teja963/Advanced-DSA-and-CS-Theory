@@ -73,7 +73,6 @@ void solve(point src, point dst, hole h[], int cost){
             visited[i] = 0;
         }
     }
-    
 }
 int main() {
     cin>>t;
