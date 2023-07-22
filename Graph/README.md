@@ -33,6 +33,9 @@
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/30.%20Trapping%20Rain%20water%202.cpp">Trapping rain water 2</a></b>
   Insert boundary edges,(four sides) choose min as boundary to prevent it from flowing water
   update the boundaries while traversing
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/31.%20Swim%20in%20Rain%20Water.cpp">Swim in Rain water</a></b>
+  Bfs approach, we need to prioritze the choosing path as min value
    
   </pre>
 # NOTE
