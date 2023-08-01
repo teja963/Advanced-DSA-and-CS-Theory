@@ -4,6 +4,9 @@
   Use bfs approach by making all possiblities frst
   dp intiliaze -1, if we moved to that mark it as 0
   
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/32.%20Snakes%20and%20Ladders.cpp">Snakes and ladders</a>
+  bfs approach, with the help of map get the cell value(coverting into 1d array)
+  
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/5.%20Biconnected%20Graph.cpp">Biconnected graph</a></b>: If we remove 1 vertices it can't disconnected
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/9.%20Transitive%20closure%20of%20a%20graph.cpp">Transitive closure of a graph</a></b>
   frst track the all the destinations that particular node reaches(visited array)
@@ -76,5 +79,5 @@
 # Approaches
   <pre>
   When source and destination given use bfs, by using question condition
-  when we want to search all possibilites use dfs
+  when we want to search all possibilites or source known use dfs(stopping criteria ht as base)
   </pre>
