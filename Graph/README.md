@@ -4,7 +4,7 @@
   Use bfs approach by making all possiblities frst
   dp intiliaze -1, if we moved to that mark it as 0
   
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/32.%20Snakes%20and%20Ladders.cpp">Snakes and ladders</a>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/32.%20Snakes%20and%20Ladders.cpp">Snakes and ladders</a></b>
   bfs approach, with the help of map get the cell value(coverting into 1d array)
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/5.%20Biconnected%20Graph.cpp">Biconnected graph</a></b>: If we remove 1 vertices it can't disconnected
