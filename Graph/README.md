@@ -77,6 +77,7 @@
   
 # Approaches
   <pre>
+  <a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/33.%20Shortest%20Bridge.cpp">Shortest Bridge</a>
   When source and destination given use bfs, by using question condition
   when we want to search all possibilites or source known use dfs(stopping criteria ht as base)
   </pre>
