@@ -39,6 +39,10 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/32.%20Snakes%20and%20Ladders.cpp">Snakes and ladders</a></b>
   bfs approach, with the help of map get the cell value(coverting into 1d array) 
+  
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/34.%20Min%20moves%20to%20move%20a%20box%20to%20target%20location.cpp">Min moves to move target to given position</a></b>
+  bfs approach, keep track of box w.r.t to player && check player can reach to opp direction of box move
+  
   </pre>
 # NOTE
   <pre>
