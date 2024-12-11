@@ -13,7 +13,7 @@ distance of marathon: D
 Total Health: H
 5 lines each if 3 space separated integers decnoting paces.
 
-contraints:
+constraints:
 3 <= D <= 40
 10 <= H <= 100
 3 <= minutes <= 6

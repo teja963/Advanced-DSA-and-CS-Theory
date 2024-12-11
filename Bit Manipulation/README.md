@@ -33,7 +33,7 @@
          get all the odd one's by n&0x55555555;
          shift the positions and add
     
-   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer wihtout any division, multiplication, mod O(log a)</a></b>**
+   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Bit%20Manipulation/8.%20divide%202%20integers%20wihtout%20mul%20div%20modoperation.cpp">Divide 2 integer without any division, multiplication, mod O(log a)</a></b>**
 	       we can know that every number is can be written as power of 2
 	       a = 10    b = 3    ans= 3
 	       1 0 1 0     tmp=0
@@ -56,7 +56,7 @@
       
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Bit%20Manipulation/12.%20Single%20Number%203.cpp">Single Number 3</a></b>
       [1, 2, 1, 3, 2, 5]    find xor of all = tmp
-      for geting last set bit of tmp = tmp & -tmp   //for grouping purpose (01)
+      for getting last set bit of tmp = tmp & -tmp   //for grouping purpose (01)
                           00        10
       1:  001          -------------------
       2:  000             1     |   2
@@ -85,10 +85,10 @@
 	//bitmap  = [num1,  num2, num3 , num4 , num5 , num6]  -- val |= (1<<(ch-'a'))
        Output: 16
      
-       Use bitmap for checking common charcters for 
+       Use bitmap for checking common characters for 
        and check (bitmap[i] & bitmap[j] == 0) ,if common characters present it won't be zero
        
-   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Bit%20Manipulation/14.%20Counting%20Bits.cpp">Couting bits</a></b>
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Bit%20Manipulation/14.%20Counting%20Bits.cpp">Counting bits</a></b>
    	we need to find no.of bits in O(1)
    	1. make use of previously calculated thing ans[i] = ans[i / 2]
    	2. Even and odd status helps us update, finally ans[i] = ans[i / 2] + i % 2

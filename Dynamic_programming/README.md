@@ -67,8 +67,8 @@
     		if prev < nums[idx]: take = 1 + fun(nums, idx+1, nums[idx])
     		return max(take, not_take)
   
-    Imp condition :                                                                        For russian dolls probelms convert into LIS by fixing one parameter inreasing
-         dp[n] = {1}                                                                       after getting variable paramter find LIS 
+    Imp condition :                                                                        For russian dolls problems convert into LIS by fixing one parameter inreasing
+         dp[n] = {1}                                                                       after getting variable parameter find LIS 
         if( a[j] < a[i] )                                              
         {
           dp[i] = max ( dp[i], dp[j] + 1)
@@ -107,7 +107,7 @@
    p1   p2   p3   p4 
    _    _    _    _     _     _     _     _ 
    di possible after pi
-   so for d1 we have 2*n - 1 possiblilities
+   so for d1 we have 2*n - 1 possibilities
    so for d2 we have p1 d1 p2 fixed so we have 2*n - 3 possibilities ...........
    for p1 to pn we have n!ways
    so n! * (1 * 3* 5 * ...2n-1)
@@ -120,16 +120,16 @@
 	  2 1 2 3 4 5
 	  3 1 3 6 10 15 
 	  
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/34.%20Longest%20Increasing%20path%20in%20a%20matrix.cpp">Longest Incrasing Path in a matrix</a></b>     <img alt= "Grid Image" src="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/images/grid1.jpg">
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/34.%20Longest%20Increasing%20path%20in%20a%20matrix.cpp">Longest Increasing Path in a matrix</a></b>     <img alt= "Grid Image" src="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/images/grid1.jpg">
   we don't know where to start so we traverse all the nodes                     make recursive block diagrams for each cell and possibilities
-  implement base case and all possibilites
-  dp[i][j] = max({left, right, up, down}) + 1 - for couting this step
+  implement base case and all possibilities
+  dp[i][j] = max({left, right, up, down}) + 1 - for counting this step
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/38.%20Number%20of%20ways.cpp">Number of ways</a></b>
   	dp[i] = dp[i-1] + dp[i-4]
   </pre>
 
-# Recurrsion -> DP Impelmentation
+# Recurrsion -> DP Implementation
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/1.%20coin%20problem.cpp">Coin Problem</a></b>: if dp[0] = 1;
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/2.%20knapsack%200-1.cpp">Knapsack</a></b>: N == 0, W == 0, fill with zeros, we need to consider or not cases
@@ -138,7 +138,7 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/8.%20subset%20equal%20partition.cpp">Subset equal partition</a></b>: We need to consider or not cases
   </pre>
   
-# Pattern Finding ques
+# Pattern Finding quest
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/9.%20frnds%20paring.cpp">Friends pairing</a></b>: check this pattern
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Dynamic_programming/15.%20Painting%20the%20fence.cpp">Painting the fence</a></b>: Pattern
@@ -149,5 +149,5 @@
   if min assign INT_MAX
   if max assign INT_MIN
   else assign zero
-     At last based on question intialize the frst row and frst col base conditions 
+     At last based on question initialize the frst row and frst col base conditions 
   </pre>

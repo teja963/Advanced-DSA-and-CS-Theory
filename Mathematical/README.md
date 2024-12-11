@@ -5,7 +5,7 @@
   	just modify a[i] = n * (a[a[i]] % n) + a[i] % n
   	so while traversing a[i] = a[i] / n
   	
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/14.%20Check%20binary%20is%20multiple%20of%203.cpp">Check given binary number is multipe of 3 or not</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/14.%20Check%20binary%20is%20multiple%20of%203.cpp">Check given binary number is multiple of 3 or not</a></b>
         ans: Count odd 1's and even 1's diff between odd 1's and even 1's is multiple of 3
         
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/mathematical/16.%20Final%20destination.cpp">Find destination</a></b>
@@ -51,14 +51,14 @@
     <img width="315" align="center" alt="rectanglesOverlap" src="https://user-images.githubusercontent.com/69209797/137142430-6a4ba481-20e6-4a05-b49a-9c6518a8a89d.png">
 
     Conditions for overlap:
-       1. if l1 == r1 or l2 == r2 (any cordinate matches) the line can't have +ve overlap
+       1. if l1 == r1 or l2 == r2 (any coordinate matches) the line can't have +ve overlap
        2. if l1.x >= r2.x or l2.x >= r1.x // if it is on left side
        3. if r1.y >= l2.y or r2.y >= l1.y // if one rect is above other
        
 
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/25.%20Cows%20of%20foo%20land.cpp">Finding fibonacci num in log(n) </a></b>
      <img width="315" align="center" src="https://github.com/teja963/DSA_All_Models/blob/master/Mathematical/images/fibonacci.png">
-     1. Recursively divide the given term and multiply the matrix untill we get 1 for n //n/2
+     1. Recursively divide the given term and multiply the matrix until we get 1 for n //n/2
      2. Atlast if we get 1 then need to multiply once again and return the term
          _        _     _     _  n
         |Fn+1  Fn  |   |1     1|
@@ -91,20 +91,20 @@
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Mathematical/33.%20Pair%20of%20Songs%20with%20duration%20divisible%20by%2060.cpp">Pair of songs duration is % 60</a></b>  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/37.%20Grouping%20of%20numbers.java">Grouping of numbers</a></b>
    mod 60 means its always lie between [0,59] so consider array            Same as % K concept, make a remainder array
    else add its compliement v[60-rem]                                      check for non-divisible case like max(rem[low], rem[high), low = 1, high = k-1
-   update v[rem]++;                                                        check for all elements divisble case(k, 2k, 3k, ...)
+   update v[rem]++;                                                        check for all elements divisible case(k, 2k, 3k, ...)
          																   check for (i == k / i) case
          																   
    <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/38.%20Maximum%20sum%20LCM.java">Maximum sum LCM</a></b>
    As the LCM of all the numbers is N. So all the numbers must be the divisors of N and all the numbers are distinct so answer must be the sum of all the divisors of N.
    
    <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Mathematical/39.%20Max%20points%20in%20a%20line.cpp">Max points in a line</a></b>
-   key points: divsion/zero case,
+   key points: division/zero case,
    use: <b>atan()</b> function for slope
   </pre>
 # NOTE:
   <pre>
   1. Next greater number problem use next premuation for simple approach
-  2. For given number see paterns from given input to usage of dp or fibonacci series
+  2. For given number see patterns from given input to usage of dp or fibonacci series
   3. Factorial of given values in array, store the fact values by providing size of max limit <b>O(max(array)+ N)</b>
   4. Check given num is power of smtg apply log on both sides get condition to check
      for 2: return n > 0 && __builtin_popcount(n) == 1;

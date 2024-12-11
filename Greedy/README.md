@@ -28,7 +28,7 @@
            If we get the pair skip one iteration otherwise //implementation imp
            
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Greedy/9.%20Gas%20Station.cpp">Gas Station</a></b>
-  <img widht="800" height="400" src="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/images/gas.png">
+  <img width="800" height="400" src="https://github.com/teja963/DSA-and-MYSQL/blob/master/Greedy/images/gas.png">
         sum+= gas[i]- cost[i] 
      if sum <0: //then it can't be starting bcz of empty tank
           ans = i +1 //next one
@@ -56,11 +56,11 @@
    Kadane's prefix algorithm model
   
   <b><a href="https://leetcode.com/problems/partition-labels/">Question</a></b>                  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/17.%20Partition%20labels.cpp">Partition labels</a></b>
-   Find the last element occurance of character
-   and use <b>maxi - prev</b>   , intializing to maxi 0, and prev -1
-   if <b>maxi == i</b>   condition for spliting, the we can update 
+   Find the last element occurrence of character
+   and use <b>maxi - prev</b>   , initializing to maxi 0, and prev -1
+   if <b>maxi == i</b>   condition for splitting, the we can update 
    
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/18.%20Smallest%20string%20with%20given%20numeric%20value.cpp">Smallest string with given numberic value</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Greedy/18.%20Smallest%20string%20with%20given%20numeric%20value.cpp">Smallest string with given numeric value</a></b>
    First fill with a's and update string from rightend to leftend
    ans[--n] += min(25,k);
    
@@ -72,7 +72,7 @@
    
 # NOTE:
   <pre>                                                                  j      i
-  1. Incase of [frst, second] use greedy by sorting
+  1. In case of [frst, second] use greedy by sorting
                min no.of platforms/(ending time)         -----
                min no.of rooms for meeting/(ending time)     |_ _ _    if end[j] > start[i] :  ans++
                min things/                                   |

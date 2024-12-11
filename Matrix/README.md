@@ -28,8 +28,8 @@
    now check their corresponding matrix[row1][column] and matrxi[row2][column] is 1
    
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Matrix/13.%20Compute%20Matrix.cpp">Compute matrix</a></b>See the pattern(reverse dynamic)
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Matrix/14.%20Filp%20columns%20for%20max%20no.of%20equal%20rows.cpp">Filp columns for max no.of equal rows</a></b>
-   After fliping it becomes equal rows means:- its compliment right
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Matrix/14.%20Filp%20columns%20for%20max%20no.of%20equal%20rows.cpp">Flip columns for max no.of equal rows</a></b>
+   After flipping it becomes equal rows means:- its compliment right
    use string(for row elements)keep tracking those freq and its compliment
     
    </pre> 

@@ -1,7 +1,7 @@
 # Graph
   <pre>
   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Graph/1.%20Steps%20by%20Knight.cpp">Steps by Knight</a></b>     Application:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/18.%20Shortest%20path%20in%20matrix.cpp">Shortest Path in matrix</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/23.%20Rotten%20Oranges.cpp">Rotten Oranges</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/27.%20Min%20Cost%20Path.cpp">Minimum cost path</a></b>
-  Use bfs approach by making all possiblities frst
+  Use bfs approach by making all possibilities frst
   dp intiliaze -1, if we moved to that mark it as 0
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/5.%20Biconnected%20Graph.cpp">Biconnected graph</a></b>: If we remove 1 vertices it can't disconnected
@@ -21,7 +21,7 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/17.%20Implementing%20Dijkstra%20Algorithm.cpp">Dijkstra Algorithm</a></b>     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/13.%20Network%20Delay%20time.cpp">Network Delay time</a></b> Bellman ford:<b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/24.%20Negative%20weight%20cycle.cpp">Negative weight cycle</a></b>
                                Dijkstra's algo application                                                    make a distance vector and update it for all nodes
-                               Intiallize all the signal to INT_MAX, and start with given node as 0,          except starting node, and check again for detecting
+                               Initialize all the signal to INT_MAX, and start with given node as 0,          except starting node, and check again for detecting
                                Use bfs approach and updated all nodes signal
                                
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/*21.%20Critical%20connections%20in%20a%20network.cpp">Critical connections in a network</a></b>
@@ -35,10 +35,10 @@
   update the boundaries while traversing
   
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/31.%20Swim%20in%20Rain%20Water.cpp">Swim in Rain water</a></b>
-  Bfs approach, we need to prioritze the choosing path as min value
+  Bfs approach, we need to prioritize the choosing path as min value
   
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/32.%20Snakes%20and%20Ladders.cpp">Snakes and ladders</a></b>
-  bfs approach, with the help of map get the cell value(coverting into 1d array) 
+  bfs approach, with the help of map get the cell value(converting into 1d array) 
   
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/34.%20Min%20moves%20to%20move%20a%20box%20to%20target%20location.cpp">Min moves to move target to given position</a></b>
   bfs approach, keep track of box w.r.t to player && check player can reach to opp direction of box move
@@ -53,7 +53,7 @@
   </pre>
 # Theory
   <pre>
-  <b>Topological Sorting</b>: It should be DAG, there will be many possibilites find indeg choose which is least
+  <b>Topological Sorting</b>: It should be DAG, there will be many possibilities find indeg choose which is least
   So for implementation use DFS + stack   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/15.%20Topological%20sort.cpp">Topological sort</a></b> **Application:** <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/20.%20Alien%20Dictionary.cpp">Alien dictionary</a></b>       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/26.%20Prerequisites%20tasks.cpp">Prerequisites tasks</a></b>   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Graph/22.%20course%20schedule.cpp">Course schedule</a></b>
                                          We are getting indeg and relationship from the given strings
                                          and used bfs approach for finding topological sort
@@ -76,12 +76,12 @@
    
   <b>Strongly Connected graph</b>If every vertices can reach all other vertices then it is SCC. Every single node is SCC. If we reverse edge direction
   in Directed graph, the property doesn't change. 
-  In dfs approach make a visulization of passing and marking nodes for better
+  In dfs approach make a visualization of passing and marking nodes for better
   </pre>
   
 # Approaches
   <pre>
   <a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Graph/33.%20Shortest%20Bridge.cpp">Shortest Bridge</a>
   When source and destination given use bfs, by using question condition
-  when we want to search all possibilites or source known use dfs(stopping criteria ht as base)
+  when we want to search all possibilities or source known use dfs(stopping criteria ht as base)
   </pre>
