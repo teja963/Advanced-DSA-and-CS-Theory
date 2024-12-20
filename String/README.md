@@ -15,7 +15,7 @@
                                                 
         Apply Kadane's algo for finding max sum subarray
         
-   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/13.%20Next%20permutation.cpp">Next Permuation</a></b>
+   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/13.%20Next%20permutation.cpp">Next Permutation</a></b>
           <img alt="Gif" width="550" height="200" src="https://github.com/teja963/DSA_All_Models/blob/master/String/images/31_Next_Permutation.gif">
           
    <b>Imp:</b> <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/String/18.%20Vowels%20of%20all%20substrings.cpp">Vowels of all substrings</a></b>        <b>Application:</b> <b><a href="https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true">Minion game question</a></b>     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/18.%20Minion%20Game.py">Solution</a></b>    <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/String/3.%20Count%20no%20of%20subarrays.java">Count no.of subarrays</a></b>
@@ -23,17 +23,17 @@
           a ab abe abea                        ith is vowel
           b be bea                                 |
           e ea                               left / \ right                                          not include, nums greater than K, multiple times
-          a                                  (i+1)     (n - i) times it repeates in substring        so make count = 0, after each iteration of num greater than k
+          a                                  (i+1)     (n - i) times it repeats in substring        so make count = 0, after each iteration of num greater than k
                                        ending with     starting with
                                      ith character      ith character substring
           
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/34.%20Exactly%20one%20swap.cpp">Exactly one swap</a></b>
      i
    g e e k                if we take g (egek, eegk ,keeg)
-                          similiarly if we take frst e(geek, gkee)
+                          similarly if we take frst e(geek, gkee)
    for ith character we know (n - i -1)swaps are possible among those we need to reduce duplicate cases
    so if we swap e with e, then it can't be distnict string so use map to update frequencies 
-   m[s[i]]--;   **it will remove duplicate characters swaping**
+   m[s[i]]--;   **it will remove duplicate characters swapping**
    ans += (n - i - 1 - m[s[i]])
    
    <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/25.%20Next%20Highest%20Palindrome.cpp">Next Highest Palindrome in O(N Log N)</a></b>
@@ -46,7 +46,7 @@
      prefix = a[0];
      while traversing array of strings update prefix
      
-   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Sliding%20Window/4.%20Count%20anagrams.cpp">Count Anagram</a></b> or <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/29.Permutation%20in%20String.cpp">Permuation in string</a></b>
+   <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Sliding%20Window/4.%20Count%20anagrams.cpp">Count Anagram</a></b> or <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/String/29.Permutation%20in%20String.cpp">Permutation in string</a></b>
     Same concept application of anagrams
     If s1's pemutation is present in s2, if permutations equal means sort(s1) == sort(s2)
     In Simple way without sorting use map m1 == m2, then permutation of s1 is present in s2
@@ -56,7 +56,7 @@
    2 strings are special equivalent such that s1 == s2,
    s1: abcd     s2: adcb
    we can make any no.of swaps of even or odd characters to check its equal means,
-   odd characters and even charcters are same so, convert every string to 
+   odd characters and even characters are same so, convert every string to 
    s: sort (odd_characters) + sort ( even_characters)
    
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/35.%20Transform%20string.cpp">Transform string</a></b>
@@ -64,7 +64,7 @@
    <b>Best method for both strings has same characters using subtraction irrespective of order</b>
    traverse from end of string
    
-   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/36.%20Longest%20Valid%20Parantheses.cpp">Longest Valid parantheses</a></b>
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/36.%20Longest%20Valid%20Parantheses.cpp">Longest Valid parentheses</a></b>
    Go from left to right and keep count of open and close, if gng to rgt side, close increases is invalid so make (open, close) = 0
    similarly gng from right to left, open value increases make both 0
    
@@ -80,7 +80,7 @@
    <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/39.%20Word%20pattern.cpp">Word Pattern</a></b>
    	check case pattern.size > s.size and s.size > pattern.size	
   </pre>
-# Palindrome releated
+# Palindrome related
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/String/37.%20Minimum%20characters%20to%20be%20added%20at%20front%20to%20make%20it%20palindrome.java">Min characters to be added at front to make it palindrome</a></b>
   <b>Imp concept</b>: In palindrome if we take any character u will get mini palindrome

@@ -1,6 +1,6 @@
 # Efficient Approaches
   <pre>
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling atmost twice</a></b>: Need to update
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/19.%20Buying%20selling%20share%20atmost%20twice.cpp">Buying and selling at most twice</a></b>: Need to update
      Initializing variable valley-peak approach
 	   
 		                80
@@ -13,7 +13,7 @@
 		       \ /
 		        8 
   
-  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elemenst together</a></b>
+  <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/25.%20Min%20swaps%20required%20k%20elements%20together.cpp">Min swaps required to bring K elements together</a></b>
   
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Array/37.%20Max%20sum%20path.cpp">Maximum sum path</a></b>
         arr1: i sum1
@@ -33,7 +33,7 @@
        need to traverse only (n1+n2)/2 elements 
 
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/50.%20k-difference%20pairs.cpp">K difference pairs</a></b>
-  	In this k is >= 0, so always need to check (x + k) present or not only unqiue pairs means
+  	In this k is >= 0, so always need to check (x + k) present or not only unique pairs means
   	no need to consider duplicate elements so use map or set
   	and check k = 0 case, [1, 1, 1, 1] only 1 single pair so k == 0 and x.second > 1: ans++	
   	
@@ -61,7 +61,7 @@
   	apply above problem base logic
   	
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/63.%20Non-decreasing%20array.cpp">Non Decreasing array</a></b>
-  	Update not satisifying element based on prev elements value, only one time, if more than that return false
+  	Update not satisfying element based on prev elements value, only one time, if more than that return false
   	
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/16.%20Max%20product%20subarray.cpp">Max product subarray</a></b>
   Use cases for -ve and +ve elements

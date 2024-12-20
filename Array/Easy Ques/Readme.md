@@ -31,7 +31,7 @@
 
 # Standard
 <pre>
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/kadanes_algo.cpp">Kadanes Alogrithm</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/Easy%20Ques/kadanes_algo.cpp">Kadanes Algorithm</a></b>
    Make a parallel array as ans array then update as:
         sum=0   ans = INT_MIN
         a: [ 1 -5  4  9  8 -10 6]
