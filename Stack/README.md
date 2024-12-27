@@ -20,7 +20,7 @@
            s1: 1 2 3 4 5
     <b><a href="https://github.com/teja963/DSA-and-MYSQL/blob/master/Stack/8.%20Next%20greater%20element.cpp">Next greater Element</a></b>
     Traverse from right to left and keep storing the each and every elements in the stack
-    when arriving element is greater than s.top(), then pop all the elements untill that condition
+    when arriving element is greater than s.top(), then pop all the elements until that condition
           
     <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Stack/13.%20Max%20rectangle%20in%20histogram.cpp">Max Rectangle area in Histogram</a></b>
                               _ _         _ _
@@ -49,8 +49,8 @@
     <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Stack/17.%20Simplify%20Path.cpp">Simplify Path</a></b>
     	Store /content//
     	push string between /  and / in the stack
-    	if string is "." current direcotry
-    	if string is ".." parent direcotry so pop current
+    	if string is "." current directory
+    	if string is ".." parent directory so pop current
     	otherwise push in the stack
   </pre>
     

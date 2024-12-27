@@ -1,19 +1,19 @@
 # Applications
   <pre>
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/15.%20atleast%20trailing%20zeros.cpp">Atleast N trailing zeros in O(log N)</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/15.%20atleast%20trailing%20zeros.cpp">At least N trailing zeros in O(log N)</a></b>
    log n means binary search with l = 0 and h = 5*n
    high = mid
-   low = mid+1(atleast)
+   low = mid+1(at least)
    so return low
    
   <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/17.%20merging%20overlap%20intervals.cpp">Merging Overlap intervals</a></b>  and <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Searching%20Sorting/18.%20Merging%20overlap%20intervals%202.cpp">Merging Overlap intervals 2</a></b>
      
-      start  end  //initalize
+      start  end  //initialize
      Q1. [[1,2],[1,3],[2,5]]     update end if end >= intervals[i][0]  //merging intervals case
      Q2. 
          1. push intervals less than range
          2. for merging intervals into single interval 
-             within this range compare each element and update( initialzing start,end = newInterval)
+             within this range compare each element and update( initializing start,end = newInterval)
              intervals[i][0] <= newInterval[1]:
              
 		                         [1,5] - newInterval
@@ -36,12 +36,12 @@
   
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/29.%20Min%20Swaps%20to%20sort.cpp">Minimum swaps to sort</a></b>
   make parallel view of input and result
-  find pattern for swapping to which element by storing indexs
+  find pattern for swapping to which element by storing indexes
    </pre>
    
 # STL
   <pre>
-   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/32.%20Max%20index%20difference.cpp">Max index difference</a></b>: Just search elements which are Arr[i] <= Arr[j] by making parralel view
+   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Searching%20Sorting/32.%20Max%20index%20difference.cpp">Max index difference</a></b>: Just search elements which are Arr[i] <= Arr[j] by making parallel view
    Make a parallel array if you want to search for greater elements instead of searching all logic 
  
   accumulate(a,a+n,sum) //find sum of all elements within range, we can modify it

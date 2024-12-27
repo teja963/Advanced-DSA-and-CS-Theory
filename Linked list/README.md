@@ -18,7 +18,7 @@
             fixed size and made the changes using reverse function
             
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/11.%20Intersection%20point%20LL.cpp">Intersection point</a></b> or <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/32.%20Polynomial%20%20addition.cpp">Polynomial addition</a></b>
-      Just traverse untill the last nodes of LL, at end point interchange(same reason for polynomial addition) 
+      Just traverse until the last nodes of LL, at end point interchange(same reason for polynomial addition) 
       their path for getting equal distance from intersection node(for getting missed powers addition)
       
   <b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/29.%20Linkedlist%20cycle%202.cpp">Cycle detect and find intersection</a></b>
@@ -50,7 +50,7 @@
   
   **<b><a href="https://github.com/teja963/DSA_All_Models/blob/master/Linked%20list/33.%20Count%20triplets%20in%20SLL.cpp">Count triplets in SLL in O(N*N) and space O(N)</a></b>**
     Use map for storing each value for each iteration
-    for SLL we can't traverse back of the list untill it was reversed so
+    for SLL we can't traverse back of the list until it was reversed so
     1 2 3    x=6
     for i=head to i:
        for j=i->next to j:
@@ -64,7 +64,7 @@
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Linked%20list/36.%20swap%20kth%20nodes%20from%20ends.cpp">Swap kth nodes from ends</a></b>
     <b>check min(k, n - k + 1)</b>
     make prev_node a from frst and prev_node b from end
-    make a connection diagram and implment 
+    make a connection diagram and implement 
   </pre>
 # Methods
   <pre>

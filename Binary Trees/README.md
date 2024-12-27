@@ -44,7 +44,7 @@
                 5  | 6 7 |  8
                 |  |  |  |  |
    
-  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/54.%20Maximum%20width%20of%20Binary%20Tree.cpp">Maximum widht of BT</a></b>
+  <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/54.%20Maximum%20width%20of%20Binary%20Tree.cpp">Maximum width of BT</a></b>
    Use parent, left_child, right_child index concept add index parameter in the queue
    i - parent
    2 * i + 1 - left_child
@@ -59,7 +59,7 @@
           l          m-1  m  m+1          h                  root.left= (l, m-1)
     arr:  1   2   3   4   5   6   7   8   9                  root.right= (m+1, h)
     
-* Properities:
+* Properties:
    <b>Inorder traversal of BST gives sorted order</b> 
    <b>Application:</b><b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/36.%20Check%20BST.cpp">Check BST</a></b>: implement false conditions
                       <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Binary%20Trees/43.%20find%20mode%20in%20BST.cpp">Mode in BST</a></b>
