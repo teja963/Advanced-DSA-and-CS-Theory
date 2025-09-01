@@ -19,6 +19,9 @@ Constraints:
 1 <= dictionary.length <= 1000
 1 <= dictionary[i].length <= 1000
 s and dictionary[i] consist of lowercase English letters
+
+Time Complexity: O(size_dict * maxstring_len)
+Space Complexity: O(1)
 */
 class Solution {
 public:

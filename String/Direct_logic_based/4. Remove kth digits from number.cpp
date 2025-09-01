@@ -10,6 +10,11 @@ Explanation: Remove the leading 1 and the number is 200. Note that the output mu
 Input: num = "10", k = 2
 Output: "0"
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.
+
+Solution:
+1. Remove the elements in descending order using another string
+2. Remove leading zeros(cases)
+3. If String is in ascending order pop last elements 
 */
 class Solution {
 public:
@@ -17,11 +22,10 @@ public:
         string s = "";
         for(int i = 0; i < num.size(); i++)
         {
-            while(s.size() && k && num[i]<s.back()){ s.pop_back(); k--;}
+            while(s.size() && k && s.back()>num[i]){ s.pop_back(); k--;}
             s += num[i];
         }
         while(s.size() && s[0]=='0')s=s.substr(1);  //removing leading zeros
         while(s.size() && k){ s.pop_back(); k--;}  // if the string is in ascending order
         return s.size() ? s: "0";
-        
     }

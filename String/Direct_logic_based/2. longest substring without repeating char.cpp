@@ -13,6 +13,16 @@ Explanation: The answer is "wke", with the length of 3. Notice that the answer m
 
 Input: s = ""
 Output: 0
+
+Constraints:
+0 <= s.length <= 5 * 104
+s consists of English letters, digits, symbols and spaces.
+
+Solution:
+1. Using unordered set and Sliding two pointer approach
+2. remove the elements untill you find the current element in the set
+
+Time Complexity: O(string_size).  Space Complexity:O(K). //k = 256
 */
 class Solution {
 public:
@@ -32,21 +42,3 @@ public:
         }
         return size;
     }
-    
-    
-// 2nd method critical thinking
-
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-      vector<int>v(256, -1);
-        int i, j = 0,k = 0, x;
-        for(i = 0;i < s.size(); i++){
-            j = max(j, v[s[i]]+1); 
-            x = i-j+1;  // maintaining the len size of string
-            k = max(k,x); //final string len as ans
-            v[s[i]] = i;
-        }
-        return k;
-    }
-};
