@@ -44,7 +44,6 @@
   <pre>
   <b><a href="https://github.com/teja963/Advanced-DSA/blob/master/Array/48.%20Pairs%20with%20given%20xor.cpp">Pair with given xor in O(n)</a></b>
   	Need to Update it
-  <b><a href="https://github.com/teja963/Advanced-DSA-and-CS-Theory/blob/master/Array/39.%20Single%20num.cpp">Single num</a></b>
   </pre> 
 # Subarray concept
   <pre>
