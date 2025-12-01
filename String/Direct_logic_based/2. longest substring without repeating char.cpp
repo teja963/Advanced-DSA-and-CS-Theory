@@ -15,30 +15,30 @@ Input: s = ""
 Output: 0
 
 Constraints:
-0 <= s.length <= 5 * 104
+0 <= s.length <= 5 * 10^4
 s consists of English letters, digits, symbols and spaces.
 
-Solution:
-1. Using unordered set and Sliding two pointer approach
-2. remove the elements untill you find the current element in the set
-
-Time Complexity: O(string_size).  Space Complexity:O(K). //k = 256
+Solution: Sliding window using array to track character positions
+Time Complexity: O(n), Space Complexity: O(1)
 */
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_set<char>set;  //for storing unique char using sliding window
-        int i = 0,j = 0,size = 0;  //two pointer method
-        while(i < s.size() && j < s.size()){
-            if(set.find(s[j]) == set.end()){
-                set.insert(s[j]);
-                size = max(size, set.size());
-                j++;
+        vector<int> lastPos(256, -1);  // stores last index of each character
+        int maxSize = 0;
+        int left = 0;
+        
+        for(int right = 0; right < s.size(); right++){
+            int idx = s[right] - 'a';  // subtract 'a' to get array index
+            
+            if(lastPos[idx] >= left){
+                left = lastPos[idx] + 1;
             }
-            else{
-                set.erase(s[i]);
-                i++;
-            }
+            
+            lastPos[idx] = right;
+            maxSize = max(maxSize, right - left + 1);
         }
-        return size;
+        
+        return maxSize;
     }
+};

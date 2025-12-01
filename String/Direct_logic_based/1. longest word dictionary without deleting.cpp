@@ -20,7 +20,12 @@ Constraints:
 1 <= dictionary[i].length <= 1000
 s and dictionary[i] consist of lowercase English letters
 
-Time Complexity: O(size_dict * maxstring_len)
+The time complexity of the given code is __O(n log n * m + n * |s|)__, where:
+
+- n = dictionary.length (size of dictionary)
+- m = average length of strings in dictionary
+- |s| = length of string s
+
 Space Complexity: O(1)
 */
 class Solution {
