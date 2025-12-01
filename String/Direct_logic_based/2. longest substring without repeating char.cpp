@@ -31,7 +31,7 @@ public:
         for(int right = 0; right < s.size(); right++){
             int idx = s[right] - 'a';  // subtract 'a' to get array index
             
-            if(lastPos[idx] >= left){
+            if(lastPos[idx] >= left){   // Updating the last index when ever found
                 left = lastPos[idx] + 1;
             }
             
