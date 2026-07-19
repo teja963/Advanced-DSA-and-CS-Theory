@@ -781,17 +781,20 @@
             <mxPoint x="230" y="-480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g2y2TbSnuavHlpRjAEpv-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="g2y2TbSnuavHlpRjAEpv-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFFF66;strokeColor=#000099;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="765" y="-620.5300000000002" as="sourcePoint" />
             <mxPoint x="-200" y="-450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g2y2TbSnuavHlpRjAEpv-6" parent="1" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="280" width="280" x="840" y="-760" as="geometry" />
+          <mxGeometry height="470" width="470" x="770" y="-830" as="geometry" />
         </mxCell>
-        <mxCell id="g2y2TbSnuavHlpRjAEpv-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;External Catalog&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="180" x="890" y="-800" as="geometry" />
+        <mxCell id="g2y2TbSnuavHlpRjAEpv-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;External Catalog&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Source, Metadata, Data&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="292.5" x="860" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="g2y2TbSnuavHlpRjAEpv-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;jdbc&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;: PostgreSQL, MYSQL, Oracle, SQL Server, Click House&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Tables&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt; Hive, Iceberg, Hudi, Delta, Elasticsearch, Paimon, Kudu&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;All format&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;: Unified&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="380" width="440" x="785" y="-770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
