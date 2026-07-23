@@ -190,7 +190,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-43" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;accentColor=#ffff00;pointerEvents=1" value="" vertex="1">
-          <mxGeometry height="48" width="95" x="437.5" y="251" as="geometry" />
+          <mxGeometry height="39" width="95" x="437.5" y="256" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-44" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="" vertex="1">
           <mxGeometry height="120" width="180" x="270" y="215" as="geometry" />
@@ -216,17 +216,17 @@
         <mxCell id="IJyYXr3EG7hztX1UU505-52" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" value="" vertex="1">
           <mxGeometry height="49" width="85" x="830" y="251" as="geometry" />
         </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sink&lt;/font&gt;" vertex="1">
+        <mxCell id="IJyYXr3EG7hztX1UU505-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Starrocks&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sink&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="840" y="260.5" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-54" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="80" width="150" x="930" y="120" as="geometry" />
+          <mxGeometry height="150" width="180" x="930" y="120" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Starrocks Connector&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="170" x="930" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Stream Load&lt;div&gt;JDBC Load&lt;/div&gt;&lt;div&gt;Insert Into&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41" width="130" x="930" y="139.5" as="geometry" />
+        <mxCell id="IJyYXr3EG7hztX1UU505-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;-Read Sink config from Flink SQL&lt;/div&gt;&lt;div&gt;- Buffer Rows&lt;/div&gt;-Open Stream Load txns&lt;div&gt;JDBC Load&lt;/div&gt;&lt;div&gt;Insert Into&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41" width="200" x="920" y="186" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Flink Checkpoints(runtiime)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Stores the State&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="220" x="480" y="430" as="geometry" />
@@ -694,10 +694,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dy8iZlmgUSsA9ACgQyQb-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="160" width="750" x="1150" y="-230" as="geometry" />
+          <mxGeometry height="180" width="770" x="1150" y="-220" as="geometry" />
         </mxCell>
-        <mxCell id="Dy8iZlmgUSsA9ACgQyQb-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;FE - 0 / FE - 1 / FE - 2&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Parse SQL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Analyze MV definition&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;Store metadata&lt;/b&gt;: partitions, buckets, tablets, refresh policy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;CBO optimizer&lt;/b&gt; decides whether MV can answer query&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;Refresh Scheduler&lt;/b&gt; creates MV refresh tasks&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="690" x="1170" y="-220" as="geometry" />
+        <mxCell id="Dy8iZlmgUSsA9ACgQyQb-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;FE - 0 / FE - 1 / FE - 2&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Parse SQL&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Analyze MV definition&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;Starrocks FE JVM Heap:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;b&gt;Catalog_metadata&lt;/b&gt;:&lt;/span&gt;&amp;nbsp;databases, tables, partitions, buckets, tablets, MVs&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;b&gt;Transactions_metadata&lt;/b&gt;: running, prepared, finished, load history txns&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;b&gt;Metadata_disk&lt;/b&gt;: BDB journal, image/v2 or &lt;/span&gt;&lt;/span&gt;&lt;b&gt;starMgr&lt;/b&gt;(&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: medium; white-space: pre;&quot;&gt;shard_metadata, tablet-&amp;gt;obj(mapping))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;CBO optimizer&lt;/b&gt; decides whether MV can answer query&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;b&gt;Refresh Scheduler&lt;/b&gt; creates MV refresh tasks&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="720" x="1170" y="-230" as="geometry" />
         </mxCell>
         <mxCell id="Dy8iZlmgUSsA9ACgQyQb-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Hash&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="100" x="1370" y="156" as="geometry" />
@@ -800,8 +800,11 @@
         <mxCell id="JcuWZLHsS8QbQWgBoBUI-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Jod ID&lt;div&gt;Starts checkpoints&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="135" x="335" y="-10" as="geometry" />
         </mxCell>
-        <mxCell id="JcuWZLHsS8QbQWgBoBUI-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Source: Postgres CDC&lt;div&gt;Transform operators&lt;/div&gt;&lt;div&gt;Sink: Starrocks connector&lt;/div&gt;&lt;div&gt;JVM Heap&lt;/div&gt;" vertex="1">
+        <mxCell id="JcuWZLHsS8QbQWgBoBUI-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Source&lt;/b&gt;: Postgres CDC&lt;div&gt;Transform operators&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sink&lt;/b&gt;: Starrocks connector&lt;/div&gt;&lt;div&gt;JVM Heap&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="710" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="JcuWZLHsS8QbQWgBoBUI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-parallelism&lt;div&gt;-buffer-flush.max-rows&lt;/div&gt;&lt;div&gt;-buffer-flush.max_bytes&lt;/div&gt;&lt;div&gt;-max-retries&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;STREAM LOAD PROP&lt;/div&gt;&lt;div&gt;-enable_transactional_load&lt;/div&gt;&lt;div&gt;-enable_upsert&lt;/div&gt;&lt;div&gt;-timeout&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="170" x="760" y="295" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
