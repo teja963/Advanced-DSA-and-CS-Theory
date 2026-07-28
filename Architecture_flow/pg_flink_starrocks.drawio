@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="1853" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1812" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,15 +39,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Xwf5mjqP0tRMwdR2nsjf-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="-410" y="295" as="geometry" />
+          <mxGeometry height="65" width="120" x="-410" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Sales.orders&lt;div&gt;Customer.cust&lt;/div&gt;&lt;div&gt;Finance.payments&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Sales.orders&lt;div&gt;Customer.cust&lt;/div&gt;&lt;div&gt;Finance.payments&lt;/div&gt;&lt;/div&gt;&lt;div&gt;(pub_olap_etl)&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-380" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Where CDC reader last stopped&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Where CDC reader last stopped&lt;div&gt;(slot_olap_etl)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-190" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Replication Slot&lt;/b&gt;&lt;div&gt;Memory/State&lt;/div&gt;" vertex="1">
+        <mxCell id="Xwf5mjqP0tRMwdR2nsjf-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Replication Slots&lt;/b&gt;&lt;div&gt;Memory/State&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="-210" y="300" as="geometry" />
         </mxCell>
         <mxCell id="Xwf5mjqP0tRMwdR2nsjf-13" edge="1" parent="1" source="Xwf5mjqP0tRMwdR2nsjf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.841;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.7;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;">
@@ -227,9 +227,6 @@
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;-Read Sink config from Flink SQL&lt;/div&gt;&lt;div&gt;- Buffer Rows&lt;/div&gt;-Open Stream Load txns&lt;div&gt;JDBC Load&lt;/div&gt;&lt;div&gt;Insert Into&lt;/div&gt;" vertex="1">
           <mxGeometry height="41" width="200" x="920" y="186" as="geometry" />
-        </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Flink Checkpoints(runtiime)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Stores the State&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="220" x="480" y="430" as="geometry" />
         </mxCell>
         <mxCell id="Dy8iZlmgUSsA9ACgQyQb-34" edge="1" parent="1" source="IJyYXr3EG7hztX1UU505-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
@@ -805,6 +802,15 @@
         </mxCell>
         <mxCell id="JcuWZLHsS8QbQWgBoBUI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-parallelism&lt;div&gt;-buffer-flush.max-rows&lt;/div&gt;&lt;div&gt;-buffer-flush.max_bytes&lt;/div&gt;&lt;div&gt;-max-retries&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;STREAM LOAD PROP&lt;/div&gt;&lt;div&gt;-enable_transactional_load&lt;/div&gt;&lt;div&gt;-enable_upsert&lt;/div&gt;&lt;div&gt;-timeout&lt;/div&gt;" vertex="1">
           <mxGeometry height="150" width="170" x="760" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="G3oGnRaje-lYKo6-HiaF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="160" x="530" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="G3oGnRaje-lYKo6-HiaF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Flink Checkpoint" vertex="1">
+          <mxGeometry height="30" width="190" x="515" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="G3oGnRaje-lYKo6-HiaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="source = pg_unified_source&lt;div&gt;slot = slot_olap_etl&lt;/div&gt;&lt;div&gt;last consumed LSN = &quot;xyz&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="500" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
