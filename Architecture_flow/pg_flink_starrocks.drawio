@@ -791,8 +791,8 @@
         <mxCell id="G3oGnRaje-lYKo6-HiaF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="160" x="600" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="G3oGnRaje-lYKo6-HiaF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Flink Checkpoint" vertex="1">
-          <mxGeometry height="30" width="190" x="580" y="380" as="geometry" />
+        <mxCell id="G3oGnRaje-lYKo6-HiaF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Flink Checkpoint(50GB)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="583" y="380" as="geometry" />
         </mxCell>
         <mxCell id="G3oGnRaje-lYKo6-HiaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="source = pg_unified_source&lt;div&gt;slot = slot_olap_etl&lt;/div&gt;&lt;div&gt;last consumed LSN = &quot;xyz&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="570" y="400" as="geometry" />
@@ -815,8 +815,8 @@
         <mxCell id="SxX4xNIDseAtqoorPxr4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="460" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="SxX4xNIDseAtqoorPxr4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save point" vertex="1">
-          <mxGeometry height="30" width="95" x="472.5" y="380" as="geometry" />
+        <mxCell id="SxX4xNIDseAtqoorPxr4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Save point(30GB)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="465.5" y="380" as="geometry" />
         </mxCell>
         <mxCell id="SxX4xNIDseAtqoorPxr4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="same as checkpoint&lt;div&gt;manual, user-managed&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="462.5" y="410" as="geometry" />
@@ -824,8 +824,8 @@
         <mxCell id="SxX4xNIDseAtqoorPxr4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="317.5" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="SxX4xNIDseAtqoorPxr4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RocksDB" vertex="1">
-          <mxGeometry height="30" width="120" x="320" y="380" as="geometry" />
+        <mxCell id="SxX4xNIDseAtqoorPxr4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;RocksDB(150GB)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="319" y="380" as="geometry" />
         </mxCell>
         <mxCell id="SxX4xNIDseAtqoorPxr4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Local work state used&lt;div&gt;by flink while Job is&lt;/div&gt;&lt;div&gt;running&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="320" y="410" as="geometry" />
