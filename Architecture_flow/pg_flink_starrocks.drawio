@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="2629" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
           <mxGeometry height="30" width="200" x="-320" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-4" parent="1" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="656" width="656" x="270" y="-160" as="geometry" />
+          <mxGeometry height="656" width="656" x="264" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-5" edge="1" parent="1" source="IJyYXr3EG7hztX1UU505-4" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.001;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="IJyYXr3EG7hztX1UU505-55" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -789,13 +789,13 @@
           <mxGeometry height="150" width="170" x="760" y="295" as="geometry" />
         </mxCell>
         <mxCell id="G3oGnRaje-lYKo6-HiaF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="160" x="530" y="410" as="geometry" />
+          <mxGeometry height="60" width="160" x="600" y="410" as="geometry" />
         </mxCell>
         <mxCell id="G3oGnRaje-lYKo6-HiaF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Flink Checkpoint" vertex="1">
-          <mxGeometry height="30" width="190" x="515" y="380" as="geometry" />
+          <mxGeometry height="30" width="190" x="580" y="380" as="geometry" />
         </mxCell>
         <mxCell id="G3oGnRaje-lYKo6-HiaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="source = pg_unified_source&lt;div&gt;slot = slot_olap_etl&lt;/div&gt;&lt;div&gt;last consumed LSN = &quot;xyz&quot;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="220" x="500" y="400" as="geometry" />
+          <mxGeometry height="70" width="220" x="570" y="400" as="geometry" />
         </mxCell>
         <mxCell id="7tsjHu--0uxJXXACSKYJ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CN - &amp;nbsp;1&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Exec Engine&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cache Data&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="1265" y="285.88" as="geometry" />
@@ -811,6 +811,24 @@
         </mxCell>
         <mxCell id="7tsjHu--0uxJXXACSKYJ-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CN - &amp;nbsp;5&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Exec Engine&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cache Data&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="1790" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save point" vertex="1">
+          <mxGeometry height="30" width="95" x="472.5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="same as checkpoint&lt;div&gt;manual, user-managed&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="462.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="317.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RocksDB" vertex="1">
+          <mxGeometry height="30" width="120" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="SxX4xNIDseAtqoorPxr4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Local work state used&lt;div&gt;by flink while Job is&lt;/div&gt;&lt;div&gt;running&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
