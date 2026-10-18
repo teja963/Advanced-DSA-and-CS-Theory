@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="1888" dy="1676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1519" dy="1562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,7 +794,7 @@
         <mxCell id="G3oGnRaje-lYKo6-HiaF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Flink Checkpoint(50GB)&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="583" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="G3oGnRaje-lYKo6-HiaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="source = pg_unified_source&lt;div&gt;slot = slot_olap_etl&lt;/div&gt;&lt;div&gt;last consumed LSN = &quot;xyz&quot;&lt;/div&gt;" vertex="1">
+        <mxCell id="G3oGnRaje-lYKo6-HiaF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;last consumed LSN = &quot;xyz&quot;&lt;/div&gt;&lt;div&gt;slot = slot_olap_etl&lt;br&gt;&lt;/div&gt;&lt;div&gt;source = pg_unified_source&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="220" x="570" y="400" as="geometry" />
         </mxCell>
         <mxCell id="7tsjHu--0uxJXXACSKYJ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CN - &amp;nbsp;1&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Exec Engine&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cache Data&lt;/span&gt;&lt;/div&gt;" vertex="1">
