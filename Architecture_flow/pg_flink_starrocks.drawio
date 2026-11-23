@@ -1302,7 +1302,7 @@
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-36" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" value="" vertex="1">
           <mxGeometry height="150" width="100" x="-1539" y="-199" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Postgres-cdc&lt;/font&gt;&lt;/b&gt;" vertex="1">
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Postgres-cdc Connector&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="170" x="-1576" y="-205" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pgoutput&lt;/font&gt;&lt;/b&gt;" vertex="1">
