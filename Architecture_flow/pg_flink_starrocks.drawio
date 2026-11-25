@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="5547" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4609" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,8 +90,8 @@
         <mxCell id="IJyYXr3EG7hztX1UU505-30" edge="1" parent="1" source="IJyYXr3EG7hztX1UU505-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="IJyYXr3EG7hztX1UU505-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pg_unified_source&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(no.of records-In/Out)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="140" x="40" y="173.25" as="geometry" />
+        <mxCell id="IJyYXr3EG7hztX1UU505-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Source Operator&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;pg_unified_source&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="40" y="181.25" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Flink CDC Job&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="100" y="143.25" as="geometry" />
@@ -154,15 +154,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-50" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" value="" vertex="1">
-          <mxGeometry height="49" width="120" x="240" y="251" as="geometry" />
+          <mxGeometry height="95" width="120" x="240" y="226" as="geometry" />
         </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Transformations&lt;/font&gt;" vertex="1">
+        <mxCell id="IJyYXr3EG7hztX1UU505-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Transformation&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Operator(&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;filter(),mapping(),&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;keyBy()etc..&lt;/span&gt;&lt;b style=&quot;font-size: 14px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="150" x="226" y="260" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-52" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" value="" vertex="1">
           <mxGeometry height="49" width="85" x="404" y="251" as="geometry" />
         </mxCell>
-        <mxCell id="IJyYXr3EG7hztX1UU505-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Starrocks&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sink&lt;/font&gt;" vertex="1">
+        <mxCell id="IJyYXr3EG7hztX1UU505-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;b&gt;Sink&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;b&gt;Operator&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="418" y="260.5" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-54" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" value="" vertex="1">
@@ -1798,6 +1798,9 @@
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-210" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;RECOVERY &amp;amp; STORED TABLE OBJECTS&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="185" x="1904" y="2789" as="geometry" />
+        </mxCell>
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-211" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Stream partitioning:&lt;/b&gt;&lt;/div&gt;Forwarding pattern&lt;div&gt;Redistributing pattern&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="230" y="327.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
