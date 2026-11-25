@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="8380" dy="3900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5441" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,7 +187,7 @@
           <mxGeometry height="1250" width="1250" x="1110" y="-260" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Starrocks Node Cluster(shared-data)&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="490" x="1300" y="-310" as="geometry" />
+          <mxGeometry height="30" width="490" x="1505" y="-310" as="geometry" />
         </mxCell>
         <mxCell id="IJyYXr3EG7hztX1UU505-68" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" value="" vertex="1">
           <mxGeometry height="80" width="130" x="1150" y="20" as="geometry" />
@@ -699,9 +699,12 @@
         <mxCell id="g2y2TbSnuavHlpRjAEpv-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Saved queries=&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;4&quot;&gt;&lt;b&gt;Simple Table name&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;which combines one or more tables&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="215" x="-12" y="-879" as="geometry" />
         </mxCell>
-        <mxCell id="g2y2TbSnuavHlpRjAEpv-10" edge="1" parent="1" source="g2y2TbSnuavHlpRjAEpv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1490" y="-319.9999999999998" as="targetPoint" />
+        <mxCell id="g2y2TbSnuavHlpRjAEpv-10" edge="1" parent="1" source="g2y2TbSnuavHlpRjAEpv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IJyYXr3EG7hztX1UU505-59">
+          <mxGeometry relative="1" x="0.2698" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="-595" />
+            </Array>
+            <mxPoint x="1710" y="-320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g2y2TbSnuavHlpRjAEpv-12" edge="1" parent="1" source="g2y2TbSnuavHlpRjAEpv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#FFFF66;strokeColor=#000099;exitX=0;exitY=0.25;exitDx=0;exitDy=0;">
@@ -1291,17 +1294,16 @@
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;FORMAT&lt;/b&gt;:&lt;div&gt;&lt;b&gt;debezium-avro-confluent&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Flink calls &lt;b&gt;Schema Registry&lt;/b&gt; on port 8443 to decode the avro&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="-228" y="151.5" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-39" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="IJyYXr3EG7hztX1UU505-4">
-          <mxGeometry relative="1" x="-0.6608" as="geometry">
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-39" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" x="-0.6192" as="geometry">
             <Array as="points">
-              <mxPoint x="-1880" y="-196" />
               <mxPoint x="-1880" y="-482" />
-              <mxPoint x="475" y="-482" />
-              <mxPoint x="475" y="-250" />
-              <mxPoint x="565" y="-250" />
+              <mxPoint x="317" y="-482" />
+              <mxPoint x="317" y="-260" />
+              <mxPoint x="330" y="-260" />
             </Array>
             <mxPoint x="-1880" y="-180" as="sourcePoint" />
-            <mxPoint x="405" y="-260" as="targetPoint" />
+            <mxPoint x="330" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-36" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" value="" vertex="1">
@@ -1410,10 +1412,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-82" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
-          <mxGeometry height="60" width="341" x="1539" y="1715" as="geometry" />
+          <mxGeometry height="85" width="340" x="1540" y="1690" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;RESERVATION/ SLOTS&lt;br&gt;&lt;/b&gt;-Baseline -Autoscaling&lt;br&gt;Fair Scheduling" vertex="1">
-          <mxGeometry height="30" width="229.5" x="1596" y="1730" as="geometry" />
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-83" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;RESERVATION(&lt;/b&gt;allocated compute capacity&lt;b&gt;)/ SLOTS(&lt;/b&gt;abstract compute resource&lt;b&gt;)&lt;br&gt;&lt;/b&gt;-Baseline -Autoscaling&lt;br&gt;-Fair Scheduling&lt;br&gt;-Query queue/pending work" vertex="1">
+          <mxGeometry height="30" width="229.5" x="1592" y="1717" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-115" edge="1" parent="1" source="hZdqeGHtEXTP2DLZD5Dy-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="hZdqeGHtEXTP2DLZD5Dy-85" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1635,8 +1637,8 @@
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-156" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PARTITION A&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;partition key/value range&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="52" width="229.5" x="1251.5" y="2240" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-157" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;STORAGE&lt;/b&gt;&lt;div&gt;&lt;b&gt;BLOCK 1&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="101" x="1232" y="2316" as="geometry" />
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-157" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;STORAGE&lt;/b&gt;&lt;div&gt;&lt;b&gt;BLOCK 1(&lt;/b&gt;organising clutser columns&lt;b&gt;)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1227" y="2316" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;STORAGE&lt;/b&gt;&lt;div&gt;&lt;b&gt;BLOCK 2&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="101" x="1395" y="2316" as="geometry" />
@@ -1764,13 +1766,13 @@
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-197" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="360" width="1400" x="1120" y="2600" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Columns stored seperately compression &amp;amp; encoding&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Capacitor&lt;/b&gt;: Published internal columnar-format terminology&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-198" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Columns stored seperately compression &amp;amp; encoding&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Capacitor&lt;/b&gt;: Published &lt;b&gt;internal columnar-format&lt;/b&gt; terminology&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="305" x="1200" y="2640" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-199" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;COLUMNAR STORAGE&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="256" x="1225" y="2610" as="geometry" />
         </mxCell>
-        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-200" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Colossus&lt;/b&gt;: Google-published underlying distributed storage infrastructure description&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Not customer-managed&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-200" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Colossus&lt;/b&gt;: Google-published underlying &lt;b&gt;distributed storage infrastructure &lt;/b&gt;description&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Not customer-managed&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="305" x="1624" y="2640" as="geometry" />
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-201" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;UNDERLYING STORAGE&lt;/b&gt;" vertex="1">
