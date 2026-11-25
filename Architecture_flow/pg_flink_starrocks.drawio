@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="5441" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5547" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1177,7 +1177,7 @@
           <mxGeometry height="30" width="120" x="-1480" y="171" as="geometry" />
         </mxCell>
         <mxCell id="XvebUpeBqL2pBG6iBFPe-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Debezium Postgresql connector&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="130" x="-1484" y="174" as="geometry" />
+          <mxGeometry height="30" width="130" x="-1486" y="174" as="geometry" />
         </mxCell>
         <mxCell id="XvebUpeBqL2pBG6iBFPe-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Apicurio Avro Convertor" vertex="1">
           <mxGeometry height="30" width="120" x="-1480" y="213" as="geometry" />
