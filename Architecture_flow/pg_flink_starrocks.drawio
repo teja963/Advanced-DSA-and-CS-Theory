@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="5547" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4473" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -663,8 +663,8 @@
         <mxCell id="JcuWZLHsS8QbQWgBoBUI-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;Creates and Schedules the job. Coordinates checkpoints&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="135" x="74" y="-10" as="geometry" />
         </mxCell>
-        <mxCell id="JcuWZLHsS8QbQWgBoBUI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="-parallelism&lt;div&gt;-buffer-flush.max-rows&lt;/div&gt;&lt;div&gt;-buffer-flush.max_bytes&lt;/div&gt;&lt;div&gt;-max-retries&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;STREAM LOAD PROP&lt;/div&gt;&lt;div&gt;-enable_transactional_load&lt;/div&gt;&lt;div&gt;-enable_upsert&lt;/div&gt;&lt;div&gt;-timeout&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="170" x="651" y="561" as="geometry" />
+        <mxCell id="JcuWZLHsS8QbQWgBoBUI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Checkpoint Optimization&lt;br&gt;&lt;br&gt;SINKUpsertMaterilalizer Operator: &lt;/b&gt;Auto(default), Force, &lt;b&gt;None(Using)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-buffer all changes(I, U, D) per key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="211" width="220" x="601" y="500" as="geometry" />
         </mxCell>
         <mxCell id="G3oGnRaje-lYKo6-HiaF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="160" x="405" y="620" as="geometry" />
@@ -1937,6 +1937,9 @@
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-278" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;snapshot.mode:&lt;br&gt;initial&lt;/b&gt;: Default. &lt;b&gt;snapshot&lt;/b&gt;(&lt;b&gt;one-time copy&lt;/b&gt;) only when no offset exists, then stream&lt;div&gt;&lt;b&gt;initial_only&lt;/b&gt;: snapshot, then stop. No Streaming&lt;/div&gt;&lt;div&gt;&lt;b&gt;always&lt;/b&gt;: snapshot on every connector start, then stream&lt;br&gt;&lt;b&gt;no_data&lt;/b&gt;: No snapshot, Stream from the Stored LSN&lt;/div&gt;&lt;div&gt;&lt;b&gt;when_needed&lt;/b&gt;: Snapshot only if no offset exists, or the stored LSN is no longer on the server&lt;/div&gt;&lt;div&gt;&lt;b&gt;configuration_based&lt;/b&gt;: you choose the pieces: snapshot data, snapshot schema, then streaming&lt;/div&gt;&lt;div&gt;&lt;b&gt;custom&lt;/b&gt;: Your own Snapshottter class, named by snapshot.mode.custom.name&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="230" width="310" x="-2007" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-279" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 RocksDB State for operator instance" vertex="1">
+          <mxGeometry height="30" width="130" x="119.38" y="559" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
