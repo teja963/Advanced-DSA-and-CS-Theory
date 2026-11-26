@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q_ZsLJstPfYgno72QKXt">
-    <mxGraphModel dx="4753" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5547" dy="2307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1934,6 +1934,9 @@
         </mxCell>
         <mxCell id="hZdqeGHtEXTP2DLZD5Dy-277" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Depends&lt;br&gt;on&lt;br&gt;sink parallelism&lt;br&gt;&amp;amp;&lt;br&gt;Partitioning&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="706" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="hZdqeGHtEXTP2DLZD5Dy-278" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;snapshot.mode:&lt;br&gt;initial&lt;/b&gt;: Default. &lt;b&gt;snapshot&lt;/b&gt;(&lt;b&gt;one-time copy&lt;/b&gt;) only when no offset exists, then stream&lt;div&gt;&lt;b&gt;initial_only&lt;/b&gt;: snapshot, then stop. No Streaming&lt;/div&gt;&lt;div&gt;&lt;b&gt;always&lt;/b&gt;: snapshot on every connector start, then stream&lt;br&gt;&lt;b&gt;no_data&lt;/b&gt;: No snapshot, Stream from the Stored LSN&lt;/div&gt;&lt;div&gt;&lt;b&gt;when_needed&lt;/b&gt;: Snapshot only if no offset exists, or the stored LSN is no longer on the server&lt;/div&gt;&lt;div&gt;&lt;b&gt;configuration_based&lt;/b&gt;: you choose the pieces: snapshot data, snapshot schema, then streaming&lt;/div&gt;&lt;div&gt;&lt;b&gt;custom&lt;/b&gt;: Your own Snapshottter class, named by snapshot.mode.custom.name&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="310" x="-2007" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
